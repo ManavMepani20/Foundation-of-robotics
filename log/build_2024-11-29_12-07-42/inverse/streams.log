@@ -1,0 +1,22 @@
+[3.074s] Invoking command in '/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/inverse': PYTHONPATH=/home/manav/robotis_ws/build/inverse/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manav/robotis_ws/install/inverse/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/inverse build --build-base /home/manav/robotis_ws/build/inverse/build install --record /home/manav/robotis_ws/build/inverse/install.log --single-version-externally-managed install_data
+[3.799s] running egg_info
+[3.800s] writing ../../../build/inverse/inverse.egg-info/PKG-INFO
+[3.800s] writing dependency_links to ../../../build/inverse/inverse.egg-info/dependency_links.txt
+[3.800s] writing entry points to ../../../build/inverse/inverse.egg-info/entry_points.txt
+[3.800s] writing requirements to ../../../build/inverse/inverse.egg-info/requires.txt
+[3.801s] writing top-level names to ../../../build/inverse/inverse.egg-info/top_level.txt
+[3.806s] reading manifest file '../../../build/inverse/inverse.egg-info/SOURCES.txt'
+[3.806s] adding license file 'LICENSE'
+[3.806s] writing manifest file '../../../build/inverse/inverse.egg-info/SOURCES.txt'
+[3.807s] running build
+[3.807s] running build_py
+[3.807s] running install
+[3.807s] running install_lib
+[3.813s] running install_data
+[3.814s] running install_egg_info
+[3.814s] removing '/home/manav/robotis_ws/install/inverse/lib/python3.10/site-packages/inverse-0.0.0-py3.10.egg-info' (and everything under it)
+[3.815s] Copying ../../../build/inverse/inverse.egg-info to /home/manav/robotis_ws/install/inverse/lib/python3.10/site-packages/inverse-0.0.0-py3.10.egg-info
+[3.817s] running install_scripts
+[3.866s] Installing inv_call script to /home/manav/robotis_ws/install/inverse/lib/inverse
+[3.867s] writing list of installed files to '/home/manav/robotis_ws/build/inverse/install.log'
+[4.860s] Invoked command in '/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/inverse' returned '0': PYTHONPATH=/home/manav/robotis_ws/build/inverse/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manav/robotis_ws/install/inverse/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/inverse build --build-base /home/manav/robotis_ws/build/inverse/build install --record /home/manav/robotis_ws/build/inverse/install.log --single-version-externally-managed install_data

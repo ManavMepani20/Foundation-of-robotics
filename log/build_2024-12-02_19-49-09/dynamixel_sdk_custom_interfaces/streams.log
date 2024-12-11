@@ -1,0 +1,179 @@
+[0.131s] Invoking command in '/home/manav/robotis_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manav/robotis_ws/install/vel_kinematics:/home/manav/robotis_ws/install/rbe500_example_py:/home/manav/robotis_ws/install/inverse:/home/manav/robotis_ws/install/forward:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/manav/robotis_ws/build/dynamixel_sdk_custom_interfaces -- -j4 -l4
+[0.630s] [  2%] Built target dynamixel_sdk_custom_interfaces__cpp
+[0.877s] [ 12%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_c
+[0.912s] [ 23%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp
+[1.123s] [ 23%] Built target ament_cmake_python_copy_dynamixel_sdk_custom_interfaces
+[1.353s] [ 33%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.450s] [ 43%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp
+[1.483s] [ 53%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c
+[1.943s] [ 64%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c
+[2.215s] [ 74%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c
+[2.761s] [ 74%] Built target dynamixel_sdk_custom_interfaces
+[3.617s] [ 76%] Built target dynamixel_sdk_custom_interfaces__py
+[4.164s] [ 84%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_py
+[4.790s] [ 89%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[5.302s] [ 94%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext
+[5.557s] [100%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[7.042s] running egg_info
+[7.054s] writing dynamixel_sdk_custom_interfaces.egg-info/PKG-INFO
+[7.055s] writing dependency_links to dynamixel_sdk_custom_interfaces.egg-info/dependency_links.txt
+[7.061s] writing top-level names to dynamixel_sdk_custom_interfaces.egg-info/top_level.txt
+[7.099s] reading manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'
+[7.106s] writing manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'
+[7.552s] [100%] Built target ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg
+[7.918s] Invoked command in '/home/manav/robotis_ws/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manav/robotis_ws/install/vel_kinematics:/home/manav/robotis_ws/install/rbe500_example_py:/home/manav/robotis_ws/install/inverse:/home/manav/robotis_ws/install/forward:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/manav/robotis_ws/build/dynamixel_sdk_custom_interfaces -- -j4 -l4
+[9.916s] Invoking command in '/home/manav/robotis_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manav/robotis_ws/install/vel_kinematics:/home/manav/robotis_ws/install/rbe500_example_py:/home/manav/robotis_ws/install/inverse:/home/manav/robotis_ws/install/forward:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/manav/robotis_ws/build/dynamixel_sdk_custom_interfaces
+[10.161s] -- Install configuration: ""
+[10.161s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/dynamixel_sdk_custom_interfaces
+[10.162s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces
+[10.163s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv
+[10.170s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/get_position.h
+[10.175s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail
+[10.182s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__struct.h
+[10.183s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__functions.h
+[10.183s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.h
+[10.184s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__functions.c
+[10.184s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg
+[10.185s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/set_position.h
+[10.194s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail
+[10.198s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__functions.c
+[10.199s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.h
+[10.200s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.h
+[10.200s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__functions.h
+[10.201s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[10.201s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/library_path.sh
+[10.209s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/library_path.dsv
+[10.216s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so
+[10.217s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces
+[10.218s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv
+[10.222s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail
+[10.223s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_fastrtps_c.h
+[10.224s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg
+[10.230s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.231s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail
+[10.238s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_fastrtps_c.h
+[10.239s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.so
+[10.240s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces
+[10.245s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv
+[10.246s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail
+[10.250s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__struct.hpp
+[10.251s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__traits.hpp
+[10.257s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__builder.hpp
+[10.258s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/get_position.hpp
+[10.265s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg
+[10.269s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/set_position.hpp
+[10.274s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail
+[10.275s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__builder.hpp
+[10.276s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__traits.hpp
+[10.288s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.hpp
+[10.289s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces
+[10.290s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv
+[10.296s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail
+[10.302s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_fastrtps_cpp.hpp
+[10.303s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/dds_fastrtps
+[10.307s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg
+[10.307s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.316s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail
+[10.317s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_fastrtps_cpp.hpp
+[10.318s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/dds_fastrtps
+[10.319s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[10.319s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces
+[10.320s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv
+[10.328s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail
+[10.329s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.c
+[10.332s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_introspection_c.h
+[10.332s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg
+[10.333s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.356s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail
+[10.365s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.c
+[10.369s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_introspection_c.h
+[10.373s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.so
+[10.513s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_c.so
+[10.514s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces
+[10.516s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv
+[10.517s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail
+[10.519s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_introspection_cpp.hpp
+[10.521s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.cpp
+[10.524s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg
+[10.525s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail
+[10.526s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.cpp
+[10.529s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_introspection_cpp.hpp
+[10.531s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.so
+[10.532s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.so
+[10.538s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/pythonpath.sh
+[10.541s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/pythonpath.dsv
+[10.542s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces-3.7.60-py3.10.egg-info
+[10.544s] -- Installing: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces-3.7.60-py3.10.egg-info/top_level.txt
+[10.544s] -- Installing: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces-3.7.60-py3.10.egg-info/dependency_links.txt
+[10.545s] -- Installing: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces-3.7.60-py3.10.egg-info/PKG-INFO
+[10.546s] -- Installing: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces-3.7.60-py3.10.egg-info/SOURCES.txt
+[10.546s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces
+[10.547s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.549s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.549s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.550s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_c.c
+[10.553s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/libdynamixel_sdk_custom_interfaces__rosidl_generator_py.so
+[10.553s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.554s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv
+[10.559s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv/_get_position.py
+[10.560s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv/_get_position_s.c
+[10.561s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv/__init__.py
+[10.562s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg
+[10.563s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg/_set_position.py
+[10.564s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg/_set_position_s.c
+[10.566s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg/__init__.py
+[10.566s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[10.567s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/__init__.py
+[11.583s] Listing '/home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces'...
+[11.590s] Listing '/home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg'...
+[11.605s] Listing '/home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv'...
+[11.696s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.703s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.729s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.732s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_py.so
+[11.739s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/msg/SetPosition.idl
+[11.742s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition.idl
+[11.746s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/msg/SetPosition.msg
+[11.753s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition.srv
+[11.754s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition_Request.msg
+[11.766s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition_Response.msg
+[11.773s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_custom_interfaces
+[11.786s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_custom_interfaces
+[11.786s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/ament_prefix_path.sh
+[11.804s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/ament_prefix_path.dsv
+[11.824s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/path.sh
+[11.825s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/path.dsv
+[11.832s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.bash
+[11.832s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.sh
+[11.833s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.zsh
+[11.849s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.dsv
+[11.852s] -- Installing: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.dsv
+[11.860s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/packages/dynamixel_sdk_custom_interfaces
+[11.869s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_cExport.cmake
+[11.871s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[11.871s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[11.872s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[11.884s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_cppExport.cmake
+[11.898s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.904s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[11.921s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[11.931s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.941s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cExport.cmake
+[11.956s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[11.958s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[11.960s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.965s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cppExport.cmake
+[11.966s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[11.972s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_pyExport.cmake
+[11.973s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[11.977s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[11.980s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.985s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.988s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[11.997s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[11.997s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.998s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.002s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfacesConfig.cmake
+[12.008s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfacesConfig-version.cmake
+[12.014s] -- Up-to-date: /home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.xml
+[14.892s] Invoked command in '/home/manav/robotis_ws/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manav/robotis_ws/install/vel_kinematics:/home/manav/robotis_ws/install/rbe500_example_py:/home/manav/robotis_ws/install/inverse:/home/manav/robotis_ws/install/forward:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/manav/robotis_ws/build/dynamixel_sdk_custom_interfaces

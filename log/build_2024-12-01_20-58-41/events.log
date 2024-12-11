@@ -1,0 +1,42 @@
+[0.000000] (-) TimerEvent: {}
+[0.000297] (cmake_modules) JobQueued: {'identifier': 'cmake_modules', 'dependencies': OrderedDict()}
+[0.000556] (dynamixel_sdk) JobQueued: {'identifier': 'dynamixel_sdk', 'dependencies': OrderedDict()}
+[0.001235] (dynamixel_sdk_custom_interfaces) JobQueued: {'identifier': 'dynamixel_sdk_custom_interfaces', 'dependencies': OrderedDict()}
+[0.001487] (forward) JobQueued: {'identifier': 'forward', 'dependencies': OrderedDict()}
+[0.001742] (inverse) JobQueued: {'identifier': 'inverse', 'dependencies': OrderedDict()}
+[0.001991] (my_service_package) JobQueued: {'identifier': 'my_service_package', 'dependencies': OrderedDict()}
+[0.002095] (open_manipulator_msgs) JobQueued: {'identifier': 'open_manipulator_msgs', 'dependencies': OrderedDict()}
+[0.002170] (open_manipulator_x_description) JobQueued: {'identifier': 'open_manipulator_x_description', 'dependencies': OrderedDict()}
+[0.002276] (rbe500_example_py) JobQueued: {'identifier': 'rbe500_example_py', 'dependencies': OrderedDict()}
+[0.002372] (vel_kinematics) JobQueued: {'identifier': 'vel_kinematics', 'dependencies': OrderedDict()}
+[0.002467] (dynamixel_sdk_examples) JobQueued: {'identifier': 'dynamixel_sdk_examples', 'dependencies': OrderedDict([('dynamixel_sdk', '/home/manav/robotis_ws/install/dynamixel_sdk'), ('dynamixel_sdk_custom_interfaces', '/home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces')])}
+[0.002566] (dynamixel_workbench_toolbox) JobQueued: {'identifier': 'dynamixel_workbench_toolbox', 'dependencies': OrderedDict([('dynamixel_sdk', '/home/manav/robotis_ws/install/dynamixel_sdk')])}
+[0.002741] (rbe500-example) JobQueued: {'identifier': 'rbe500-example', 'dependencies': OrderedDict([('open_manipulator_msgs', '/home/manav/robotis_ws/install/open_manipulator_msgs')])}
+[0.002804] (robotis_manipulator) JobQueued: {'identifier': 'robotis_manipulator', 'dependencies': OrderedDict([('cmake_modules', '/home/manav/robotis_ws/install/cmake_modules')])}
+[0.002876] (dynamixel_workbench) JobQueued: {'identifier': 'dynamixel_workbench', 'dependencies': OrderedDict([('dynamixel_sdk', '/home/manav/robotis_ws/install/dynamixel_sdk'), ('dynamixel_workbench_toolbox', '/home/manav/robotis_ws/install/dynamixel_workbench_toolbox')])}
+[0.002953] (open_manipulator_x_libs) JobQueued: {'identifier': 'open_manipulator_x_libs', 'dependencies': OrderedDict([('cmake_modules', '/home/manav/robotis_ws/install/cmake_modules'), ('dynamixel_sdk', '/home/manav/robotis_ws/install/dynamixel_sdk'), ('dynamixel_workbench_toolbox', '/home/manav/robotis_ws/install/dynamixel_workbench_toolbox'), ('robotis_manipulator', '/home/manav/robotis_ws/install/robotis_manipulator')])}
+[0.003013] (open_manipulator_x_controller) JobQueued: {'identifier': 'open_manipulator_x_controller', 'dependencies': OrderedDict([('cmake_modules', '/home/manav/robotis_ws/install/cmake_modules'), ('dynamixel_sdk', '/home/manav/robotis_ws/install/dynamixel_sdk'), ('open_manipulator_msgs', '/home/manav/robotis_ws/install/open_manipulator_msgs'), ('dynamixel_workbench_toolbox', '/home/manav/robotis_ws/install/dynamixel_workbench_toolbox'), ('robotis_manipulator', '/home/manav/robotis_ws/install/robotis_manipulator'), ('open_manipulator_x_libs', '/home/manav/robotis_ws/install/open_manipulator_x_libs')])}
+[0.003176] (open_manipulator) JobQueued: {'identifier': 'open_manipulator', 'dependencies': OrderedDict([('cmake_modules', '/home/manav/robotis_ws/install/cmake_modules'), ('dynamixel_sdk', '/home/manav/robotis_ws/install/dynamixel_sdk'), ('open_manipulator_msgs', '/home/manav/robotis_ws/install/open_manipulator_msgs'), ('open_manipulator_x_description', '/home/manav/robotis_ws/install/open_manipulator_x_description'), ('dynamixel_workbench_toolbox', '/home/manav/robotis_ws/install/dynamixel_workbench_toolbox'), ('robotis_manipulator', '/home/manav/robotis_ws/install/robotis_manipulator'), ('open_manipulator_x_libs', '/home/manav/robotis_ws/install/open_manipulator_x_libs'), ('open_manipulator_x_controller', '/home/manav/robotis_ws/install/open_manipulator_x_controller')])}
+[0.003241] (dynamixel_sdk) JobStarted: {'identifier': 'dynamixel_sdk'}
+[0.019333] (cmake_modules) JobStarted: {'identifier': 'cmake_modules'}
+[0.036326] (cmake_modules) JobEnded: {'identifier': 'cmake_modules', 'rc': 0}
+[0.036981] (open_manipulator_msgs) JobStarted: {'identifier': 'open_manipulator_msgs'}
+[0.049521] (dynamixel_sdk_custom_interfaces) JobStarted: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.065193] (dynamixel_sdk) JobEnded: {'identifier': 'dynamixel_sdk', 'rc': 'SIGINT'}
+[0.066690] (open_manipulator_msgs) JobEnded: {'identifier': 'open_manipulator_msgs', 'rc': 'SIGINT'}
+[0.068110] (dynamixel_sdk_custom_interfaces) JobEnded: {'identifier': 'dynamixel_sdk_custom_interfaces', 'rc': 'SIGINT'}
+[0.069719] (forward) JobSkipped: {'identifier': 'forward'}
+[0.069806] (inverse) JobSkipped: {'identifier': 'inverse'}
+[0.069862] (my_service_package) JobSkipped: {'identifier': 'my_service_package'}
+[0.069927] (open_manipulator_x_description) JobSkipped: {'identifier': 'open_manipulator_x_description'}
+[0.069982] (rbe500_example_py) JobSkipped: {'identifier': 'rbe500_example_py'}
+[0.070023] (vel_kinematics) JobSkipped: {'identifier': 'vel_kinematics'}
+[0.070075] (dynamixel_sdk_examples) JobSkipped: {'identifier': 'dynamixel_sdk_examples'}
+[0.070127] (dynamixel_workbench_toolbox) JobSkipped: {'identifier': 'dynamixel_workbench_toolbox'}
+[0.070174] (rbe500-example) JobSkipped: {'identifier': 'rbe500-example'}
+[0.070211] (robotis_manipulator) JobSkipped: {'identifier': 'robotis_manipulator'}
+[0.070272] (dynamixel_workbench) JobSkipped: {'identifier': 'dynamixel_workbench'}
+[0.070325] (open_manipulator_x_libs) JobSkipped: {'identifier': 'open_manipulator_x_libs'}
+[0.070376] (open_manipulator_x_controller) JobSkipped: {'identifier': 'open_manipulator_x_controller'}
+[0.070434] (open_manipulator) JobSkipped: {'identifier': 'open_manipulator'}
+[0.070495] (-) EventReactorShutdown: {}

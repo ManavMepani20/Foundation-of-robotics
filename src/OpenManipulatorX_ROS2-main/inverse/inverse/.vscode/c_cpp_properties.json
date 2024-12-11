@@ -1,0 +1,34 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/manav/robotis_ws/install/open_manipulator_x_libs/include/**",
+        "/home/manav/robotis_ws/install/robotis_manipulator/include/**",
+        "/home/manav/robotis_ws/install/open_manipulator_msgs/include/**",
+        "/home/manav/robotis_ws/install/my_service_package/include/**",
+        "/home/manav/robotis_ws/install/dynamixel_workbench_toolbox/include/**",
+        "/home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/include/**",
+        "/home/manav/robotis_ws/install/dynamixel_sdk/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/DynamixelSDK/dynamixel_sdk/include/**",
+        "/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/DynamixelSDK/dynamixel_sdk_examples/include/**",
+        "/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/dynamixel-workbench/dynamixel_workbench_toolbox/include/**",
+        "/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/my_service_package/include/**",
+        "/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/open_manipulator/open_manipulator_x_controller/include/**",
+        "/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/open_manipulator/open_manipulator_x_libs/include/**",
+        "/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/robotis_manipulator/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

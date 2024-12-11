@@ -1,0 +1,21 @@
+[3.452s] Invoking command in '/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/pdctr': PYTHONPATH=/home/manav/robotis_ws/build/pdctr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manav/robotis_ws/install/pdctr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/pdctr build --build-base /home/manav/robotis_ws/build/pdctr/build install --record /home/manav/robotis_ws/build/pdctr/install.log --single-version-externally-managed install_data
+[5.659s] running egg_info
+[5.668s] writing ../../../build/pdctr/pdctr.egg-info/PKG-INFO
+[5.675s] writing dependency_links to ../../../build/pdctr/pdctr.egg-info/dependency_links.txt
+[5.675s] writing entry points to ../../../build/pdctr/pdctr.egg-info/entry_points.txt
+[5.680s] writing requirements to ../../../build/pdctr/pdctr.egg-info/requires.txt
+[5.680s] writing top-level names to ../../../build/pdctr/pdctr.egg-info/top_level.txt
+[5.701s] reading manifest file '../../../build/pdctr/pdctr.egg-info/SOURCES.txt'
+[5.701s] adding license file 'LICENSE'
+[5.701s] writing manifest file '../../../build/pdctr/pdctr.egg-info/SOURCES.txt'
+[5.701s] running build
+[5.702s] running build_py
+[5.702s] running install
+[5.702s] running install_lib
+[5.715s] running install_data
+[5.716s] running install_egg_info
+[5.716s] removing '/home/manav/robotis_ws/install/pdctr/lib/python3.10/site-packages/pdctr-0.0.0-py3.10.egg-info' (and everything under it)
+[5.718s] Copying ../../../build/pdctr/pdctr.egg-info to /home/manav/robotis_ws/install/pdctr/lib/python3.10/site-packages/pdctr-0.0.0-py3.10.egg-info
+[5.723s] running install_scripts
+[5.843s] writing list of installed files to '/home/manav/robotis_ws/build/pdctr/install.log'
+[7.176s] Invoked command in '/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/pdctr' returned '0': PYTHONPATH=/home/manav/robotis_ws/build/pdctr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manav/robotis_ws/install/pdctr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/pdctr build --build-base /home/manav/robotis_ws/build/pdctr/build install --record /home/manav/robotis_ws/build/pdctr/install.log --single-version-externally-managed install_data

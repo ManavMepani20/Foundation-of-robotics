@@ -1,0 +1,28 @@
+[1.762s] Invoking command in '/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/forward': PYTHONPATH=/home/manav/robotis_ws/build/forward/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manav/robotis_ws/install/forward/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/forward build --build-base /home/manav/robotis_ws/build/forward/build install --record /home/manav/robotis_ws/build/forward/install.log --single-version-externally-managed install_data
+[2.050s] Traceback (most recent call last):
+[2.050s]   File "/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/forward/setup.py", line 1, in <module>
+[2.050s]     from setuptools import find_packages, setup
+[2.050s]   File "/home/manav/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 10, in <module>
+[2.051s]     import distutils.core
+[2.058s]   File "/usr/lib/python3.10/distutils/core.py", line 18, in <module>
+[2.058s]     from distutils.config import PyPIRCCommand
+[2.058s]   File "/usr/lib/python3.10/distutils/config.py", line 7, in <module>
+[2.059s]     from configparser import RawConfigParser
+[2.059s]   File "/usr/lib/python3.10/configparser.py", line 523, in <module>
+[2.059s]     class LegacyInterpolation(Interpolation):
+[2.059s]   File "/usr/lib/python3.10/configparser.py", line 527, in LegacyInterpolation
+[2.059s]     _KEYCRE = re.compile(r"%\(([^)]*)\)s|.")
+[2.059s]   File "/usr/lib/python3.10/re.py", line 251, in compile
+[2.059s]     return _compile(pattern, flags)
+[2.059s]   File "/usr/lib/python3.10/re.py", line 303, in _compile
+[2.060s]     p = sre_compile.compile(pattern, flags)
+[2.060s]   File "/usr/lib/python3.10/sre_compile.py", line 788, in compile
+[2.063s]     p = sre_parse.parse(p, flags)
+[2.063s]   File "/usr/lib/python3.10/sre_parse.py", line 955, in parse
+[2.068s]     p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+[2.068s]   File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+[2.068s]     itemsappend(_parse(source, state, verbose, nested + 1,
+[2.069s]   File "/usr/lib/python3.10/sre_parse.py", line 529, in _parse
+[2.069s]     elif this not in SPECIAL_CHARS:
+[2.069s] KeyboardInterrupt
+[2.083s] Invoked command in '/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/forward' returned '-2': PYTHONPATH=/home/manav/robotis_ws/build/forward/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manav/robotis_ws/install/forward/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/forward build --build-base /home/manav/robotis_ws/build/forward/build install --record /home/manav/robotis_ws/build/forward/install.log --single-version-externally-managed install_data

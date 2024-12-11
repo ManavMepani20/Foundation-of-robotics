@@ -1,0 +1,23 @@
+running egg_info
+writing ../../../build/vel_kinematics/vel_kinematics.egg-info/PKG-INFO
+writing dependency_links to ../../../build/vel_kinematics/vel_kinematics.egg-info/dependency_links.txt
+writing entry points to ../../../build/vel_kinematics/vel_kinematics.egg-info/entry_points.txt
+writing requirements to ../../../build/vel_kinematics/vel_kinematics.egg-info/requires.txt
+writing top-level names to ../../../build/vel_kinematics/vel_kinematics.egg-info/top_level.txt
+reading manifest file '../../../build/vel_kinematics/vel_kinematics.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../build/vel_kinematics/vel_kinematics.egg-info/SOURCES.txt'
+running build
+running build_py
+copying vel_kinematics/vel_kinematics.py -> /home/manav/robotis_ws/build/vel_kinematics/build/lib/vel_kinematics
+running install
+running install_lib
+copying /home/manav/robotis_ws/build/vel_kinematics/build/lib/vel_kinematics/vel_kinematics.py -> /home/manav/robotis_ws/install/vel_kinematics/lib/python3.10/site-packages/vel_kinematics
+byte-compiling /home/manav/robotis_ws/install/vel_kinematics/lib/python3.10/site-packages/vel_kinematics/vel_kinematics.py to vel_kinematics.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/manav/robotis_ws/install/vel_kinematics/lib/python3.10/site-packages/vel_kinematics-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/vel_kinematics/vel_kinematics.egg-info to /home/manav/robotis_ws/install/vel_kinematics/lib/python3.10/site-packages/vel_kinematics-0.0.0-py3.10.egg-info
+running install_scripts
+Installing velk_call script to /home/manav/robotis_ws/install/vel_kinematics/lib/vel_kinematics
+writing list of installed files to '/home/manav/robotis_ws/build/vel_kinematics/install.log'

@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from my_service_package/srv/FloatPos.srv
+// generated code does not contain a copyright notice
+
+
+module my_service_package {
+  module srv {
+    struct FloatPos_Request {
+      sequence<double> pos4;
+    };
+    struct FloatPos_Response {
+      boolean success;
+    };
+  };
+};

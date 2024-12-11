@@ -1,0 +1,23 @@
+[4.188s] Invoking command in '/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/vel_kinematics': PYTHONPATH=/home/manav/robotis_ws/build/vel_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manav/robotis_ws/install/vel_kinematics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/vel_kinematics build --build-base /home/manav/robotis_ws/build/vel_kinematics/build install --record /home/manav/robotis_ws/build/vel_kinematics/install.log --single-version-externally-managed install_data
+[4.970s] running egg_info
+[4.972s] writing ../../../build/vel_kinematics/vel_kinematics.egg-info/PKG-INFO
+[4.972s] writing dependency_links to ../../../build/vel_kinematics/vel_kinematics.egg-info/dependency_links.txt
+[4.972s] writing entry points to ../../../build/vel_kinematics/vel_kinematics.egg-info/entry_points.txt
+[4.973s] writing requirements to ../../../build/vel_kinematics/vel_kinematics.egg-info/requires.txt
+[4.973s] writing top-level names to ../../../build/vel_kinematics/vel_kinematics.egg-info/top_level.txt
+[4.977s] reading manifest file '../../../build/vel_kinematics/vel_kinematics.egg-info/SOURCES.txt'
+[4.978s] adding license file 'LICENSE'
+[4.980s] writing manifest file '../../../build/vel_kinematics/vel_kinematics.egg-info/SOURCES.txt'
+[4.980s] running build
+[4.980s] running build_py
+[4.980s] running install
+[4.981s] running install_lib
+[4.984s] running install_data
+[4.984s] running install_egg_info
+[4.988s] removing '/home/manav/robotis_ws/install/vel_kinematics/lib/python3.10/site-packages/vel_kinematics-0.0.0-py3.10.egg-info' (and everything under it)
+[4.991s] Copying ../../../build/vel_kinematics/vel_kinematics.egg-info to /home/manav/robotis_ws/install/vel_kinematics/lib/python3.10/site-packages/vel_kinematics-0.0.0-py3.10.egg-info
+[4.991s] running install_scripts
+[5.039s] Installing velcalc_call script to /home/manav/robotis_ws/install/vel_kinematics/lib/vel_kinematics
+[5.039s] Installing velk_call script to /home/manav/robotis_ws/install/vel_kinematics/lib/vel_kinematics
+[5.040s] writing list of installed files to '/home/manav/robotis_ws/build/vel_kinematics/install.log'
+[5.104s] Invoked command in '/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/vel_kinematics' returned '0': PYTHONPATH=/home/manav/robotis_ws/build/vel_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manav/robotis_ws/install/vel_kinematics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/vel_kinematics build --build-base /home/manav/robotis_ws/build/vel_kinematics/build install --record /home/manav/robotis_ws/build/vel_kinematics/install.log --single-version-externally-managed install_data

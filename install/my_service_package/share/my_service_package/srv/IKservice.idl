@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from my_service_package/srv/IKservice.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/Quaternion.idl"
+
+module my_service_package {
+  module srv {
+    struct IKservice_Request {
+      @verbatim (language="comment", text=
+        "Desired end effector position (x, y, z)")
+      sequence<geometry_msgs::msg::Point> position;
+
+      @verbatim (language="comment", text=
+        "Desired end effector orientation (qx, qy, qz, qw)")
+      sequence<geometry_msgs::msg::Quaternion> orientation;
+
+      sequence<double> claw;
+    };
+    struct IKservice_Response {
+      @verbatim (language="comment", text=
+        "Joint positions required to reach the desired pose")
+      sequence<double> joint_positions;
+
+      @verbatim (language="comment", text=
+        "True if IK calculation was successful")
+      boolean success;
+    };
+  };
+};

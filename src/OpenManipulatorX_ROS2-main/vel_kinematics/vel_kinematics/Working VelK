@@ -1,0 +1,120 @@
+import rclpy
+from rclpy.node import Node
+from geometry_msgs.msg import Twist
+from my_service_package.msg import RotPos
+import numpy as np
+from my_service_package.srv import JointVelservice, EndeffectorVelservice
+
+class EndeffecVel(Node):
+
+    def __init__(self):
+        super().__init__('EndeffecVel')
+        self.J = None
+
+        self.subscription = self.create_subscription(RotPos, 'Fwd_op', self.calJacobian, 10)
+        
+        self.Twist_srv = self.create_service(JointVelservice, 'calculate_twist', self.calculate_twist)
+        self.get_logger().info('Twist Service Server is ready.')
+
+        self.Jointvel_srv = self.create_service(EndeffectorVelservice, 'calculate_jointvel', self.calculate_jointvel)
+        self.get_logger().info('Joint velocities Service Server is ready.')
+
+
+    def calJacobian(self, msg):
+        Rot = np.array(msg.r)
+        Pos = np.array(msg.o)
+
+        #self.get_logger().info(f'Rot: {Rot}, \nPos: {Pos}')
+        R = np.zeros((4, 3, 3))
+        O = np.zeros((5, 3, 1))
+        idx = 0
+
+        for i in range(0,4):
+            for j in range(0,3):
+                for k in range(0,3):
+                    R[i][j][k] = Rot[idx]
+                    idx += 1
+                    #self.get_logger().info(f'Rot: {R}')
+
+        #self.get_logger().info(f'Rot: {R}')
+
+        idx_2 = 0
+
+        for i in range(0,5):
+            for j in range(0,3):
+                for k in range(0,1):
+                    O[i][j][k] = Pos[idx_2]
+                    idx_2 += 1
+                    #self.get_logger().info(f'Rot: {R}')
+        #O = O/1000
+
+        #self.get_logger().info(f'Pos: {O}')
+
+        k = np.array([[0], [0], [1]])
+        v = []
+        w = []
+
+        for i in range (0,4):
+            v.append((np.cross((np.dot(R[i], k)).T, ((O[4]-O[i])).T)).T)
+        v = np.array(v)
+
+        for i in range (0,4):
+            w.append(np.dot(R[i], k))
+        w = np.array(w)
+
+        #self.get_logger().info(f'v: \n{v}')
+        #self.get_logger().info(f'w: \n{w}')
+
+        V = np.hstack((v[0], v[1], v[2], v[3]))
+        W = np.hstack((w[0], w[1], w[2], w[3]))
+
+        self.J = np.vstack((V,W))
+        
+        #self.get_logger().info(f'J: \n{self.J}')
+
+
+    def calculate_twist(self, request, response):
+        Jointvel = np.array(request.joint_velocity).reshape(-1, 1)
+        if self.J is None:
+            self.get_logger().error("Jacobian is not yet calculated.")
+            return response
+        
+        try:
+            twist = np.dot(self.J, Jointvel)
+            self.get_logger().info(f'J: \n{self.J}')
+            self.get_logger().info(f'twist: \n{twist}')
+            response.twist = twist.flatten().tolist()
+        except Exception as e:
+            self.get_logger().error(f"Error calculating twist: {e}")
+        return response
+
+    def calculate_jointvel(self, request, response):
+        Tw = request.endeffector_velocity
+        twist = np.array([Tw.linear.x, Tw.linear.y, Tw.linear.z, Tw.angular.x, Tw.angular.y, Tw.angular.z]).reshape(-1, 1)
+        self.get_logger().info(f'twist: \n{twist}')
+        J_inv = np.linalg.pinv(self.J)
+        self.get_logger().info(f'J_inv: \n{J_inv}')
+        #J_inv = np.transpose(J_inv)
+        #self.get_logger().info(f'J_inv: \n{J_inv}')
+
+        try:
+            jointvel = np.dot(J_inv, twist)
+            self.get_logger().info(f'joint vel: \n{jointvel}')
+            response.jointvel = jointvel.flatten().tolist()
+        except Exception as e:
+            self.get_logger().error(f"Error calculating Joint: {e}")
+        return response
+
+
+
+
+def main():
+    # Inside main() function we initialize rclpy and spin the AngSubscriber class to keep it alive and then shut down rclpy when we are done.
+    rclpy.init()
+    rclpy.spin(EndeffecVel())
+    rclpy.shutdown()
+
+
+# It just tells if there is a call for a name main then to run main() function
+if __name__ == '__main__':
+    main()

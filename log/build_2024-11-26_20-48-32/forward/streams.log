@@ -1,0 +1,38 @@
+[1.957s] Invoking command in '/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/forward': PYTHONPATH=/home/manav/robotis_ws/build/forward/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manav/robotis_ws/install/forward/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/forward build --build-base /home/manav/robotis_ws/build/forward/build install --record /home/manav/robotis_ws/build/forward/install.log --single-version-externally-managed install_data
+[3.520s] running egg_info
+[3.528s] creating ../../../build/forward/forward.egg-info
+[3.529s] writing ../../../build/forward/forward.egg-info/PKG-INFO
+[3.530s] writing dependency_links to ../../../build/forward/forward.egg-info/dependency_links.txt
+[3.531s] writing entry points to ../../../build/forward/forward.egg-info/entry_points.txt
+[3.531s] writing requirements to ../../../build/forward/forward.egg-info/requires.txt
+[3.531s] writing top-level names to ../../../build/forward/forward.egg-info/top_level.txt
+[3.532s] writing manifest file '../../../build/forward/forward.egg-info/SOURCES.txt'
+[3.544s] reading manifest file '../../../build/forward/forward.egg-info/SOURCES.txt'
+[3.547s] adding license file 'LICENSE'
+[3.548s] writing manifest file '../../../build/forward/forward.egg-info/SOURCES.txt'
+[3.550s] running build
+[3.554s] running build_py
+[3.554s] creating /home/manav/robotis_ws/build/forward/build
+[3.554s] creating /home/manav/robotis_ws/build/forward/build/lib
+[3.554s] creating /home/manav/robotis_ws/build/forward/build/lib/forward
+[3.557s] copying forward/forward.py -> /home/manav/robotis_ws/build/forward/build/lib/forward
+[3.557s] copying forward/__init__.py -> /home/manav/robotis_ws/build/forward/build/lib/forward
+[3.557s] running install
+[3.561s] running install_lib
+[3.562s] creating /home/manav/robotis_ws/install/forward/lib/python3.10/site-packages/forward
+[3.562s] copying /home/manav/robotis_ws/build/forward/build/lib/forward/forward.py -> /home/manav/robotis_ws/install/forward/lib/python3.10/site-packages/forward
+[3.564s] copying /home/manav/robotis_ws/build/forward/build/lib/forward/__init__.py -> /home/manav/robotis_ws/install/forward/lib/python3.10/site-packages/forward
+[3.567s] byte-compiling /home/manav/robotis_ws/install/forward/lib/python3.10/site-packages/forward/forward.py to forward.cpython-310.pyc
+[3.577s] byte-compiling /home/manav/robotis_ws/install/forward/lib/python3.10/site-packages/forward/__init__.py to __init__.cpython-310.pyc
+[3.578s] running install_data
+[3.578s] creating /home/manav/robotis_ws/install/forward/share/ament_index
+[3.578s] creating /home/manav/robotis_ws/install/forward/share/ament_index/resource_index
+[3.578s] creating /home/manav/robotis_ws/install/forward/share/ament_index/resource_index/packages
+[3.578s] copying resource/forward -> /home/manav/robotis_ws/install/forward/share/ament_index/resource_index/packages
+[3.579s] copying package.xml -> /home/manav/robotis_ws/install/forward/share/forward
+[3.579s] running install_egg_info
+[3.592s] Copying ../../../build/forward/forward.egg-info to /home/manav/robotis_ws/install/forward/lib/python3.10/site-packages/forward-0.0.0-py3.10.egg-info
+[3.593s] running install_scripts
+[3.720s] Installing fwd_call script to /home/manav/robotis_ws/install/forward/lib/forward
+[3.728s] writing list of installed files to '/home/manav/robotis_ws/build/forward/install.log'
+[3.925s] Invoked command in '/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/forward' returned '0': PYTHONPATH=/home/manav/robotis_ws/build/forward/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manav/robotis_ws/install/forward/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/forward build --build-base /home/manav/robotis_ws/build/forward/build install --record /home/manav/robotis_ws/build/forward/install.log --single-version-externally-managed install_data

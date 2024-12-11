@@ -1,0 +1,90 @@
+[0.079s] Invoking command in '/home/manav/robotis_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manav/robotis_ws/install/vel_kinematics:/home/manav/robotis_ws/install/rbe500_example_py:/home/manav/robotis_ws/install/inverse:/home/manav/robotis_ws/install/forward:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/manav/robotis_ws/build/dynamixel_sdk_custom_interfaces -- -j4 -l4
+[0.267s] [ 10%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_c
+[0.408s] [ 20%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c
+[0.408s] [ 23%] Built target dynamixel_sdk_custom_interfaces__cpp
+[0.430s] [ 23%] Built target ament_cmake_python_copy_dynamixel_sdk_custom_interfaces
+[0.504s] [ 33%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c
+[0.519s] [ 43%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c
+[0.626s] [ 53%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.716s] [ 64%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp
+[0.803s] [ 74%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp
+[0.998s] [ 74%] Built target dynamixel_sdk_custom_interfaces
+[1.150s] [ 76%] Built target dynamixel_sdk_custom_interfaces__py
+[1.335s] [ 84%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_py
+[1.551s] [ 89%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext
+[1.564s] [ 94%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.593s] [100%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.818s] Traceback (most recent call last):
+[1.818s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3016, in _dep_map
+[1.822s]     return self.__dep_map
+[1.823s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2813, in __getattr__
+[1.825s]     raise AttributeError(attr)
+[1.825s] AttributeError: _DistInfoDistribution__dep_map
+[1.825s] 
+[1.825s] During handling of the above exception, another exception occurred:
+[1.825s] 
+[1.825s] Traceback (most recent call last):
+[1.825s]   File "/home/manav/robotis_ws/build/dynamixel_sdk_custom_interfaces/ament_cmake_python/dynamixel_sdk_custom_interfaces/setup.py", line 4, in <module>
+[1.826s]     setup(
+[1.826s]   File "/home/manav/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 153, in setup
+[1.826s]     return distutils.core.setup(**attrs)
+[1.826s]   File "/usr/lib/python3.10/distutils/core.py", line 108, in setup
+[1.836s]     _setup_distribution = dist = klass(attrs)
+[1.836s]   File "/home/manav/.local/lib/python3.10/site-packages/setuptools/dist.py", line 453, in __init__
+[1.840s]     _Distribution.__init__(
+[1.840s]   File "/usr/lib/python3.10/distutils/dist.py", line 292, in __init__
+[1.845s]     self.finalize_options()
+[1.845s]   File "/home/manav/.local/lib/python3.10/site-packages/setuptools/dist.py", line 830, in finalize_options
+[1.845s]     for ep in sorted(loaded, key=by_order):
+[1.851s]   File "/home/manav/.local/lib/python3.10/site-packages/setuptools/dist.py", line 829, in <lambda>
+[1.851s]     loaded = map(lambda e: e.load(), filtered)
+[1.851s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2449, in load
+[1.851s]     self.require(*args, **kwargs)
+[1.851s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2471, in require
+[1.851s]     reqs = self.dist.requires(self.extras)
+[1.851s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2734, in requires
+[1.852s]     dm = self._dep_map
+[1.852s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3018, in _dep_map
+[1.852s]     self.__dep_map = self._compute_dependencies()
+[1.853s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3028, in _compute_dependencies
+[1.855s]     reqs.extend(parse_requirements(req))
+[1.856s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3084, in parse_requirements
+[1.856s]     yield Requirement(line)
+[1.856s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3094, in __init__
+[1.857s]     super(Requirement, self).__init__(requirement_string)
+[1.857s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/requirements.py", line 98, in __init__
+[1.857s]     req = REQUIREMENT.parseString(requirement_string)
+[1.859s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 1644, in parseString
+[1.859s]     loc, tokens = self._parse( instring, 0 )
+[1.859s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 1402, in _parseNoCache
+[1.859s]     loc,tokens = self.parseImpl( instring, preloc, doActions )
+[1.859s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 3417, in parseImpl
+[1.859s]     loc, exprtokens = e._parse( instring, loc, doActions )
+[1.859s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 1402, in _parseNoCache
+[1.860s]     loc,tokens = self.parseImpl( instring, preloc, doActions )
+[1.860s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 3739, in parseImpl
+[1.860s]     return self.expr._parse( instring, loc, doActions, callPreParse=False )
+[1.860s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 1402, in _parseNoCache
+[1.860s]     loc,tokens = self.parseImpl( instring, preloc, doActions )
+[1.860s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 3417, in parseImpl
+[1.863s]     loc, exprtokens = e._parse( instring, loc, doActions )
+[1.863s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 1402, in _parseNoCache
+[1.863s]     loc,tokens = self.parseImpl( instring, preloc, doActions )
+[1.863s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 3941, in parseImpl
+[1.864s]     return super(ZeroOrMore, self).parseImpl(instring, loc, doActions)
+[1.864s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 3880, in parseImpl
+[1.865s]     loc, tmptokens = self_expr_parse( instring, preloc, doActions )
+[1.866s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 1402, in _parseNoCache
+[1.866s]     loc,tokens = self.parseImpl( instring, preloc, doActions )
+[1.866s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 3552, in parseImpl
+[1.869s]     ret = e._parse( instring, loc, doActions )
+[1.869s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 1402, in _parseNoCache
+[1.869s]     loc,tokens = self.parseImpl( instring, preloc, doActions )
+[1.870s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 3400, in parseImpl
+[1.871s]     loc, resultlist = self.exprs[0]._parse( instring, loc, doActions, callPreParse=False )
+[1.871s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 1406, in _parseNoCache
+[1.873s]     loc,tokens = self.parseImpl( instring, preloc, doActions )
+[1.873s] KeyboardInterrupt
+[1.918s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg] Interrupt
+[1.923s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg.dir/all] Interrupt
+[1.923s] gmake: *** [Makefile:146: all] Interrupt

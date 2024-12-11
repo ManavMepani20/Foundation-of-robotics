@@ -1,0 +1,16 @@
+[3.238s] Invoking command in '/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/inverse': PYTHONPATH=/home/manav/robotis_ws/build/inverse/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manav/robotis_ws/install/inverse/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/inverse build --build-base /home/manav/robotis_ws/build/inverse/build install --record /home/manav/robotis_ws/build/inverse/install.log --single-version-externally-managed install_data
+[3.633s] Traceback (most recent call last):
+[3.633s]   File "/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/inverse/setup.py", line 1, in <module>
+[3.634s]     from setuptools import find_packages, setup
+[3.634s]   File "/home/manav/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 16, in <module>
+[3.635s]     import setuptools.version
+[3.635s]   File "/home/manav/.local/lib/python3.10/site-packages/setuptools/version.py", line 1, in <module>
+[3.635s]     import pkg_resources
+[3.635s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 78, in <module>
+[3.636s]     __import__('pkg_resources.extern.packaging.requirements')
+[3.636s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/requirements.py", line 9, in <module>
+[3.637s]     from pkg_resources.extern.pyparsing import stringStart, stringEnd, originalTextFor, ParseException
+[3.637s]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[3.637s]   File "<frozen importlib._bootstrap>", line 1002, in _find_and_load_unlocked
+[3.637s]   File "<frozen importlib._bootstrap>", line 937, in _find_spec
+[3.641s] KeyboardInterrupt

@@ -1,0 +1,11 @@
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:316: CMakeFiles/open_manipulator_msgs__rosidl_typesupport_introspection_c.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/open_manipulator_msgs__rosidl_typesupport_c.dir/build.make:358: CMakeFiles/open_manipulator_msgs__rosidl_typesupport_c.dir/depend] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:342: CMakeFiles/open_manipulator_msgs__rosidl_typesupport_c.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:370: CMakeFiles/open_manipulator_msgs__rosidl_typesupport_introspection_cpp.dir/all] Interrupt
+gmake[1]: *** wait: No child processes.  Stop.
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** wait: No child processes.  Stop.
+gmake: *** [Makefile:146: all] Error 2

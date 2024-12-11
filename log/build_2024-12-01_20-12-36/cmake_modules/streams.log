@@ -1,0 +1,32 @@
+[0.062s] Invoking command in '/home/manav/robotis_ws/build/cmake_modules': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manav/robotis_ws/install/vel_kinematics:/home/manav/robotis_ws/install/rbe500_example_py:/home/manav/robotis_ws/install/inverse:/home/manav/robotis_ws/install/forward:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/manav/robotis_ws/build/cmake_modules -- -j4 -l4
+[0.170s] Invoked command in '/home/manav/robotis_ws/build/cmake_modules' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manav/robotis_ws/install/vel_kinematics:/home/manav/robotis_ws/install/rbe500_example_py:/home/manav/robotis_ws/install/inverse:/home/manav/robotis_ws/install/forward:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/manav/robotis_ws/build/cmake_modules -- -j4 -l4
+[0.283s] Invoking command in '/home/manav/robotis_ws/build/cmake_modules': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manav/robotis_ws/install/vel_kinematics:/home/manav/robotis_ws/install/rbe500_example_py:/home/manav/robotis_ws/install/inverse:/home/manav/robotis_ws/install/forward:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/manav/robotis_ws/build/cmake_modules
+[0.349s] -- Install configuration: ""
+[0.350s] -- Up-to-date: /home/manav/robotis_ws/install/cmake_modules/share/cmake_modules/cmake/Modules
+[0.350s] -- Up-to-date: /home/manav/robotis_ws/install/cmake_modules/share/cmake_modules/cmake/Modules/FindGSL.cmake
+[0.351s] -- Up-to-date: /home/manav/robotis_ws/install/cmake_modules/share/cmake_modules/cmake/Modules/FindTinyXML.cmake
+[0.351s] -- Up-to-date: /home/manav/robotis_ws/install/cmake_modules/share/cmake_modules/cmake/Modules/FindXenomai.cmake
+[0.351s] -- Up-to-date: /home/manav/robotis_ws/install/cmake_modules/share/cmake_modules/cmake/Modules/FindTinyXML2.cmake
+[0.352s] -- Up-to-date: /home/manav/robotis_ws/install/cmake_modules/share/cmake_modules/cmake/Modules/FindGflags.cmake
+[0.352s] -- Up-to-date: /home/manav/robotis_ws/install/cmake_modules/share/cmake_modules/cmake/Modules/FindTBB.cmake
+[0.352s] -- Up-to-date: /home/manav/robotis_ws/install/cmake_modules/share/cmake_modules/cmake/Modules/FindUUID.cmake
+[0.352s] -- Up-to-date: /home/manav/robotis_ws/install/cmake_modules/share/cmake_modules/cmake/Modules/FindPoco.cmake
+[0.352s] -- Up-to-date: /home/manav/robotis_ws/install/cmake_modules/share/cmake_modules/cmake/Modules/FindNUMPY.cmake
+[0.354s] -- Up-to-date: /home/manav/robotis_ws/install/cmake_modules/share/ament_index/resource_index/package_run_dependencies/cmake_modules
+[0.357s] -- Up-to-date: /home/manav/robotis_ws/install/cmake_modules/share/ament_index/resource_index/parent_prefix_path/cmake_modules
+[0.357s] -- Up-to-date: /home/manav/robotis_ws/install/cmake_modules/share/cmake_modules/environment/ament_prefix_path.sh
+[0.358s] -- Up-to-date: /home/manav/robotis_ws/install/cmake_modules/share/cmake_modules/environment/ament_prefix_path.dsv
+[0.358s] -- Up-to-date: /home/manav/robotis_ws/install/cmake_modules/share/cmake_modules/environment/path.sh
+[0.358s] -- Up-to-date: /home/manav/robotis_ws/install/cmake_modules/share/cmake_modules/environment/path.dsv
+[0.358s] -- Up-to-date: /home/manav/robotis_ws/install/cmake_modules/share/cmake_modules/local_setup.bash
+[0.359s] -- Up-to-date: /home/manav/robotis_ws/install/cmake_modules/share/cmake_modules/local_setup.sh
+[0.359s] -- Up-to-date: /home/manav/robotis_ws/install/cmake_modules/share/cmake_modules/local_setup.zsh
+[0.359s] -- Up-to-date: /home/manav/robotis_ws/install/cmake_modules/share/cmake_modules/local_setup.dsv
+[0.359s] -- Installing: /home/manav/robotis_ws/install/cmake_modules/share/cmake_modules/package.dsv
+[0.363s] -- Up-to-date: /home/manav/robotis_ws/install/cmake_modules/share/ament_index/resource_index/packages/cmake_modules
+[0.363s] -- Up-to-date: /home/manav/robotis_ws/install/cmake_modules/share/cmake_modules/cmake/cmake_modules-extras.cmake
+[0.363s] -- Up-to-date: /home/manav/robotis_ws/install/cmake_modules/share/cmake_modules/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.364s] -- Up-to-date: /home/manav/robotis_ws/install/cmake_modules/share/cmake_modules/cmake/cmake_modulesConfig.cmake
+[0.364s] -- Up-to-date: /home/manav/robotis_ws/install/cmake_modules/share/cmake_modules/cmake/cmake_modulesConfig-version.cmake
+[0.365s] -- Up-to-date: /home/manav/robotis_ws/install/cmake_modules/share/cmake_modules/package.xml
+[0.374s] Invoked command in '/home/manav/robotis_ws/build/cmake_modules' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manav/robotis_ws/install/vel_kinematics:/home/manav/robotis_ws/install/rbe500_example_py:/home/manav/robotis_ws/install/inverse:/home/manav/robotis_ws/install/forward:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/manav/robotis_ws/build/cmake_modules

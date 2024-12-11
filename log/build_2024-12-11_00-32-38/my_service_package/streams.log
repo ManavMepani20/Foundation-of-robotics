@@ -1,0 +1,384 @@
+[0.029s] Invoking command in '/home/manav/robotis_ws/build/my_service_package': CMAKE_PREFIX_PATH=/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/manav/robotis_ws/build/my_service_package -- -j4 -l4
+[0.144s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.712s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.886s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.952s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.962s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.981s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.018s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.060s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.154s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.122s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.287s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.352s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.490s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.664s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.664s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.664s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[5.963s] -- Added test 'lint_cmake' to check CMake code style
+[5.967s] -- Added test 'xmllint' to check XML markup files
+[6.025s] -- Configuring done
+[6.374s] -- Generating done
+[6.392s] -- Build files have been written to: /home/manav/robotis_ws/build/my_service_package
+[6.555s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[9.790s] [  1%] Built target my_service_package__cpp
+[9.873s] [  1%] Built target ament_cmake_python_copy_my_service_package
+[9.893s] [  2%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[11.478s] [35m[1mConsolidate compiler generated dependencies of target my_service_package__rosidl_typesupport_fastrtps_cpp[0m
+[11.514s] [  4%] [32mBuilding CXX object CMakeFiles/my_service_package__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_service_package/msg/detail/dds_fastrtps/rot_pos__type_support.cpp.o[0m
+[12.805s] [  5%] [32mBuilding CXX object CMakeFiles/my_service_package__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_service_package/msg/detail/dds_fastrtps/vel_pos__type_support.cpp.o[0m
+[13.758s] [  7%] [32mBuilding CXX object CMakeFiles/my_service_package__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_service_package/srv/detail/dds_fastrtps/i_kservice__type_support.cpp.o[0m
+[14.840s] [  8%] [32mBuilding CXX object CMakeFiles/my_service_package__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_service_package/srv/detail/dds_fastrtps/joint_velservice__type_support.cpp.o[0m
+[15.880s] [  9%] [32mBuilding CXX object CMakeFiles/my_service_package__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_service_package/srv/detail/dds_fastrtps/endeffector_velservice__type_support.cpp.o[0m
+[16.931s] [ 11%] [32mBuilding CXX object CMakeFiles/my_service_package__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_service_package/srv/detail/dds_fastrtps/float_pos__type_support.cpp.o[0m
+[17.916s] [ 12%] [32m[1mLinking CXX shared library libmy_service_package__rosidl_typesupport_fastrtps_cpp.so[0m
+[18.090s] [ 12%] Built target my_service_package__rosidl_typesupport_fastrtps_cpp
+[18.104s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[18.956s] [35m[1mConsolidate compiler generated dependencies of target my_service_package__rosidl_typesupport_introspection_cpp[0m
+[18.980s] [ 15%] [32mBuilding CXX object CMakeFiles/my_service_package__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_service_package/msg/detail/rot_pos__type_support.cpp.o[0m
+[19.569s] [ 16%] [32mBuilding CXX object CMakeFiles/my_service_package__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_service_package/msg/detail/vel_pos__type_support.cpp.o[0m
+[20.132s] [ 18%] [32mBuilding CXX object CMakeFiles/my_service_package__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_service_package/srv/detail/i_kservice__type_support.cpp.o[0m
+[20.838s] [ 19%] [32mBuilding CXX object CMakeFiles/my_service_package__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_service_package/srv/detail/joint_velservice__type_support.cpp.o[0m
+[21.526s] [ 21%] [32mBuilding CXX object CMakeFiles/my_service_package__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_service_package/srv/detail/endeffector_velservice__type_support.cpp.o[0m
+[22.139s] [ 22%] [32mBuilding CXX object CMakeFiles/my_service_package__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_service_package/srv/detail/float_pos__type_support.cpp.o[0m
+[22.729s] [ 23%] [32m[1mLinking CXX shared library libmy_service_package__rosidl_typesupport_introspection_cpp.so[0m
+[22.875s] [ 23%] Built target my_service_package__rosidl_typesupport_introspection_cpp
+[23.242s] running egg_info
+[23.244s] writing my_service_package.egg-info/PKG-INFO
+[23.244s] writing dependency_links to my_service_package.egg-info/dependency_links.txt
+[23.244s] writing top-level names to my_service_package.egg-info/top_level.txt
+[23.248s] reading manifest file 'my_service_package.egg-info/SOURCES.txt'
+[23.250s] writing manifest file 'my_service_package.egg-info/SOURCES.txt'
+[23.296s] [ 23%] Built target ament_cmake_python_build_my_service_package_egg
+[23.311s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[23.942s] [35m[1mConsolidate compiler generated dependencies of target my_service_package__rosidl_typesupport_cpp[0m
+[23.967s] [ 26%] [32mBuilding CXX object CMakeFiles/my_service_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_service_package/msg/rot_pos__type_support.cpp.o[0m
+[24.354s] [ 28%] [32mBuilding CXX object CMakeFiles/my_service_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_service_package/srv/i_kservice__type_support.cpp.o[0m
+[24.748s] [ 29%] [32mBuilding CXX object CMakeFiles/my_service_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_service_package/srv/joint_velservice__type_support.cpp.o[0m
+[25.127s] [ 30%] [32mBuilding CXX object CMakeFiles/my_service_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_service_package/srv/endeffector_velservice__type_support.cpp.o[0m
+[25.515s] [ 32%] [32mBuilding CXX object CMakeFiles/my_service_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_service_package/srv/float_pos__type_support.cpp.o[0m
+[25.897s] [ 33%] [32mBuilding CXX object CMakeFiles/my_service_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_service_package/msg/vel_pos__type_support.cpp.o[0m
+[26.288s] [ 35%] [32m[1mLinking CXX shared library libmy_service_package__rosidl_typesupport_cpp.so[0m
+[26.365s] [ 35%] Built target my_service_package__rosidl_typesupport_cpp
+[26.386s] [ 36%] [34m[1mGenerating C code for ROS interfaces[0m
+[27.696s] [35m[1mConsolidate compiler generated dependencies of target my_service_package__rosidl_generator_c[0m
+[27.716s] [ 38%] [32mBuilding C object CMakeFiles/my_service_package__rosidl_generator_c.dir/rosidl_generator_c/my_service_package/msg/detail/rot_pos__functions.c.o[0m
+[27.821s] [ 39%] [32mBuilding C object CMakeFiles/my_service_package__rosidl_generator_c.dir/rosidl_generator_c/my_service_package/srv/detail/joint_velservice__functions.c.o[0m
+[27.915s] [ 40%] [32mBuilding C object CMakeFiles/my_service_package__rosidl_generator_c.dir/rosidl_generator_c/my_service_package/srv/detail/endeffector_velservice__functions.c.o[0m
+[28.002s] [ 42%] [32mBuilding C object CMakeFiles/my_service_package__rosidl_generator_c.dir/rosidl_generator_c/my_service_package/srv/detail/float_pos__functions.c.o[0m
+[28.088s] [ 43%] [32mBuilding C object CMakeFiles/my_service_package__rosidl_generator_c.dir/rosidl_generator_c/my_service_package/srv/detail/i_kservice__functions.c.o[0m
+[28.180s] [ 45%] [32mBuilding C object CMakeFiles/my_service_package__rosidl_generator_c.dir/rosidl_generator_c/my_service_package/msg/detail/vel_pos__functions.c.o[0m
+[28.246s] [ 46%] [32m[1mLinking C shared library libmy_service_package__rosidl_generator_c.so[0m
+[28.307s] [ 46%] Built target my_service_package__rosidl_generator_c
+[28.321s] [ 47%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[29.213s] [35m[1mConsolidate compiler generated dependencies of target my_service_package__rosidl_typesupport_fastrtps_c[0m
+[29.238s] [ 49%] [32mBuilding CXX object CMakeFiles/my_service_package__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_service_package/msg/detail/rot_pos__type_support_c.cpp.o[0m
+[29.733s] [ 50%] [32mBuilding CXX object CMakeFiles/my_service_package__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_service_package/msg/detail/vel_pos__type_support_c.cpp.o[0m
+[30.324s] [ 52%] [32mBuilding CXX object CMakeFiles/my_service_package__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_service_package/srv/detail/i_kservice__type_support_c.cpp.o[0m
+[30.878s] [ 53%] [32mBuilding CXX object CMakeFiles/my_service_package__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_service_package/srv/detail/joint_velservice__type_support_c.cpp.o[0m
+[31.391s] [ 54%] [32mBuilding CXX object CMakeFiles/my_service_package__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_service_package/srv/detail/endeffector_velservice__type_support_c.cpp.o[0m
+[31.903s] [ 56%] [32mBuilding CXX object CMakeFiles/my_service_package__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_service_package/srv/detail/float_pos__type_support_c.cpp.o[0m
+[32.394s] [ 57%] [32m[1mLinking CXX shared library libmy_service_package__rosidl_typesupport_fastrtps_c.so[0m
+[32.528s] [ 57%] Built target my_service_package__rosidl_typesupport_fastrtps_c
+[32.543s] [ 59%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[33.163s] [35m[1mConsolidate compiler generated dependencies of target my_service_package__rosidl_typesupport_c[0m
+[33.184s] [ 60%] [32mBuilding CXX object CMakeFiles/my_service_package__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_service_package/msg/rot_pos__type_support.cpp.o[0m
+[33.229s] [ 61%] [32mBuilding CXX object CMakeFiles/my_service_package__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_service_package/srv/i_kservice__type_support.cpp.o[0m
+[33.280s] [ 63%] [32mBuilding CXX object CMakeFiles/my_service_package__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_service_package/srv/joint_velservice__type_support.cpp.o[0m
+[33.338s] [ 64%] [32mBuilding CXX object CMakeFiles/my_service_package__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_service_package/srv/endeffector_velservice__type_support.cpp.o[0m
+[33.402s] [ 66%] [32mBuilding CXX object CMakeFiles/my_service_package__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_service_package/srv/float_pos__type_support.cpp.o[0m
+[33.446s] [ 67%] [32mBuilding CXX object CMakeFiles/my_service_package__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_service_package/msg/vel_pos__type_support.cpp.o[0m
+[33.491s] [ 69%] [32m[1mLinking CXX shared library libmy_service_package__rosidl_typesupport_c.so[0m
+[33.554s] [ 69%] Built target my_service_package__rosidl_typesupport_c
+[33.568s] [ 70%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[34.406s] [35m[1mConsolidate compiler generated dependencies of target my_service_package__rosidl_typesupport_introspection_c[0m
+[34.426s] [ 71%] [32mBuilding C object CMakeFiles/my_service_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_service_package/msg/detail/rot_pos__type_support.c.o[0m
+[34.480s] [ 73%] [32mBuilding C object CMakeFiles/my_service_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_service_package/srv/detail/joint_velservice__type_support.c.o[0m
+[34.543s] [ 74%] [32mBuilding C object CMakeFiles/my_service_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_service_package/srv/detail/endeffector_velservice__type_support.c.o[0m
+[34.630s] [ 76%] [32mBuilding C object CMakeFiles/my_service_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_service_package/srv/detail/float_pos__type_support.c.o[0m
+[34.696s] [ 77%] [32mBuilding C object CMakeFiles/my_service_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_service_package/srv/detail/i_kservice__type_support.c.o[0m
+[34.764s] [ 78%] [32mBuilding C object CMakeFiles/my_service_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_service_package/msg/detail/vel_pos__type_support.c.o[0m
+[34.824s] [ 80%] [32m[1mLinking C shared library libmy_service_package__rosidl_typesupport_introspection_c.so[0m
+[34.876s] [ 80%] Built target my_service_package__rosidl_typesupport_introspection_c
+[34.908s] [ 80%] Built target my_service_package
+[34.936s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[36.678s] [ 81%] Built target my_service_package__py
+[36.699s] [35m[1mConsolidate compiler generated dependencies of target my_service_package__rosidl_generator_py[0m
+[36.734s] [ 83%] [32mBuilding C object CMakeFiles/my_service_package__rosidl_generator_py.dir/rosidl_generator_py/my_service_package/msg/_rot_pos_s.c.o[0m
+[36.990s] [ 84%] [32mBuilding C object CMakeFiles/my_service_package__rosidl_generator_py.dir/rosidl_generator_py/my_service_package/srv/_joint_velservice_s.c.o[0m
+[37.177s] [ 85%] [32mBuilding C object CMakeFiles/my_service_package__rosidl_generator_py.dir/rosidl_generator_py/my_service_package/srv/_endeffector_velservice_s.c.o[0m
+[37.355s] [ 87%] [32mBuilding C object CMakeFiles/my_service_package__rosidl_generator_py.dir/rosidl_generator_py/my_service_package/srv/_float_pos_s.c.o[0m
+[37.569s] [ 88%] [32mBuilding C object CMakeFiles/my_service_package__rosidl_generator_py.dir/rosidl_generator_py/my_service_package/srv/_i_kservice_s.c.o[0m
+[37.795s] [ 90%] [32mBuilding C object CMakeFiles/my_service_package__rosidl_generator_py.dir/rosidl_generator_py/my_service_package/msg/_vel_pos_s.c.o[0m
+[38.023s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/my_service_package/libmy_service_package__rosidl_generator_py.so[0m
+[38.135s] [ 91%] Built target my_service_package__rosidl_generator_py
+[38.164s] [35m[1mConsolidate compiler generated dependencies of target my_service_package__rosidl_typesupport_fastrtps_c__pyext[0m
+[38.196s] [ 92%] [32mBuilding C object CMakeFiles/my_service_package__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_service_package/_my_service_package_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[38.490s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/my_service_package/my_service_package_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[38.584s] [ 94%] Built target my_service_package__rosidl_typesupport_fastrtps_c__pyext
+[38.627s] [35m[1mConsolidate compiler generated dependencies of target my_service_package__rosidl_typesupport_c__pyext[0m
+[38.663s] [ 95%] [32mBuilding C object CMakeFiles/my_service_package__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_service_package/_my_service_package_s.ep.rosidl_typesupport_c.c.o[0m
+[38.996s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/my_service_package/my_service_package_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[39.105s] [ 97%] Built target my_service_package__rosidl_typesupport_c__pyext
+[39.130s] [35m[1mConsolidate compiler generated dependencies of target my_service_package__rosidl_typesupport_introspection_c__pyext[0m
+[39.161s] [ 98%] [32mBuilding C object CMakeFiles/my_service_package__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_service_package/_my_service_package_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[39.480s] [100%] [32m[1mLinking C shared library rosidl_generator_py/my_service_package/my_service_package_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[39.577s] [100%] Built target my_service_package__rosidl_typesupport_introspection_c__pyext
+[39.614s] Invoked command in '/home/manav/robotis_ws/build/my_service_package' returned '0': CMAKE_PREFIX_PATH=/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/manav/robotis_ws/build/my_service_package -- -j4 -l4
+[39.996s] Invoking command in '/home/manav/robotis_ws/build/my_service_package': CMAKE_PREFIX_PATH=/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/manav/robotis_ws/build/my_service_package
+[40.014s] -- Install configuration: ""
+[40.016s] -- Installing: /home/manav/robotis_ws/install/my_service_package/share/ament_index/resource_index/rosidl_interfaces/my_service_package
+[40.016s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package
+[40.017s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv
+[40.017s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/float_pos.h
+[40.017s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/endeffector_velservice.h
+[40.017s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/i_kservice.h
+[40.017s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail
+[40.019s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/endeffector_velservice__functions.h
+[40.019s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/joint_velservice__functions.c
+[40.019s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/float_pos__struct.h
+[40.020s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/endeffector_velservice__struct.h
+[40.020s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/float_pos__functions.h
+[40.022s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/joint_velservice__struct.h
+[40.022s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/i_kservice__type_support.h
+[40.023s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/float_pos__functions.c
+[40.023s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/endeffector_velservice__type_support.h
+[40.023s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/i_kservice__struct.h
+[40.023s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/i_kservice__functions.c
+[40.024s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/i_kservice__functions.h
+[40.024s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/float_pos__type_support.h
+[40.024s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/endeffector_velservice__functions.c
+[40.024s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/joint_velservice__type_support.h
+[40.024s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/joint_velservice__functions.h
+[40.024s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/joint_velservice.h
+[40.025s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg
+[40.025s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg/rot_pos.h
+[40.025s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg/vel_pos.h
+[40.025s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg/detail
+[40.025s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg/detail/rot_pos__struct.h
+[40.025s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg/detail/vel_pos__functions.h
+[40.025s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg/detail/vel_pos__struct.h
+[40.026s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg/detail/vel_pos__type_support.h
+[40.026s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg/detail/rot_pos__functions.h
+[40.026s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg/detail/rot_pos__functions.c
+[40.026s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg/detail/vel_pos__functions.c
+[40.026s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg/detail/rot_pos__type_support.h
+[40.026s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg/rosidl_generator_c__visibility_control.h
+[40.026s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/environment/library_path.sh
+[40.027s] -- Installing: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/environment/library_path.dsv
+[40.028s] -- Installing: /home/manav/robotis_ws/install/my_service_package/lib/libmy_service_package__rosidl_generator_c.so
+[40.029s] -- Set runtime path of "/home/manav/robotis_ws/install/my_service_package/lib/libmy_service_package__rosidl_generator_c.so" to ""
+[40.030s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package
+[40.030s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv
+[40.031s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail
+[40.031s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/float_pos__rosidl_typesupport_fastrtps_c.h
+[40.032s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/i_kservice__rosidl_typesupport_fastrtps_c.h
+[40.033s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/endeffector_velservice__rosidl_typesupport_fastrtps_c.h
+[40.033s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/joint_velservice__rosidl_typesupport_fastrtps_c.h
+[40.033s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg
+[40.034s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[40.034s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg/detail
+[40.034s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg/detail/vel_pos__rosidl_typesupport_fastrtps_c.h
+[40.035s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg/detail/rot_pos__rosidl_typesupport_fastrtps_c.h
+[40.040s] -- Installing: /home/manav/robotis_ws/install/my_service_package/lib/libmy_service_package__rosidl_typesupport_fastrtps_c.so
+[40.040s] -- Set runtime path of "/home/manav/robotis_ws/install/my_service_package/lib/libmy_service_package__rosidl_typesupport_fastrtps_c.so" to ""
+[40.040s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package
+[40.040s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv
+[40.040s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/joint_velservice.hpp
+[40.041s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/float_pos.hpp
+[40.041s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/endeffector_velservice.hpp
+[40.043s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/i_kservice.hpp
+[40.044s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail
+[40.044s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/float_pos__traits.hpp
+[40.047s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/joint_velservice__struct.hpp
+[40.047s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/i_kservice__traits.hpp
+[40.047s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/joint_velservice__traits.hpp
+[40.047s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/i_kservice__struct.hpp
+[40.047s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/float_pos__builder.hpp
+[40.048s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/i_kservice__builder.hpp
+[40.048s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/endeffector_velservice__struct.hpp
+[40.048s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/joint_velservice__builder.hpp
+[40.048s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/float_pos__struct.hpp
+[40.049s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/endeffector_velservice__traits.hpp
+[40.049s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/endeffector_velservice__builder.hpp
+[40.052s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg
+[40.052s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg/rot_pos.hpp
+[40.052s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg/vel_pos.hpp
+[40.052s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg/detail
+[40.052s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg/detail/rot_pos__traits.hpp
+[40.053s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg/detail/rot_pos__struct.hpp
+[40.053s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg/detail/vel_pos__traits.hpp
+[40.053s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg/detail/rot_pos__builder.hpp
+[40.053s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg/detail/vel_pos__struct.hpp
+[40.056s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg/detail/vel_pos__builder.hpp
+[40.056s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package
+[40.056s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv
+[40.057s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail
+[40.057s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/endeffector_velservice__rosidl_typesupport_fastrtps_cpp.hpp
+[40.057s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/dds_fastrtps
+[40.057s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/i_kservice__rosidl_typesupport_fastrtps_cpp.hpp
+[40.057s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/float_pos__rosidl_typesupport_fastrtps_cpp.hpp
+[40.057s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/joint_velservice__rosidl_typesupport_fastrtps_cpp.hpp
+[40.058s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg
+[40.058s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[40.058s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg/detail
+[40.059s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg/detail/rot_pos__rosidl_typesupport_fastrtps_cpp.hpp
+[40.059s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg/detail/vel_pos__rosidl_typesupport_fastrtps_cpp.hpp
+[40.060s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg/detail/dds_fastrtps
+[40.064s] -- Installing: /home/manav/robotis_ws/install/my_service_package/lib/libmy_service_package__rosidl_typesupport_fastrtps_cpp.so
+[40.064s] -- Set runtime path of "/home/manav/robotis_ws/install/my_service_package/lib/libmy_service_package__rosidl_typesupport_fastrtps_cpp.so" to ""
+[40.064s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package
+[40.064s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv
+[40.065s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail
+[40.065s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/endeffector_velservice__rosidl_typesupport_introspection_c.h
+[40.065s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/endeffector_velservice__type_support.c
+[40.065s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/float_pos__type_support.c
+[40.066s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/i_kservice__type_support.c
+[40.067s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/i_kservice__rosidl_typesupport_introspection_c.h
+[40.069s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/joint_velservice__rosidl_typesupport_introspection_c.h
+[40.069s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/joint_velservice__type_support.c
+[40.069s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/float_pos__rosidl_typesupport_introspection_c.h
+[40.069s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg
+[40.069s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[40.070s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg/detail
+[40.070s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg/detail/vel_pos__type_support.c
+[40.070s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg/detail/vel_pos__rosidl_typesupport_introspection_c.h
+[40.070s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg/detail/rot_pos__type_support.c
+[40.071s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg/detail/rot_pos__rosidl_typesupport_introspection_c.h
+[40.074s] -- Installing: /home/manav/robotis_ws/install/my_service_package/lib/libmy_service_package__rosidl_typesupport_introspection_c.so
+[40.075s] -- Set runtime path of "/home/manav/robotis_ws/install/my_service_package/lib/libmy_service_package__rosidl_typesupport_introspection_c.so" to ""
+[40.076s] -- Installing: /home/manav/robotis_ws/install/my_service_package/lib/libmy_service_package__rosidl_typesupport_c.so
+[40.078s] -- Set runtime path of "/home/manav/robotis_ws/install/my_service_package/lib/libmy_service_package__rosidl_typesupport_c.so" to ""
+[40.078s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package
+[40.078s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv
+[40.078s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail
+[40.078s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/joint_velservice__type_support.cpp
+[40.078s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/endeffector_velservice__rosidl_typesupport_introspection_cpp.hpp
+[40.082s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/i_kservice__type_support.cpp
+[40.082s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/endeffector_velservice__type_support.cpp
+[40.082s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/float_pos__type_support.cpp
+[40.082s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/float_pos__rosidl_typesupport_introspection_cpp.hpp
+[40.082s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/joint_velservice__rosidl_typesupport_introspection_cpp.hpp
+[40.083s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/srv/detail/i_kservice__rosidl_typesupport_introspection_cpp.hpp
+[40.083s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg
+[40.083s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg/detail
+[40.083s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg/detail/vel_pos__type_support.cpp
+[40.083s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg/detail/rot_pos__rosidl_typesupport_introspection_cpp.hpp
+[40.083s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg/detail/rot_pos__type_support.cpp
+[40.083s] -- Installing: /home/manav/robotis_ws/install/my_service_package/include/my_service_package/my_service_package/msg/detail/vel_pos__rosidl_typesupport_introspection_cpp.hpp
+[40.089s] -- Installing: /home/manav/robotis_ws/install/my_service_package/lib/libmy_service_package__rosidl_typesupport_introspection_cpp.so
+[40.090s] -- Set runtime path of "/home/manav/robotis_ws/install/my_service_package/lib/libmy_service_package__rosidl_typesupport_introspection_cpp.so" to ""
+[40.094s] -- Installing: /home/manav/robotis_ws/install/my_service_package/lib/libmy_service_package__rosidl_typesupport_cpp.so
+[40.095s] -- Set runtime path of "/home/manav/robotis_ws/install/my_service_package/lib/libmy_service_package__rosidl_typesupport_cpp.so" to ""
+[40.097s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/environment/pythonpath.sh
+[40.097s] -- Installing: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/environment/pythonpath.dsv
+[40.099s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package-0.0.0-py3.10.egg-info
+[40.099s] -- Installing: /home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package-0.0.0-py3.10.egg-info/top_level.txt
+[40.099s] -- Installing: /home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package-0.0.0-py3.10.egg-info/dependency_links.txt
+[40.100s] -- Installing: /home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package-0.0.0-py3.10.egg-info/PKG-INFO
+[40.102s] -- Installing: /home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package-0.0.0-py3.10.egg-info/SOURCES.txt
+[40.102s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package
+[40.102s] -- Installing: /home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package/_my_service_package_s.ep.rosidl_typesupport_introspection_c.c
+[40.102s] -- Installing: /home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package/libmy_service_package__rosidl_generator_py.so
+[40.102s] -- Installing: /home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package/my_service_package_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[40.102s] -- Installing: /home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package/_my_service_package_s.ep.rosidl_typesupport_fastrtps_c.c
+[40.103s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package/srv
+[40.103s] -- Installing: /home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package/srv/_i_kservice.py
+[40.104s] -- Installing: /home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package/srv/_float_pos_s.c
+[40.104s] -- Installing: /home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package/srv/_float_pos.py
+[40.104s] -- Installing: /home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package/srv/_joint_velservice_s.c
+[40.104s] -- Installing: /home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package/srv/_endeffector_velservice_s.c
+[40.105s] -- Installing: /home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package/srv/_endeffector_velservice.py
+[40.105s] -- Installing: /home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package/srv/_i_kservice_s.c
+[40.105s] -- Installing: /home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package/srv/_joint_velservice.py
+[40.105s] -- Installing: /home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package/srv/__init__.py
+[40.105s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package/msg
+[40.106s] -- Installing: /home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package/msg/_vel_pos.py
+[40.106s] -- Installing: /home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package/msg/_rot_pos.py
+[40.109s] -- Installing: /home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package/msg/_vel_pos_s.c
+[40.109s] -- Installing: /home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package/msg/_rot_pos_s.c
+[40.109s] -- Installing: /home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package/msg/__init__.py
+[40.109s] -- Installing: /home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package/_my_service_package_s.ep.rosidl_typesupport_c.c
+[40.110s] -- Installing: /home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package/my_service_package_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[40.110s] -- Installing: /home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package/my_service_package_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[40.110s] -- Installing: /home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package/__init__.py
+[40.223s] Listing '/home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package'...
+[40.224s] Compiling '/home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package/__init__.py'...
+[40.224s] Listing '/home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package/msg'...
+[40.224s] Compiling '/home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package/msg/__init__.py'...
+[40.224s] Compiling '/home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package/msg/_rot_pos.py'...
+[40.224s] Compiling '/home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package/msg/_vel_pos.py'...
+[40.224s] Listing '/home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package/srv'...
+[40.225s] Compiling '/home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package/srv/__init__.py'...
+[40.225s] Compiling '/home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package/srv/_endeffector_velservice.py'...
+[40.225s] Compiling '/home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package/srv/_float_pos.py'...
+[40.225s] Compiling '/home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package/srv/_i_kservice.py'...
+[40.225s] Compiling '/home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package/srv/_joint_velservice.py'...
+[40.236s] -- Installing: /home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package/my_service_package_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[40.236s] -- Set runtime path of "/home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package/my_service_package_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[40.240s] -- Installing: /home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package/my_service_package_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[40.241s] -- Set runtime path of "/home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package/my_service_package_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[40.243s] -- Installing: /home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package/my_service_package_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[40.244s] -- Set runtime path of "/home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages/my_service_package/my_service_package_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[40.247s] -- Installing: /home/manav/robotis_ws/install/my_service_package/lib/libmy_service_package__rosidl_generator_py.so
+[40.247s] -- Set runtime path of "/home/manav/robotis_ws/install/my_service_package/lib/libmy_service_package__rosidl_generator_py.so" to ""
+[40.248s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/msg/RotPos.idl
+[40.248s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/msg/VelPos.idl
+[40.249s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/srv/IKservice.idl
+[40.249s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/srv/JointVelservice.idl
+[40.249s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/srv/EndeffectorVelservice.idl
+[40.249s] -- Installing: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/srv/FloatPos.idl
+[40.250s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/msg/RotPos.msg
+[40.251s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/msg/VelPos.msg
+[40.251s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/srv/IKservice.srv
+[40.251s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/srv/IKservice_Request.msg
+[40.251s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/srv/IKservice_Response.msg
+[40.251s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/srv/JointVelservice.srv
+[40.252s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/srv/JointVelservice_Request.msg
+[40.252s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/srv/JointVelservice_Response.msg
+[40.253s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/srv/EndeffectorVelservice.srv
+[40.254s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/srv/EndeffectorVelservice_Request.msg
+[40.254s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/srv/EndeffectorVelservice_Response.msg
+[40.254s] -- Installing: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/srv/FloatPos.srv
+[40.254s] -- Installing: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/srv/FloatPos_Request.msg
+[40.257s] -- Installing: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/srv/FloatPos_Response.msg
+[40.257s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/ament_index/resource_index/package_run_dependencies/my_service_package
+[40.257s] -- Installing: /home/manav/robotis_ws/install/my_service_package/share/ament_index/resource_index/parent_prefix_path/my_service_package
+[40.258s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/environment/ament_prefix_path.sh
+[40.258s] -- Installing: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/environment/ament_prefix_path.dsv
+[40.258s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/environment/path.sh
+[40.258s] -- Installing: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/environment/path.dsv
+[40.258s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/local_setup.bash
+[40.259s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/local_setup.sh
+[40.259s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/local_setup.zsh
+[40.259s] -- Installing: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/local_setup.dsv
+[40.259s] -- Installing: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/package.dsv
+[40.259s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/ament_index/resource_index/packages/my_service_package
+[40.260s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/cmake/export_my_service_package__rosidl_generator_cExport.cmake
+[40.260s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/cmake/export_my_service_package__rosidl_generator_cExport-noconfig.cmake
+[40.260s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/cmake/export_my_service_package__rosidl_typesupport_fastrtps_cExport.cmake
+[40.260s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/cmake/export_my_service_package__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[40.261s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/cmake/export_my_service_package__rosidl_generator_cppExport.cmake
+[40.261s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/cmake/export_my_service_package__rosidl_typesupport_fastrtps_cppExport.cmake
+[40.261s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/cmake/export_my_service_package__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[40.262s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/cmake/my_service_package__rosidl_typesupport_introspection_cExport.cmake
+[40.262s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/cmake/my_service_package__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[40.263s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/cmake/my_service_package__rosidl_typesupport_cExport.cmake
+[40.263s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/cmake/my_service_package__rosidl_typesupport_cExport-noconfig.cmake
+[40.264s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/cmake/my_service_package__rosidl_typesupport_introspection_cppExport.cmake
+[40.264s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/cmake/my_service_package__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[40.264s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/cmake/my_service_package__rosidl_typesupport_cppExport.cmake
+[40.264s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/cmake/my_service_package__rosidl_typesupport_cppExport-noconfig.cmake
+[40.264s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/cmake/export_my_service_package__rosidl_generator_pyExport.cmake
+[40.265s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/cmake/export_my_service_package__rosidl_generator_pyExport-noconfig.cmake
+[40.266s] -- Installing: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/cmake/rosidl_cmake-extras.cmake
+[40.266s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/cmake/ament_cmake_export_dependencies-extras.cmake
+[40.266s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/cmake/ament_cmake_export_include_directories-extras.cmake
+[40.266s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/cmake/ament_cmake_export_libraries-extras.cmake
+[40.266s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/cmake/ament_cmake_export_targets-extras.cmake
+[40.266s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[40.266s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[40.267s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/cmake/my_service_packageConfig.cmake
+[40.267s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/cmake/my_service_packageConfig-version.cmake
+[40.267s] -- Up-to-date: /home/manav/robotis_ws/install/my_service_package/share/my_service_package/package.xml
+[40.272s] Invoked command in '/home/manav/robotis_ws/build/my_service_package' returned '0': CMAKE_PREFIX_PATH=/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/manav/robotis_ws/build/my_service_package

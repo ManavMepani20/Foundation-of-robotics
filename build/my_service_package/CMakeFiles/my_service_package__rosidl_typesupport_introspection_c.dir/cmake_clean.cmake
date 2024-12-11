@@ -1,0 +1,33 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/my_service_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_service_package/msg/detail/rot_pos__type_support.c.o"
+  "CMakeFiles/my_service_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_service_package/msg/detail/rot_pos__type_support.c.o.d"
+  "CMakeFiles/my_service_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_service_package/msg/detail/vel_pos__type_support.c.o"
+  "CMakeFiles/my_service_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_service_package/msg/detail/vel_pos__type_support.c.o.d"
+  "CMakeFiles/my_service_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_service_package/srv/detail/endeffector_velservice__type_support.c.o"
+  "CMakeFiles/my_service_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_service_package/srv/detail/endeffector_velservice__type_support.c.o.d"
+  "CMakeFiles/my_service_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_service_package/srv/detail/float_pos__type_support.c.o"
+  "CMakeFiles/my_service_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_service_package/srv/detail/float_pos__type_support.c.o.d"
+  "CMakeFiles/my_service_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_service_package/srv/detail/i_kservice__type_support.c.o"
+  "CMakeFiles/my_service_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_service_package/srv/detail/i_kservice__type_support.c.o.d"
+  "CMakeFiles/my_service_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_service_package/srv/detail/joint_velservice__type_support.c.o"
+  "CMakeFiles/my_service_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_service_package/srv/detail/joint_velservice__type_support.c.o.d"
+  "libmy_service_package__rosidl_typesupport_introspection_c.pdb"
+  "libmy_service_package__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/my_service_package/msg/detail/rot_pos__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/my_service_package/msg/detail/rot_pos__type_support.c"
+  "rosidl_typesupport_introspection_c/my_service_package/msg/detail/vel_pos__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/my_service_package/msg/detail/vel_pos__type_support.c"
+  "rosidl_typesupport_introspection_c/my_service_package/srv/detail/endeffector_velservice__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/my_service_package/srv/detail/endeffector_velservice__type_support.c"
+  "rosidl_typesupport_introspection_c/my_service_package/srv/detail/float_pos__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/my_service_package/srv/detail/float_pos__type_support.c"
+  "rosidl_typesupport_introspection_c/my_service_package/srv/detail/i_kservice__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/my_service_package/srv/detail/i_kservice__type_support.c"
+  "rosidl_typesupport_introspection_c/my_service_package/srv/detail/joint_velservice__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/my_service_package/srv/detail/joint_velservice__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/my_service_package__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

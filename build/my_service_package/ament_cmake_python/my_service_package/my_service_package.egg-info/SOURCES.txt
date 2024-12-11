@@ -1,0 +1,14 @@
+setup.py
+my_service_package/__init__.py
+my_service_package.egg-info/PKG-INFO
+my_service_package.egg-info/SOURCES.txt
+my_service_package.egg-info/dependency_links.txt
+my_service_package.egg-info/top_level.txt
+my_service_package/msg/__init__.py
+my_service_package/msg/_rot_pos.py
+my_service_package/msg/_vel_pos.py
+my_service_package/srv/__init__.py
+my_service_package/srv/_endeffector_velservice.py
+my_service_package/srv/_float_pos.py
+my_service_package/srv/_i_kservice.py
+my_service_package/srv/_joint_velservice.py

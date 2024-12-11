@@ -1,0 +1,4 @@
+/home/manav/robotis_ws/build/dynamixel_sdk_custom_interfaces/rosidl_adapter/dynamixel_sdk_custom_interfaces:msg/SetPosition.idl
+/home/manav/robotis_ws/build/dynamixel_sdk_custom_interfaces/rosidl_adapter/dynamixel_sdk_custom_interfaces:msg/SetCurrent.idl
+/home/manav/robotis_ws/build/dynamixel_sdk_custom_interfaces/rosidl_adapter/dynamixel_sdk_custom_interfaces:srv/GetPosition.idl
+/home/manav/robotis_ws/build/dynamixel_sdk_custom_interfaces/rosidl_adapter/dynamixel_sdk_custom_interfaces:srv/GetCurrent.idl

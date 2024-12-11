@@ -1,0 +1,42 @@
+[3.344s] Invoking command in '/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/rbe500_example_py': PYTHONPATH=/home/manav/robotis_ws/build/rbe500_example_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manav/robotis_ws/install/rbe500_example_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/rbe500_example_py build --build-base /home/manav/robotis_ws/build/rbe500_example_py/build install --record /home/manav/robotis_ws/build/rbe500_example_py/install.log --single-version-externally-managed install_data
+[4.574s] Traceback (most recent call last):
+[4.574s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2851, in get_entry_map
+[4.577s]     ep_map = self._ep_map
+[4.577s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2813, in __getattr__
+[4.577s]     raise AttributeError(attr)
+[4.578s] AttributeError: _ep_map. Did you mean: '_dep_map'?
+[4.578s] 
+[4.578s] During handling of the above exception, another exception occurred:
+[4.578s] 
+[4.578s] Traceback (most recent call last):
+[4.579s]   File "/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/rbe500_example_py/setup.py", line 5, in <module>
+[4.579s]     setup(
+[4.579s]   File "/home/manav/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 152, in setup
+[4.581s]     _install_setup_requires(attrs)
+[4.582s]   File "/home/manav/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 142, in _install_setup_requires
+[4.582s]     dist = MinimalDistribution(attrs)
+[4.583s]   File "/home/manav/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 134, in __init__
+[4.584s]     distutils.core.Distribution.__init__(self, filtered)
+[4.584s]   File "/home/manav/.local/lib/python3.10/site-packages/setuptools/dist.py", line 451, in __init__
+[4.584s]     for ep in pkg_resources.iter_entry_points('distutils.setup_keywords'):
+[4.584s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 641, in <genexpr>
+[4.585s]     for entry in dist.get_entry_map(group).values()
+[4.586s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2853, in get_entry_map
+[4.586s]     ep_map = self._ep_map = EntryPoint.parse_map(
+[4.586s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2542, in parse_map
+[4.586s]     maps[group] = cls.parse_group(group, lines, dist)
+[4.587s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2520, in parse_group
+[4.588s]     ep = cls.parse(line, dist)
+[4.588s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2500, in parse
+[4.588s]     extras = cls._parse_extras(res['extras'])
+[4.588s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2508, in _parse_extras
+[4.590s]     req = Requirement.parse('x' + extras_spec)
+[4.591s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3139, in parse
+[4.591s]     req, = parse_requirements(s)
+[4.591s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3084, in parse_requirements
+[4.593s]     yield Requirement(line)
+[4.594s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3094, in __init__
+[4.596s]     super(Requirement, self).__init__(requirement_string)
+[4.596s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/requirements.py", line 119, in __init__
+[4.596s]     self.extras = set(req.extras.asList() if req.extras else [])
+[4.596s] KeyboardInterrupt

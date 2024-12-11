@@ -1,0 +1,12 @@
+[0.063s] Invoking command in '/home/manav/robotis_ws/build/open_manipulator_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manav/robotis_ws/install/vel_kinematics:/home/manav/robotis_ws/install/rbe500_example_py:/home/manav/robotis_ws/install/inverse:/home/manav/robotis_ws/install/forward:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/manav/robotis_ws/build/open_manipulator_msgs -- -j4 -l4
+[0.495s] [  1%] Built target open_manipulator_msgs__cpp
+[0.651s] [  1%] Built target ament_cmake_python_copy_open_manipulator_msgs
+[0.658s] [ 12%] Built target open_manipulator_msgs__rosidl_generator_c
+[0.704s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_open_manipulator_msgs_egg.dir/build.make:85: CMakeFiles/ament_cmake_python_build_open_manipulator_msgs_egg.dir/depend] Interrupt
+[0.705s] gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/open_manipulator_msgs__rosidl_typesupport_cpp.dir/all] Interrupt
+[0.705s] gmake[1]: *** [CMakeFiles/Makefile2:292: CMakeFiles/open_manipulator_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt
+[0.706s] gmake[1]: *** [CMakeFiles/Makefile2:446: CMakeFiles/ament_cmake_python_build_open_manipulator_msgs_egg.dir/all] Interrupt
+[0.706s] gmake[2]: *** [CMakeFiles/open_manipulator_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:393: CMakeFiles/open_manipulator_msgs__rosidl_typesupport_introspection_cpp.dir/depend] Interrupt
+[0.707s] gmake[1]: *** [CMakeFiles/Makefile2:368: CMakeFiles/open_manipulator_msgs__rosidl_typesupport_introspection_cpp.dir/all] Interrupt
+[0.707s] gmake: *** [Makefile:146: all] Interrupt
+[0.726s] Invoked command in '/home/manav/robotis_ws/build/open_manipulator_msgs' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manav/robotis_ws/install/vel_kinematics:/home/manav/robotis_ws/install/rbe500_example_py:/home/manav/robotis_ws/install/inverse:/home/manav/robotis_ws/install/forward:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/manav/robotis_ws/build/open_manipulator_msgs -- -j4 -l4

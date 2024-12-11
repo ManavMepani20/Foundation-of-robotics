@@ -1,0 +1,5 @@
+gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_copy_my_service_package.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/my_service_package__rosidl_generator_c.dir/build.make:317: CMakeFiles/my_service_package__rosidl_generator_c.dir/depend] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/my_service_package__rosidl_generator_c.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:266: CMakeFiles/my_service_package__cpp.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

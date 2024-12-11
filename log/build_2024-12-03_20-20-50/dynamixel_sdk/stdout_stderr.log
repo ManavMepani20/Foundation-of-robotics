@@ -1,0 +1,2 @@
+[100%] Built target dynamixel_sdk
+gmake: *** [Makefile:147: all] Interrupt

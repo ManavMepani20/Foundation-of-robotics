@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/inverse/setup.py", line 1, in <module>
+    from setuptools import find_packages, setup
+  File "/home/manav/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 16, in <module>
+    import setuptools.version
+  File "/home/manav/.local/lib/python3.10/site-packages/setuptools/version.py", line 1, in <module>
+    import pkg_resources
+  File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 78, in <module>
+    __import__('pkg_resources.extern.packaging.requirements')
+  File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/requirements.py", line 9, in <module>
+    from pkg_resources.extern.pyparsing import stringStart, stringEnd, originalTextFor, ParseException
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1002, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 937, in _find_spec
+KeyboardInterrupt

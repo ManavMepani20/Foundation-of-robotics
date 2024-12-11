@@ -1,0 +1,21 @@
+[1.942s] Invoking command in '/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/rbe500_example_py': PYTHONPATH=/home/manav/robotis_ws/build/rbe500_example_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manav/robotis_ws/install/rbe500_example_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/rbe500_example_py build --build-base /home/manav/robotis_ws/build/rbe500_example_py/build install --record /home/manav/robotis_ws/build/rbe500_example_py/install.log --single-version-externally-managed install_data
+[3.075s] running egg_info
+[3.076s] writing ../../../build/rbe500_example_py/rbe500_example_py.egg-info/PKG-INFO
+[3.076s] writing dependency_links to ../../../build/rbe500_example_py/rbe500_example_py.egg-info/dependency_links.txt
+[3.077s] writing entry points to ../../../build/rbe500_example_py/rbe500_example_py.egg-info/entry_points.txt
+[3.077s] writing requirements to ../../../build/rbe500_example_py/rbe500_example_py.egg-info/requires.txt
+[3.078s] writing top-level names to ../../../build/rbe500_example_py/rbe500_example_py.egg-info/top_level.txt
+[3.083s] reading manifest file '../../../build/rbe500_example_py/rbe500_example_py.egg-info/SOURCES.txt'
+[3.084s] writing manifest file '../../../build/rbe500_example_py/rbe500_example_py.egg-info/SOURCES.txt'
+[3.084s] running build
+[3.084s] running build_py
+[3.084s] running install
+[3.085s] running install_lib
+[3.087s] running install_data
+[3.090s] running install_egg_info
+[3.100s] removing '/home/manav/robotis_ws/install/rbe500_example_py/lib/python3.10/site-packages/rbe500_example_py-0.0.0-py3.10.egg-info' (and everything under it)
+[3.103s] Copying ../../../build/rbe500_example_py/rbe500_example_py.egg-info to /home/manav/robotis_ws/install/rbe500_example_py/lib/python3.10/site-packages/rbe500_example_py-0.0.0-py3.10.egg-info
+[3.109s] running install_scripts
+[3.179s] Installing basic_robot_control script to /home/manav/robotis_ws/install/rbe500_example_py/lib/rbe500_example_py
+[3.179s] writing list of installed files to '/home/manav/robotis_ws/build/rbe500_example_py/install.log'
+[3.269s] Invoked command in '/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/rbe500_example_py' returned '0': PYTHONPATH=/home/manav/robotis_ws/build/rbe500_example_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manav/robotis_ws/install/rbe500_example_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/rbe500_example_py build --build-base /home/manav/robotis_ws/build/rbe500_example_py/build install --record /home/manav/robotis_ws/build/rbe500_example_py/install.log --single-version-externally-managed install_data

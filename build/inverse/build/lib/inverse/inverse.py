@@ -1,0 +1,258 @@
+# Importing required libraries
+import rclpy
+from rclpy.node import Node
+from geometry_msgs.msg import Point, Quaternion
+from sensor_msgs.msg import JointState
+from open_manipulator_msgs.srv import SetJointPosition
+import math
+import numpy as np
+from my_service_package.srv import IKservice
+
+
+class Inverse(Node):
+    def __init__(self):
+        super().__init__('Inverse_srv')
+
+        # Link lengths (initialize these as per your manipulator's configuration)
+        self.L1 = 36.076
+        self.L2 = 60.25
+        self.L3 = 130.23
+        self.L4 = 124
+        self.L5 = 133.4
+        self.get_logger().info(f'Lengths are [{self.L1}, {self.L2}, {self.L3}, {self.L4}, {self.L5}]')
+
+        # Creating the service for inverse kinematics
+        self.srv = self.create_service(IKservice, 'calculate_ik', self.calculate_ik_callback)
+        self.get_logger().info('Inverse Kinematics Service Server is ready.')
+
+    def calculate_ik_callback(self, request, response):
+        position = request.position
+        orientation = request.orientation
+        grip_position = request.claw
+
+        self.get_logger().info(f"Received {len(position)} positions and orientations for IK calculation.")
+
+        try:
+            # Perform IK and return joint angles
+            joint_positions, success = self.perform_ik(position, orientation)
+            #grip_position = np.array([0.01, -0.01, -0.01, 0.01])  # Example grip positions
+
+            if success:
+                response.joint_positions = [angle for joint in joint_positions for angle in joint]
+                response.success = True
+
+                # Pass the joint positions to the robot controller
+                if not hasattr(self, 'basic_robot_control'):
+                    self.basic_robot_control = BasicRobotControl(self)
+
+                for idx, joint_set in enumerate(joint_positions):
+                    self.basic_robot_control.send_request(joint_set)
+                    self.basic_robot_control.wait_until_position_reached()
+
+                    # Control the gripper for each position (open and close alternately)
+                    grip_target = grip_position[idx]
+                    self.basic_robot_control.control_gripper(grip_target)
+                    self.basic_robot_control.wait_until_gripper_reached(grip_target)
+                    
+            else:
+                response.success = False
+
+        except Exception as e:
+            self.get_logger().error(f"IK calculation failed: {e}")
+            response.success = False
+
+        return response
+
+    def perform_ik(self, positions, orientations):
+        joint_positions = []
+        success = True
+        A1 = math.radians(10.62)
+
+        for idx, (pos, orient) in enumerate(zip(positions, orientations)):
+            self.get_logger().info(f"Calculating IK for position {idx}: x={pos.x}, y={pos.y}, z={pos.z}")
+            self.get_logger().info(f"Orientation {idx}: x={orient.x}, y={orient.y}, z={orient.z}, w={orient.w}")
+
+            try:
+                # Link lengths
+                l1 = self.L1
+                l2 = self.L2
+                l3 = self.L3
+                l4 = self.L4
+                l5 = self.L5
+
+                xi, yi, zi = pos.x, pos.y, pos.z
+                qx, qy, qz, qw = orient.x, orient.y, orient.z, orient.w
+
+                # Normalize the quaternion
+                norm = np.sqrt(qw**2 + qx**2 + qy**2 + qz**2)
+                qw, qx, qy, qz = qw / norm, qx / norm, qy / norm, qz / norm
+
+                # Calculate the rotation matrix
+                R = np.array([
+                    [1 - 2 * (qy**2 + qz**2), 2 * (qx * qy - qz * qw), 2 * (qx * qz + qy * qw)],
+                    [2 * (qx * qy + qz * qw), 1 - 2 * (qx**2 + qz**2), 2 * (qy * qz - qx * qw)],
+                    [2 * (qx * qz - qy * qw), 2 * (qy * qz + qx * qw), 1 - 2 * (qx**2 + qy**2)]
+                ])
+
+                # Adjust for kinematic offsets
+                oi = np.array([[xi], [yi], [zi]])
+                k = np.array([[1], [0], [0]])  # Unit vector along x-axis
+                of = oi - np.dot(R, k) * l5
+
+                x, y, z = of[0][0], of[1][0], of[2][0]
+
+                # Calculate joint angles
+                theta1 = math.atan2(y, x)
+                
+                d =  x**2 + y**2 + (z - (l1 + l2))**2
+                D = (d - l3**2 - l4**2) / (2 * l3 * l4)
+
+                if abs(D) > 1:  # Check for valid IK solution
+                    self.get_logger().error(f"No valid IK solution for position {idx}. D={D}")
+                    success = False
+                    break
+
+                theta3 = (math.atan2(math.sqrt(1 - D**2), D) + A1)
+                theta3_t = (theta3 - math.pi/2) 
+
+                #theta2 = math.atan2((z - (l1 + l2)), math.sqrt(x**2 + y**2)) - math.atan2(l4 * math.sin(theta3), (l3 + l4 * math.cos(theta3)))
+                #for theta2:
+                cos_gama = (l3**2 + d - l4**2)/(2*l3*math.sqrt(d))
+                gama = math.atan2(math.sqrt(1 - cos_gama**2), cos_gama)
+                alpha = math.atan2((z - (l1 + l2)), math.sqrt(x**2 + y**2))
+                self.get_logger().info(f"gama and alpha {idx}: {gama}, {alpha}")
+                theta2 = 1.57 - (A1 + gama + alpha)
+                
+                
+                c = math.atan2((oi[2][0]-z), (math.sqrt(oi[0][0]**2 + oi[1][0]**2) - math.sqrt(x**2 + y**2)))
+                self.get_logger().info(f"c {idx}: {c}")
+                theta4 = -c + 1.57 - (theta2 + theta3)
+                
+                theta2 = -theta2 
+                theta3_t = -(theta3_t)
+                theta4 = -theta4 
+
+                self.get_logger().info(f"Joint angles for position {idx}: {theta1}, {theta2}, {theta3_t}, {theta4}")
+                joint_positions.append([theta1, theta2, theta3_t, theta4])
+
+            except Exception as e:
+                self.get_logger().error(f"Error calculating IK for position {idx}: {e}")
+                success = False
+                break
+
+        return joint_positions, success
+
+
+class BasicRobotControl(Node):
+    def __init__(self, parent_node):
+        super().__init__('basic_robot_control')
+
+        self.parent_node = parent_node
+        self.current_joint_states = None
+        self.joint_positions = None 
+        self.joint_state_received = False
+
+        # Create service client
+        self.client = self.create_client(SetJointPosition, 'goal_joint_space_path')
+        while not self.client.wait_for_service(timeout_sec=1.0):
+            self.get_logger().info('Waiting for SetJointPosition service...')
+            
+        self.gripper_client = self.create_client(SetJointPosition, '/goal_tool_control')
+        while not self.gripper_client.wait_for_service(timeout_sec=1.0):
+            self.get_logger().info('Waiting for /goal_tool_control service...')
+
+        # Subscribe to /joint_states
+        self.create_subscription(JointState, '/joint_states', self.joint_state_callback, 10)
+
+    def joint_state_callback(self, msg):
+        self.current_joint_states = msg.position
+        self.joint_state_received = True
+        #self.get_logger().info(f"Joint state received: {self.current_joint_states}")
+
+    def send_request(self, joint_positions):
+        # Send the joint positions using SetJointPosition service
+        self.joint_positions = joint_positions
+        request = SetJointPosition.Request()
+        request.planning_group = ''
+        request.joint_position.joint_name = ['joint1', 'joint2', 'joint3', 'joint4']
+        request.joint_position.position = joint_positions
+        request.path_time = 2.0
+
+        self.future = self.client.call_async(request)
+
+    def wait_until_position_reached(self):
+        # Wait for the service response
+        rclpy.spin_until_future_complete(self, self.future)
+        if self.future.done():
+            try:
+                self.future.result()
+                self.get_logger().info("Service call succeeded. Waiting for robot to reach position.")
+            except Exception as e:
+                self.get_logger().error(f"Service call failed: {e}")
+                return
+
+        # Wait until joint angles match target
+        tolerance = 0.05  # Allowable difference in joint angles
+        while rclpy.ok():
+            rclpy.spin_once(self)
+            if self.joint_state_received and self.current_joint_states:
+                differences = [abs(target - current) for target, current in zip(self.joint_positions, self.current_joint_states)]
+                if all(diff < tolerance for diff in differences):
+                    self.get_logger().info("Target joint angles reached.")
+                    break
+
+    def control_gripper(self, grip_position):
+        # Control the gripper using /goal_tool_control service
+        
+        request = SetJointPosition.Request()
+        request.joint_position.joint_name = ['gripper']
+        request.joint_position.position = [grip_position]
+        request.joint_position.max_accelerations_scaling_factor = 1.0
+        request.joint_position.max_velocity_scaling_factor = 1.0
+        request.path_time = 1.0
+
+        self.future_gripper = self.gripper_client.call_async(request)
+        
+    def wait_until_gripper_reached(self, grip_position):
+        # Wait for the gripper service response
+        rclpy.spin_until_future_complete(self, self.future_gripper)
+        if self.future_gripper.done():
+            result = self.future_gripper.result()
+            self.get_logger().info(f"Gripper service call result: {result}")
+            
+            try:
+                self.future_gripper.result()
+                self.get_logger().info(f"Gripper service call succeeded. Waiting for gripper to reach position {grip_position}.")
+            except Exception as e:
+                self.get_logger().error(f"Gripper service call failed: {e}")
+                return
+
+        # Wait until the gripper position matches the target
+        tolerance = 0.05  # Allowable difference in gripper position
+        while rclpy.ok():
+            rclpy.spin_once(self)
+            if self.joint_state_received and self.current_joint_states:
+                # Assuming the gripper position is the last in `current_joint_states`
+                current_gripper_position = self.current_joint_states[-1]
+                diff_grip = (abs(current_gripper_position - grip_position))*10**3
+                #self.get_logger().info(f"Difference for gripper: {diff_grip}")
+                
+                if diff_grip < tolerance:
+                    self.get_logger().info("Target gripper position reached.")
+                    break
+
+def main(args=None):
+    rclpy.init(args=args)
+    node = Inverse()
+    try:
+        rclpy.spin(node)
+    except KeyboardInterrupt:
+        node.get_logger().info("Node stopped cleanly.")
+    finally:
+        node.destroy_node()
+        rclpy.shutdown()
+
+
+if __name__ == '__main__':
+    main()
+

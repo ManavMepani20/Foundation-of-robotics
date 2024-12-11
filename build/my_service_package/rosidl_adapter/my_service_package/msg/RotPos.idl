@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from my_service_package/msg/RotPos.msg
+// generated code does not contain a copyright notice
+
+
+module my_service_package {
+  module msg {
+    struct RotPos {
+      sequence<double> r;
+
+      sequence<double> o;
+    };
+  };
+};

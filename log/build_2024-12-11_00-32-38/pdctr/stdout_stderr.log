@@ -1,0 +1,38 @@
+running egg_info
+creating ../../../build/pdctr/pdctr.egg-info
+writing ../../../build/pdctr/pdctr.egg-info/PKG-INFO
+writing dependency_links to ../../../build/pdctr/pdctr.egg-info/dependency_links.txt
+writing entry points to ../../../build/pdctr/pdctr.egg-info/entry_points.txt
+writing requirements to ../../../build/pdctr/pdctr.egg-info/requires.txt
+writing top-level names to ../../../build/pdctr/pdctr.egg-info/top_level.txt
+writing manifest file '../../../build/pdctr/pdctr.egg-info/SOURCES.txt'
+reading manifest file '../../../build/pdctr/pdctr.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../build/pdctr/pdctr.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/manav/robotis_ws/build/pdctr/build
+creating /home/manav/robotis_ws/build/pdctr/build/lib
+creating /home/manav/robotis_ws/build/pdctr/build/lib/pdctr
+copying pdctr/current_calc_send.py -> /home/manav/robotis_ws/build/pdctr/build/lib/pdctr
+copying pdctr/motor_control.py -> /home/manav/robotis_ws/build/pdctr/build/lib/pdctr
+copying pdctr/__init__.py -> /home/manav/robotis_ws/build/pdctr/build/lib/pdctr
+running install
+running install_lib
+creating /home/manav/robotis_ws/install/pdctr/lib/python3.10/site-packages/pdctr
+copying /home/manav/robotis_ws/build/pdctr/build/lib/pdctr/current_calc_send.py -> /home/manav/robotis_ws/install/pdctr/lib/python3.10/site-packages/pdctr
+copying /home/manav/robotis_ws/build/pdctr/build/lib/pdctr/motor_control.py -> /home/manav/robotis_ws/install/pdctr/lib/python3.10/site-packages/pdctr
+copying /home/manav/robotis_ws/build/pdctr/build/lib/pdctr/__init__.py -> /home/manav/robotis_ws/install/pdctr/lib/python3.10/site-packages/pdctr
+byte-compiling /home/manav/robotis_ws/install/pdctr/lib/python3.10/site-packages/pdctr/current_calc_send.py to current_calc_send.cpython-310.pyc
+byte-compiling /home/manav/robotis_ws/install/pdctr/lib/python3.10/site-packages/pdctr/motor_control.py to motor_control.cpython-310.pyc
+byte-compiling /home/manav/robotis_ws/install/pdctr/lib/python3.10/site-packages/pdctr/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/manav/robotis_ws/install/pdctr/share/ament_index
+creating /home/manav/robotis_ws/install/pdctr/share/ament_index/resource_index
+creating /home/manav/robotis_ws/install/pdctr/share/ament_index/resource_index/packages
+copying resource/pdctr -> /home/manav/robotis_ws/install/pdctr/share/ament_index/resource_index/packages
+copying package.xml -> /home/manav/robotis_ws/install/pdctr/share/pdctr
+running install_egg_info
+Copying ../../../build/pdctr/pdctr.egg-info to /home/manav/robotis_ws/install/pdctr/lib/python3.10/site-packages/pdctr-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/manav/robotis_ws/build/pdctr/install.log'

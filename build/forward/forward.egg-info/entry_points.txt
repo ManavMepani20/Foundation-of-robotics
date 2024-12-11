@@ -1,0 +1,3 @@
+[console_scripts]
+fwd_call = forward.forward:main
+

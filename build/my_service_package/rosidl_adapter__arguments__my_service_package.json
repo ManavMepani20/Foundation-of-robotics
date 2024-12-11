@@ -1,0 +1,11 @@
+{
+  "package_name": "my_service_package",
+  "non_idl_tuples": [
+    "/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/my_service_package:msg/RotPos.msg",
+    "/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/my_service_package:msg/VelPos.msg",
+    "/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/my_service_package:srv/IKservice.srv",
+    "/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/my_service_package:srv/JointVelservice.srv",
+    "/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/my_service_package:srv/EndeffectorVelservice.srv",
+    "/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/my_service_package:srv/FloatPos.srv"
+  ]
+}

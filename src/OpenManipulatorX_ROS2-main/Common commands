@@ -1,0 +1,69 @@
+Common commands:
+
+ros2 pkg create --build-type ament_python --license Apache-2.0 [package name]    #for creating a pkg for python code
+
+ros2 pkg create --build-type ament_cmake --license Apache-2.0 [package name]   #for creating a pkg for services
+
+source install/setup.bash
+
+colcon build --packages-select [package name]
+
+ros2 interface show my_service_package/srv/IKservice
+
+ls /dev/ttyUSB*
+
+ros2 topic echo /joint_states
+
+ros2 topic pub /joint_states sensor_msgs/msg/JointState "{name: ['joint1', 'joint2', 'joint3', 'joint4'], position: [1.0, 1.0, 1.0, 1.0]}" --once
+
+
+***************************************************************************************
+For connecting to the arm:
+
+ros2 launch open_manipulator_x_controller open_manipulator_x_controller.launch.py
+
+***************************************************************************************
+For controlling gripper:
+
+ros2 service call /goal_tool_control open_manipulator_msgs/srv/SetJointPosition "{joint_position: {joint_name: ['gripper'], position: [0.0111], max_accelerations_scaling_factor: 0.2, max_velocity_scaling_factor: 0.2}, path_time: 5.0}"
+
+***************************************************************************************
+For inverse kinematics:
+
+ros2 service call /calculate_ik my_service_package/srv/IKservice "{position: [{x: 283.8005, y: 0.4353, z: 215.1219},{x: 155.2279, y: -84.5081, z: 55.4007}, {x: 1.2018, y: 261.1689, z: 297.3696}, {x: 155.2279, y: -84.5081, z: 55.4007}], orientation: [{x: 0.7071, y: 0.0, z: 0.0, w: 0.7071},{x: 0.6080, y: 0.3610, z: -0.6078, w: 0.3614}, {x: 0.6147, y: 0.3494, z: 0.6147, w: 0.3494}, {x: 0.6080, y: 0.3610, z: -0.6078, w: 0.3614}]}"
+
+ros2 service call /calculate_ik my_service_package/srv/IKservice "{position: [{x: 283.8005, y: 0.4353, z: 215.1219},{x: -88.8109, y: 112.3722, z: 186.6355}], orientation: [{x: 0.7071, y: 0.0, z: 0.0, w: 0.7071},{x: 0.0887, y: 0.7015, z: 0.5046, w: 0.4954}]}"
+
+
+ros2 service call /calculate_ik my_service_package/srv/IKservice "{position: [{x: 283.80, y: 0.43, z: 215.12},{x: 208.38, y: -128.40, z: 117.31}], orientation: [{x: 0.7071, y: 0.0, z: 0.0, w: 0.7071},{x: 0.6345, y: -0.3121, z: -0.0671, w: 0.7039}]}"
+
+ros2 service call /calculate_ik my_service_package/srv/IKservice "{position: [{x: 283.80, y: 0.43, z: 215.12}, {x: 122.23, y: 86.08, z: 65.53}], orientation: [{x: 0.7071, y: 0.0, z: 0.0, w: 0.7071},{x: 0.3109, y: 0.6415, z: -0.3614, w: 0.6009}], claw: [0.01, -0.01, -0.01, 0.01]}"
+
+***************************************************************************************
+For giving Joint vel
+
+ros2 service call /calculate_twist my_service_package/srv/JointVelservice "{joint_velocity: [1.0, 1.0, 1.0, 1.0]}"
+
+***************************************************************************************
+For giving Twist
+
+ros2 service call /calculate_jointvel my_service_package/srv/EndeffectorVelservice "{endeffector_velocity: {linear: {x: 1.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.0}}}"
+
+***************************************************************************************
+for publishing const velocity
+
+ros2 topic pub /ConstEndvel geometry_msgs/msg/Twist "{linear: {x: 1.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.0}}" --once
+
+ros2 topic pub /ConstEndvel my_service_package/msg/VelPos "{twist: {linear: {x: 1.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.0}}, pos: {1.0, 1.0, 1.0, 1.0}}" --once
+
+***************************************************************************************
+For publishing and getting the current
+
+ros2 topic pub /set_current dynamixel_sdk_custom_interfaces/msg/SetCurrent "{id: 1, current: 50}" 
+
+ros2 service call /get_current dynamixel_sdk_custom_interfaces/srv/GetCurrent "{id: 1}"
+
+***************************************************************************************
+For sending joint 4 pos values
+
+ros2 service call /currentcalc my_service_package/srv/FloatPos "{pos4: [1.0, 1.0, 1.0, 1.0]}"

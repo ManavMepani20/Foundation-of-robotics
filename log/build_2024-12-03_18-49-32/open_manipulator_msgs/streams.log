@@ -1,0 +1,14 @@
+[0.050s] Invoking command in '/home/manav/robotis_ws/build/open_manipulator_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manav/robotis_ws/install/vel_kinematics:/home/manav/robotis_ws/install/rbe500_example_py:/home/manav/robotis_ws/install/inverse:/home/manav/robotis_ws/install/forward:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/manav/robotis_ws/build/open_manipulator_msgs -- -j4 -l4
+[0.329s] [  1%] Built target open_manipulator_msgs__cpp
+[0.380s] [ 12%] Built target open_manipulator_msgs__rosidl_generator_c
+[0.409s] [ 12%] Built target ament_cmake_python_copy_open_manipulator_msgs
+[0.527s] [ 24%] Built target open_manipulator_msgs__rosidl_typesupport_fastrtps_cpp
+[0.573s] [ 35%] Built target open_manipulator_msgs__rosidl_typesupport_cpp
+[0.592s] [ 47%] Built target open_manipulator_msgs__rosidl_typesupport_introspection_cpp
+[0.694s] [ 58%] Built target open_manipulator_msgs__rosidl_typesupport_fastrtps_c
+[0.775s] gmake[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/open_manipulator_msgs__rosidl_typesupport_c.dir/all] Interrupt
+[0.776s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_open_manipulator_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_open_manipulator_msgs_egg] Interrupt
+[0.777s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_open_manipulator_msgs_egg.dir/all] Interrupt
+[0.780s] gmake[1]: *** [CMakeFiles/Makefile2:318: CMakeFiles/open_manipulator_msgs__rosidl_typesupport_introspection_c.dir/all] Interrupt
+[0.781s] gmake: *** [Makefile:146: all] Interrupt
+[0.795s] Invoked command in '/home/manav/robotis_ws/build/open_manipulator_msgs' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manav/robotis_ws/install/vel_kinematics:/home/manav/robotis_ws/install/rbe500_example_py:/home/manav/robotis_ws/install/inverse:/home/manav/robotis_ws/install/forward:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/manav/robotis_ws/build/open_manipulator_msgs -- -j4 -l4

@@ -1,0 +1,14 @@
+{
+  "package_name": "open_manipulator_msgs",
+  "non_idl_tuples": [
+    "/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/open_manipulator_msgs:msg/JointPosition.msg",
+    "/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/open_manipulator_msgs:msg/KinematicsPose.msg",
+    "/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/open_manipulator_msgs:msg/OpenManipulatorState.msg",
+    "/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/open_manipulator_msgs:srv/GetJointPosition.srv",
+    "/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/open_manipulator_msgs:srv/GetKinematicsPose.srv",
+    "/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/open_manipulator_msgs:srv/SetJointPosition.srv",
+    "/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/open_manipulator_msgs:srv/SetKinematicsPose.srv",
+    "/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/open_manipulator_msgs:srv/SetDrawingTrajectory.srv",
+    "/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/open_manipulator_msgs:srv/SetActuatorState.srv"
+  ]
+}

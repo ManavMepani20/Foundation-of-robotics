@@ -1,0 +1,10 @@
+[31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:213 (add_custom_target):
+  add_custom_target cannot create target "my_service_package" because another
+  target with the same name already exists.  The existing target is a custom
+  target created in source directory
+  "/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/my_service_package".
+  See documentation for policy CMP0002 for more details.
+Call Stack (most recent call first):
+  CMakeLists.txt:34 (rosidl_generate_interfaces)
+
+[0m

@@ -1,0 +1,35 @@
+[0.029s] Invoking command in '/home/manav/robotis_ws/build/robotis_manipulator': AMENT_PREFIX_PATH=/home/manav/robotis_ws/install/cmake_modules:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manav/robotis_ws/install/cmake_modules:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/manav/robotis_ws/build/robotis_manipulator -- -j4 -l4
+[0.268s] [100%] Built target robotis_manipulator
+[0.304s] Invoked command in '/home/manav/robotis_ws/build/robotis_manipulator' returned '0': AMENT_PREFIX_PATH=/home/manav/robotis_ws/install/cmake_modules:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manav/robotis_ws/install/cmake_modules:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/manav/robotis_ws/build/robotis_manipulator -- -j4 -l4
+[0.474s] Invoking command in '/home/manav/robotis_ws/build/robotis_manipulator': AMENT_PREFIX_PATH=/home/manav/robotis_ws/install/cmake_modules:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manav/robotis_ws/install/cmake_modules:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/manav/robotis_ws/build/robotis_manipulator
+[0.528s] -- Install configuration: ""
+[0.528s] -- Up-to-date: /home/manav/robotis_ws/install/robotis_manipulator/lib/librobotis_manipulator.so
+[0.528s] -- Up-to-date: /home/manav/robotis_ws/install/robotis_manipulator/include/
+[0.528s] -- Up-to-date: /home/manav/robotis_ws/install/robotis_manipulator/include//robotis_manipulator
+[0.529s] -- Up-to-date: /home/manav/robotis_ws/install/robotis_manipulator/include//robotis_manipulator/robotis_manipulator_math.h
+[0.529s] -- Up-to-date: /home/manav/robotis_ws/install/robotis_manipulator/include//robotis_manipulator/robotis_manipulator_trajectory_generator.h
+[0.529s] -- Up-to-date: /home/manav/robotis_ws/install/robotis_manipulator/include//robotis_manipulator/robotis_manipulator_log.h
+[0.529s] -- Up-to-date: /home/manav/robotis_ws/install/robotis_manipulator/include//robotis_manipulator/robotis_manipulator.h
+[0.529s] -- Up-to-date: /home/manav/robotis_ws/install/robotis_manipulator/include//robotis_manipulator/robotis_manipulator_common.h
+[0.529s] -- Up-to-date: /home/manav/robotis_ws/install/robotis_manipulator/include//robotis_manipulator/robotis_manipulator_manager.h
+[0.529s] -- Up-to-date: /home/manav/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/environment/library_path.sh
+[0.532s] -- Up-to-date: /home/manav/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/environment/library_path.dsv
+[0.532s] -- Up-to-date: /home/manav/robotis_ws/install/robotis_manipulator/share/ament_index/resource_index/package_run_dependencies/robotis_manipulator
+[0.532s] -- Up-to-date: /home/manav/robotis_ws/install/robotis_manipulator/share/ament_index/resource_index/parent_prefix_path/robotis_manipulator
+[0.532s] -- Up-to-date: /home/manav/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/environment/ament_prefix_path.sh
+[0.532s] -- Up-to-date: /home/manav/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/environment/ament_prefix_path.dsv
+[0.533s] -- Up-to-date: /home/manav/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/environment/path.sh
+[0.533s] -- Up-to-date: /home/manav/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/environment/path.dsv
+[0.533s] -- Up-to-date: /home/manav/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/local_setup.bash
+[0.533s] -- Up-to-date: /home/manav/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/local_setup.sh
+[0.533s] -- Up-to-date: /home/manav/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/local_setup.zsh
+[0.533s] -- Up-to-date: /home/manav/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/local_setup.dsv
+[0.535s] -- Installing: /home/manav/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/package.dsv
+[0.539s] -- Up-to-date: /home/manav/robotis_ws/install/robotis_manipulator/share/ament_index/resource_index/packages/robotis_manipulator
+[0.539s] -- Up-to-date: /home/manav/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.539s] -- Up-to-date: /home/manav/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.539s] -- Up-to-date: /home/manav/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/cmake/ament_cmake_export_libraries-extras.cmake
+[0.539s] -- Up-to-date: /home/manav/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/cmake/robotis_manipulatorConfig.cmake
+[0.542s] -- Up-to-date: /home/manav/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/cmake/robotis_manipulatorConfig-version.cmake
+[0.542s] -- Up-to-date: /home/manav/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/package.xml
+[0.542s] Invoked command in '/home/manav/robotis_ws/build/robotis_manipulator' returned '0': AMENT_PREFIX_PATH=/home/manav/robotis_ws/install/cmake_modules:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manav/robotis_ws/install/cmake_modules:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/manav/robotis_ws/build/robotis_manipulator

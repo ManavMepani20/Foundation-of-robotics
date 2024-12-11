@@ -1,0 +1,22 @@
+[0.061s] Invoking command in '/home/manav/robotis_ws/build/rbe500-example': AMENT_PREFIX_PATH=/home/manav/robotis_ws/install/open_manipulator_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manav/robotis_ws/install/open_manipulator_msgs:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/manav/robotis_ws/install/open_manipulator_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/manav/robotis_ws/build/rbe500-example -- -j4 -l4
+[0.389s] [100%] Built target basic_robot_control
+[0.432s] Invoked command in '/home/manav/robotis_ws/build/rbe500-example' returned '0': AMENT_PREFIX_PATH=/home/manav/robotis_ws/install/open_manipulator_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manav/robotis_ws/install/open_manipulator_msgs:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/manav/robotis_ws/install/open_manipulator_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/manav/robotis_ws/build/rbe500-example -- -j4 -l4
+[0.602s] Invoking command in '/home/manav/robotis_ws/build/rbe500-example': AMENT_PREFIX_PATH=/home/manav/robotis_ws/install/open_manipulator_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manav/robotis_ws/install/open_manipulator_msgs:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/manav/robotis_ws/install/open_manipulator_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/manav/robotis_ws/build/rbe500-example
+[0.621s] -- Install configuration: ""
+[0.623s] -- Up-to-date: /home/manav/robotis_ws/install/rbe500-example/lib/rbe500-example/basic_robot_control
+[0.624s] -- Up-to-date: /home/manav/robotis_ws/install/rbe500-example/share/ament_index/resource_index/package_run_dependencies/rbe500-example
+[0.624s] -- Up-to-date: /home/manav/robotis_ws/install/rbe500-example/share/ament_index/resource_index/parent_prefix_path/rbe500-example
+[0.624s] -- Up-to-date: /home/manav/robotis_ws/install/rbe500-example/share/rbe500-example/environment/ament_prefix_path.sh
+[0.625s] -- Up-to-date: /home/manav/robotis_ws/install/rbe500-example/share/rbe500-example/environment/ament_prefix_path.dsv
+[0.626s] -- Up-to-date: /home/manav/robotis_ws/install/rbe500-example/share/rbe500-example/environment/path.sh
+[0.626s] -- Up-to-date: /home/manav/robotis_ws/install/rbe500-example/share/rbe500-example/environment/path.dsv
+[0.626s] -- Up-to-date: /home/manav/robotis_ws/install/rbe500-example/share/rbe500-example/local_setup.bash
+[0.627s] -- Up-to-date: /home/manav/robotis_ws/install/rbe500-example/share/rbe500-example/local_setup.sh
+[0.627s] -- Up-to-date: /home/manav/robotis_ws/install/rbe500-example/share/rbe500-example/local_setup.zsh
+[0.628s] -- Up-to-date: /home/manav/robotis_ws/install/rbe500-example/share/rbe500-example/local_setup.dsv
+[0.628s] -- Installing: /home/manav/robotis_ws/install/rbe500-example/share/rbe500-example/package.dsv
+[0.629s] -- Up-to-date: /home/manav/robotis_ws/install/rbe500-example/share/ament_index/resource_index/packages/rbe500-example
+[0.630s] -- Up-to-date: /home/manav/robotis_ws/install/rbe500-example/share/rbe500-example/cmake/rbe500-exampleConfig.cmake
+[0.630s] -- Up-to-date: /home/manav/robotis_ws/install/rbe500-example/share/rbe500-example/cmake/rbe500-exampleConfig-version.cmake
+[0.630s] -- Up-to-date: /home/manav/robotis_ws/install/rbe500-example/share/rbe500-example/package.xml
+[0.636s] Invoked command in '/home/manav/robotis_ws/build/rbe500-example' returned '0': AMENT_PREFIX_PATH=/home/manav/robotis_ws/install/open_manipulator_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manav/robotis_ws/install/open_manipulator_msgs:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/manav/robotis_ws/install/open_manipulator_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/manav/robotis_ws/build/rbe500-example

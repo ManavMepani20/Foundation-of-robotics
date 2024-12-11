@@ -1,0 +1,3 @@
+[console_scripts]
+inv_call = inverse.inverse:main
+

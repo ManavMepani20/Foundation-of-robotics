@@ -1,0 +1,9 @@
+{
+  "package_name": "dynamixel_sdk_custom_interfaces",
+  "non_idl_tuples": [
+    "/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/DynamixelSDK/dynamixel_sdk_custom_interfaces:msg/SetPosition.msg",
+    "/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/DynamixelSDK/dynamixel_sdk_custom_interfaces:msg/SetCurrent.msg",
+    "/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/DynamixelSDK/dynamixel_sdk_custom_interfaces:srv/GetPosition.srv",
+    "/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/DynamixelSDK/dynamixel_sdk_custom_interfaces:srv/GetCurrent.srv"
+  ]
+}

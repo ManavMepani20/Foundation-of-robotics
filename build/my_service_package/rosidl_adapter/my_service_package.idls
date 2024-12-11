@@ -1,0 +1,6 @@
+/home/manav/robotis_ws/build/my_service_package/rosidl_adapter/my_service_package:msg/RotPos.idl
+/home/manav/robotis_ws/build/my_service_package/rosidl_adapter/my_service_package:msg/VelPos.idl
+/home/manav/robotis_ws/build/my_service_package/rosidl_adapter/my_service_package:srv/IKservice.idl
+/home/manav/robotis_ws/build/my_service_package/rosidl_adapter/my_service_package:srv/JointVelservice.idl
+/home/manav/robotis_ws/build/my_service_package/rosidl_adapter/my_service_package:srv/EndeffectorVelservice.idl
+/home/manav/robotis_ws/build/my_service_package/rosidl_adapter/my_service_package:srv/FloatPos.idl

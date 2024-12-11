@@ -1,0 +1,2 @@
+gmake[1]: *** [CMakeFiles/Makefile2:342: CMakeFiles/open_manipulator_msgs__rosidl_typesupport_c.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

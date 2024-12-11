@@ -1,0 +1,22 @@
+[2.945s] Invoking command in '/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/forward': PYTHONPATH=/home/manav/robotis_ws/build/forward/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manav/robotis_ws/install/forward/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/forward build --build-base /home/manav/robotis_ws/build/forward/build install --record /home/manav/robotis_ws/build/forward/install.log --single-version-externally-managed install_data
+[5.724s] running egg_info
+[5.724s] writing ../../../build/forward/forward.egg-info/PKG-INFO
+[5.728s] writing dependency_links to ../../../build/forward/forward.egg-info/dependency_links.txt
+[5.728s] writing entry points to ../../../build/forward/forward.egg-info/entry_points.txt
+[5.728s] writing requirements to ../../../build/forward/forward.egg-info/requires.txt
+[5.728s] writing top-level names to ../../../build/forward/forward.egg-info/top_level.txt
+[5.749s] reading manifest file '../../../build/forward/forward.egg-info/SOURCES.txt'
+[5.756s] adding license file 'LICENSE'
+[5.756s] writing manifest file '../../../build/forward/forward.egg-info/SOURCES.txt'
+[5.756s] running build
+[5.756s] running build_py
+[5.762s] running install
+[5.772s] running install_lib
+[5.779s] running install_data
+[5.779s] running install_egg_info
+[5.799s] removing '/home/manav/robotis_ws/install/forward/lib/python3.10/site-packages/forward-0.0.0-py3.10.egg-info' (and everything under it)
+[5.804s] Copying ../../../build/forward/forward.egg-info to /home/manav/robotis_ws/install/forward/lib/python3.10/site-packages/forward-0.0.0-py3.10.egg-info
+[5.805s] running install_scripts
+[6.000s] Installing fwd_call script to /home/manav/robotis_ws/install/forward/lib/forward
+[6.000s] writing list of installed files to '/home/manav/robotis_ws/build/forward/install.log'
+[8.144s] Invoked command in '/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/forward' returned '0': PYTHONPATH=/home/manav/robotis_ws/build/forward/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manav/robotis_ws/install/forward/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/forward build --build-base /home/manav/robotis_ws/build/forward/build install --record /home/manav/robotis_ws/build/forward/install.log --single-version-externally-managed install_data

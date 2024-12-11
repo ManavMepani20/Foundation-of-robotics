@@ -1,0 +1,26 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/manav/robotis_ws/install/rbe500_example_py/lib/python3.10/site-packages",
+        "/home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages",
+        "/home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages",
+        "/home/manav/robotis_ws/install/inverse/lib/python3.10/site-packages",
+        "/home/manav/robotis_ws/install/forward/lib/python3.10/site-packages",
+        "/home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages",
+        "/home/manav/ros2_test/build/my_robot_controller",
+        "/home/manav/ros2_test/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/manav/robotis_ws/install/rbe500_example_py/lib/python3.10/site-packages",
+        "/home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages",
+        "/home/manav/robotis_ws/install/my_service_package/local/lib/python3.10/dist-packages",
+        "/home/manav/robotis_ws/install/inverse/lib/python3.10/site-packages",
+        "/home/manav/robotis_ws/install/forward/lib/python3.10/site-packages",
+        "/home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages",
+        "/home/manav/ros2_test/build/my_robot_controller",
+        "/home/manav/ros2_test/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

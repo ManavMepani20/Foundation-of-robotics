@@ -1,0 +1,5 @@
+[console_scripts]
+velcalc_call = vel_kinematics.vel_calc:main
+velk_call = vel_kinematics.vel_kinematics:main
+velpub_call = vel_kinematics.vel_pub:main
+

@@ -1,0 +1,60 @@
+[2.854s] Invoking command in '/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/forward': PYTHONPATH=/home/manav/robotis_ws/build/forward/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manav/robotis_ws/install/forward/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/forward build --build-base /home/manav/robotis_ws/build/forward/build install --record /home/manav/robotis_ws/build/forward/install.log --single-version-externally-managed install_data
+[4.331s] Traceback (most recent call last):
+[4.331s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3016, in _dep_map
+[4.342s]     return self.__dep_map
+[4.343s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2813, in __getattr__
+[4.343s]     raise AttributeError(attr)
+[4.344s] AttributeError: _DistInfoDistribution__dep_map
+[4.344s] 
+[4.344s] During handling of the above exception, another exception occurred:
+[4.344s] 
+[4.344s] Traceback (most recent call last):
+[4.345s]   File "/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/forward/setup.py", line 5, in <module>
+[4.345s]     setup(
+[4.346s]   File "/home/manav/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 153, in setup
+[4.347s]     return distutils.core.setup(**attrs)
+[4.348s]   File "/usr/lib/python3.10/distutils/core.py", line 108, in setup
+[4.348s]     _setup_distribution = dist = klass(attrs)
+[4.348s]   File "/home/manav/.local/lib/python3.10/site-packages/setuptools/dist.py", line 453, in __init__
+[4.348s]     _Distribution.__init__(
+[4.348s]   File "/usr/lib/python3.10/distutils/dist.py", line 292, in __init__
+[4.348s]     self.finalize_options()
+[4.351s]   File "/home/manav/.local/lib/python3.10/site-packages/setuptools/dist.py", line 830, in finalize_options
+[4.351s]     for ep in sorted(loaded, key=by_order):
+[4.355s]   File "/home/manav/.local/lib/python3.10/site-packages/setuptools/dist.py", line 829, in <lambda>
+[4.355s]     loaded = map(lambda e: e.load(), filtered)
+[4.355s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2449, in load
+[4.356s]     self.require(*args, **kwargs)
+[4.356s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2471, in require
+[4.356s]     reqs = self.dist.requires(self.extras)
+[4.356s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2734, in requires
+[4.356s]     dm = self._dep_map
+[4.356s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3018, in _dep_map
+[4.356s]     self.__dep_map = self._compute_dependencies()
+[4.357s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3028, in _compute_dependencies
+[4.357s]     reqs.extend(parse_requirements(req))
+[4.357s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3084, in parse_requirements
+[4.357s]     yield Requirement(line)
+[4.357s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3094, in __init__
+[4.357s]     super(Requirement, self).__init__(requirement_string)
+[4.358s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/requirements.py", line 98, in __init__
+[4.364s]     req = REQUIREMENT.parseString(requirement_string)
+[4.365s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 1644, in parseString
+[4.365s]     loc, tokens = self._parse( instring, 0 )
+[4.365s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 1402, in _parseNoCache
+[4.368s]     loc,tokens = self.parseImpl( instring, preloc, doActions )
+[4.368s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 3417, in parseImpl
+[4.368s]     loc, exprtokens = e._parse( instring, loc, doActions )
+[4.370s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 1402, in _parseNoCache
+[4.370s]     loc,tokens = self.parseImpl( instring, preloc, doActions )
+[4.370s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 3739, in parseImpl
+[4.370s]     return self.expr._parse( instring, loc, doActions, callPreParse=False )
+[4.370s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 1402, in _parseNoCache
+[4.371s]     loc,tokens = self.parseImpl( instring, preloc, doActions )
+[4.371s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 3417, in parseImpl
+[4.371s]     loc, exprtokens = e._parse( instring, loc, doActions )
+[4.371s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 1410, in _parseNoCache
+[4.371s]     retTokens = ParseResults( tokens, self.resultsName, asList=self.saveAsList, modal=self.modalResults )
+[4.371s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 366, in __new__
+[4.371s]     retobj = object.__new__(cls)
+[4.374s] KeyboardInterrupt

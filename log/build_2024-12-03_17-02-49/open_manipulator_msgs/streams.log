@@ -1,0 +1,34 @@
+[0.043s] Invoking command in '/home/manav/robotis_ws/build/open_manipulator_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manav/robotis_ws/install/vel_kinematics:/home/manav/robotis_ws/install/rbe500_example_py:/home/manav/robotis_ws/install/inverse:/home/manav/robotis_ws/install/forward:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/manav/robotis_ws/build/open_manipulator_msgs -- -j4 -l4
+[0.239s] [  1%] Built target open_manipulator_msgs__cpp
+[0.286s] [ 12%] Built target open_manipulator_msgs__rosidl_generator_c
+[0.302s] [ 12%] Built target ament_cmake_python_copy_open_manipulator_msgs
+[0.333s] [ 24%] Built target open_manipulator_msgs__rosidl_typesupport_cpp
+[0.513s] [ 35%] Built target open_manipulator_msgs__rosidl_typesupport_introspection_c
+[0.513s] [ 47%] Built target open_manipulator_msgs__rosidl_typesupport_fastrtps_cpp
+[0.572s] [ 58%] Built target open_manipulator_msgs__rosidl_typesupport_fastrtps_c
+[0.648s] [ 70%] Built target open_manipulator_msgs__rosidl_typesupport_introspection_cpp
+[0.661s] [ 82%] Built target open_manipulator_msgs__rosidl_typesupport_c
+[0.734s] [ 82%] Built target open_manipulator_msgs
+[0.777s] Traceback (most recent call last):
+[0.779s]   File "/home/manav/robotis_ws/build/open_manipulator_msgs/ament_cmake_python/open_manipulator_msgs/setup.py", line 1, in <module>
+[0.779s]     from setuptools import find_packages
+[0.781s]   File "/home/manav/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 10, in <module>
+[0.781s] gmake[2]: *** [open_manipulator_msgs__py/CMakeFiles/open_manipulator_msgs__py.dir/build.make:282: open_manipulator_msgs__py/CMakeFiles/open_manipulator_msgs__py.dir/depend] Interrupt
+[0.782s]     import distutils.core
+[0.782s]   File "/usr/lib/python3.10/distutils/core.py", line 16, in <module>
+[0.782s] gmake[1]: *** [CMakeFiles/Makefile2:589: open_manipulator_msgs__py/CMakeFiles/open_manipulator_msgs__py.dir/all] Interrupt
+[0.798s]     from distutils.dist import Distribution
+[0.798s]   File "/usr/lib/python3.10/distutils/dist.py", line 18, in <module>
+[0.799s]     from distutils.fancy_getopt import FancyGetopt, translate_longopt
+[0.799s]   File "/usr/lib/python3.10/distutils/fancy_getopt.py", line 11, in <module>
+[0.799s]     import sys, string, re
+[0.799s]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[0.799s]   File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+[0.799s]   File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+[0.799s]   File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+[0.800s]   File "<frozen importlib._bootstrap_external>", line 1012, in get_code
+[0.805s]   File "<frozen importlib._bootstrap_external>", line 672, in _compile_bytecode
+[0.806s] KeyboardInterrupt
+[0.822s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_open_manipulator_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_open_manipulator_msgs_egg] Interrupt
+[0.827s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_open_manipulator_msgs_egg.dir/all] Interrupt
+[0.827s] gmake: *** [Makefile:146: all] Interrupt

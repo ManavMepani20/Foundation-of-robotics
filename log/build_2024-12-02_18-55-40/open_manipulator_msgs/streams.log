@@ -1,0 +1,13 @@
+[0.064s] Invoking command in '/home/manav/robotis_ws/build/open_manipulator_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manav/robotis_ws/install/vel_kinematics:/home/manav/robotis_ws/install/rbe500_example_py:/home/manav/robotis_ws/install/inverse:/home/manav/robotis_ws/install/forward:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/manav/robotis_ws/build/open_manipulator_msgs -- -j4 -l4
+[0.309s] [  1%] Built target open_manipulator_msgs__cpp
+[0.357s] [ 12%] Built target open_manipulator_msgs__rosidl_generator_c
+[0.467s] gmake[1]: *** [CMakeFiles/Makefile2:292: CMakeFiles/open_manipulator_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt
+[0.467s] gmake[2]: *** wait: No child processes.  Stop.
+[0.467s] gmake[2]: *** [CMakeFiles/open_manipulator_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:393: CMakeFiles/open_manipulator_msgs__rosidl_typesupport_introspection_cpp.dir/depend] Interrupt
+[0.467s] gmake[2]: *** Waiting for unfinished jobs....
+[0.467s] gmake[2]: *** wait: No child processes.  Stop.
+[0.467s] gmake[1]: *** [CMakeFiles/Makefile2:368: CMakeFiles/open_manipulator_msgs__rosidl_typesupport_introspection_cpp.dir/all] Interrupt
+[0.475s] gmake[1]: *** [CMakeFiles/Makefile2:394: CMakeFiles/open_manipulator_msgs__rosidl_typesupport_cpp.dir/all] Error 2
+[0.476s] gmake[2]: *** [CMakeFiles/ament_cmake_python_copy_open_manipulator_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_copy_open_manipulator_msgs] Interrupt
+[0.476s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_copy_open_manipulator_msgs.dir/all] Interrupt
+[0.476s] gmake: *** [Makefile:146: all] Interrupt
