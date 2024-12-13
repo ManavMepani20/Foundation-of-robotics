@@ -1,8 +1,0 @@
-[0.027s] Invoking command in '/home/manav/robotis_ws/build/my_service_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manav/robotis_ws/install/vel_kinematics:/home/manav/robotis_ws/install/rbe500_example_py:/home/manav/robotis_ws/install/inverse:/home/manav/robotis_ws/install/forward:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/manav/robotis_ws/build/my_service_package -- -j4 -l4
-[0.263s] [  1%] Built target my_service_package__cpp
-[0.393s] [  1%] Built target ament_cmake_python_copy_my_service_package
-[0.584s] [ 12%] Built target my_service_package__rosidl_typesupport_fastrtps_cpp
-[0.707s] [ 23%] Built target my_service_package__rosidl_typesupport_introspection_cpp
-[0.804s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_my_service_package_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_my_service_package_egg] Interrupt
-[0.810s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_my_service_package_egg.dir/all] Interrupt
-[0.815s] gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,11 @@
+[0.043s] Invoking command in '/home/manav/robotis_ws/build/open_manipulator_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manav/robotis_ws/install/vel_kinematics:/home/manav/robotis_ws/install/rbe500_example_py:/home/manav/robotis_ws/install/pdctr:/home/manav/robotis_ws/install/inverse:/home/manav/robotis_ws/install/forward:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/manav/robotis_ws/build/open_manipulator_msgs -- -j4 -l4
+[0.208s] [  1%] Built target open_manipulator_msgs__cpp
+[0.229s] [ 12%] Built target open_manipulator_msgs__rosidl_generator_c
+[0.325s] [ 12%] Built target ament_cmake_python_copy_open_manipulator_msgs
+[0.369s] [ 24%] Built target open_manipulator_msgs__rosidl_typesupport_fastrtps_cpp
+[0.408s] [ 35%] Built target open_manipulator_msgs__rosidl_typesupport_introspection_cpp
+[0.430s] [ 47%] Built target open_manipulator_msgs__rosidl_typesupport_cpp
+[0.541s] gmake[1]: *** [CMakeFiles/Makefile2:317: CMakeFiles/open_manipulator_msgs__rosidl_typesupport_introspection_c.dir/all] Interrupt
+[0.541s] gmake[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/open_manipulator_msgs__rosidl_typesupport_c.dir/all] Interrupt
+[0.541s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_open_manipulator_msgs_egg.dir/all] Interrupt
+[0.541s] gmake: *** [Makefile:146: all] Interrupt

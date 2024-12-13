@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target combined_read_write[0m
+[35m[1mConsolidate compiler generated dependencies of target current_read_write_node[0m
+[35m[1mConsolidate compiler generated dependencies of target read_write_node[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/combined_read_write.dir/src/combined_read_write.cpp.o[0m
+[ 50%] Built target read_write_node
+[ 83%] Built target current_read_write_node

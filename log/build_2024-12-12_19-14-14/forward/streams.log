@@ -1,0 +1,35 @@
+[1.246s] Invoking command in '/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/forward': PYTHONPATH=/home/manav/robotis_ws/build/forward/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manav/robotis_ws/install/forward/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/forward build --build-base /home/manav/robotis_ws/build/forward/build install --record /home/manav/robotis_ws/build/forward/install.log --single-version-externally-managed install_data
+[1.589s] Traceback (most recent call last):
+[1.593s]   File "/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/forward/setup.py", line 1, in <module>
+[1.596s]     from setuptools import find_packages, setup
+[1.599s]   File "/home/manav/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 16, in <module>
+[1.601s]     import setuptools.version
+[1.601s]   File "/home/manav/.local/lib/python3.10/site-packages/setuptools/version.py", line 1, in <module>
+[1.601s]     import pkg_resources
+[1.602s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3243, in <module>
+[1.602s]     def _initialize_master_working_set():
+[1.602s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3226, in _call_aside
+[1.602s]     f(*args, **kwargs)
+[1.602s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3255, in _initialize_master_working_set
+[1.605s]     working_set = WorkingSet._build_master()
+[1.606s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 559, in _build_master
+[1.606s]     ws = cls()
+[1.606s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 552, in __init__
+[1.607s]     self.add_entry(entry)
+[1.607s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 608, in add_entry
+[1.607s]     for dist in find_distributions(entry, True):
+[1.607s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2063, in find_on_path
+[1.607s]     for dist in factory(fullpath):
+[1.607s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2128, in distributions_from_metadata
+[1.607s]     yield Distribution.from_location(
+[1.610s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2591, in from_location
+[1.611s]     )._reload_version()
+[1.611s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2989, in _reload_version
+[1.611s]     md_version = self._get_version()
+[1.611s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2770, in _get_version
+[1.611s]     version = _version_from_file(lines)
+[1.611s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2554, in _version_from_file
+[1.611s]     line = next(iter(version_lines), '')
+[1.612s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2551, in is_version_line
+[1.612s]     def is_version_line(line):
+[1.613s] KeyboardInterrupt

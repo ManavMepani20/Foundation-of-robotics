@@ -1,0 +1,4 @@
+[ 10%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_c
+gmake[2]: *** [CMakeFiles/ament_cmake_python_copy_dynamixel_sdk_custom_interfaces.dir/build.make:85: CMakeFiles/ament_cmake_python_copy_dynamixel_sdk_custom_interfaces.dir/depend] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:420: CMakeFiles/ament_cmake_python_copy_dynamixel_sdk_custom_interfaces.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

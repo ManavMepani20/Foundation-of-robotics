@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "my_service_package__py",
+		"source" : "/home/manav/robotis_ws/build/my_service_package/my_service_package__py"
+	}
+}

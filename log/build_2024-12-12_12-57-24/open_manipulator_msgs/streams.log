@@ -1,0 +1,483 @@
+[0.047s] Invoking command in '/home/manav/robotis_ws/build/open_manipulator_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manav/robotis_ws/install/vel_kinematics:/home/manav/robotis_ws/install/rbe500_example_py:/home/manav/robotis_ws/install/pdctr:/home/manav/robotis_ws/install/inverse:/home/manav/robotis_ws/install/forward:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/open_manipulator_msgs -DCMAKE_INSTALL_PREFIX=/home/manav/robotis_ws/install/open_manipulator_msgs
+[0.254s] -- The C compiler identification is GNU 11.4.0
+[0.462s] -- The CXX compiler identification is GNU 11.4.0
+[0.487s] -- Detecting C compiler ABI info
+[0.771s] -- Detecting C compiler ABI info - done
+[0.807s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.807s] -- Detecting C compile features
+[0.808s] -- Detecting C compile features - done
+[0.818s] -- Detecting CXX compiler ABI info
+[1.038s] -- Detecting CXX compiler ABI info - done
+[1.075s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.077s] -- Detecting CXX compile features
+[1.086s] -- Detecting CXX compile features - done
+[1.092s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.692s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.989s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.140s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.175s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.224s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.282s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.389s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.723s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[5.854s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[5.881s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[5.896s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[5.908s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[7.436s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.485s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.595s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[8.608s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[8.748s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[8.748s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.748s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[8.748s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[8.902s] -- Found PythonExtra: .so  
+[9.545s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[9.559s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[9.623s] -- Configuring done
+[10.026s] -- Generating done
+[10.116s] -- Build files have been written to: /home/manav/robotis_ws/build/open_manipulator_msgs
+[10.185s] Invoked command in '/home/manav/robotis_ws/build/open_manipulator_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manav/robotis_ws/install/vel_kinematics:/home/manav/robotis_ws/install/rbe500_example_py:/home/manav/robotis_ws/install/pdctr:/home/manav/robotis_ws/install/inverse:/home/manav/robotis_ws/install/forward:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/open_manipulator_msgs -DCMAKE_INSTALL_PREFIX=/home/manav/robotis_ws/install/open_manipulator_msgs
+[10.187s] Invoking command in '/home/manav/robotis_ws/build/open_manipulator_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manav/robotis_ws/install/vel_kinematics:/home/manav/robotis_ws/install/rbe500_example_py:/home/manav/robotis_ws/install/pdctr:/home/manav/robotis_ws/install/inverse:/home/manav/robotis_ws/install/forward:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/manav/robotis_ws/build/open_manipulator_msgs -- -j4 -l4
+[10.525s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[10.613s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[10.689s] [  2%] Built target ament_cmake_python_copy_open_manipulator_msgs
+[13.857s] running egg_info
+[13.872s] creating open_manipulator_msgs.egg-info
+[13.876s] writing open_manipulator_msgs.egg-info/PKG-INFO
+[13.876s] writing dependency_links to open_manipulator_msgs.egg-info/dependency_links.txt
+[13.876s] writing top-level names to open_manipulator_msgs.egg-info/top_level.txt
+[13.876s] writing manifest file 'open_manipulator_msgs.egg-info/SOURCES.txt'
+[13.924s] reading manifest file 'open_manipulator_msgs.egg-info/SOURCES.txt'
+[13.924s] writing manifest file 'open_manipulator_msgs.egg-info/SOURCES.txt'
+[14.154s] [  2%] Built target ament_cmake_python_build_open_manipulator_msgs_egg
+[20.202s] [  2%] Built target open_manipulator_msgs__cpp
+[24.038s] [  3%] [32mBuilding C object CMakeFiles/open_manipulator_msgs__rosidl_generator_c.dir/rosidl_generator_c/open_manipulator_msgs/msg/detail/joint_position__functions.c.o[0m
+[24.460s] [  4%] [32mBuilding C object CMakeFiles/open_manipulator_msgs__rosidl_generator_c.dir/rosidl_generator_c/open_manipulator_msgs/msg/detail/kinematics_pose__functions.c.o[0m
+[24.792s] [  5%] [32mBuilding C object CMakeFiles/open_manipulator_msgs__rosidl_generator_c.dir/rosidl_generator_c/open_manipulator_msgs/msg/detail/open_manipulator_state__functions.c.o[0m
+[25.244s] [  6%] [32mBuilding C object CMakeFiles/open_manipulator_msgs__rosidl_generator_c.dir/rosidl_generator_c/open_manipulator_msgs/srv/detail/get_joint_position__functions.c.o[0m
+[25.714s] [  7%] [32mBuilding C object CMakeFiles/open_manipulator_msgs__rosidl_generator_c.dir/rosidl_generator_c/open_manipulator_msgs/srv/detail/get_kinematics_pose__functions.c.o[0m
+[26.032s] [  8%] [32mBuilding C object CMakeFiles/open_manipulator_msgs__rosidl_generator_c.dir/rosidl_generator_c/open_manipulator_msgs/srv/detail/set_joint_position__functions.c.o[0m
+[26.278s] [  9%] [32mBuilding C object CMakeFiles/open_manipulator_msgs__rosidl_generator_c.dir/rosidl_generator_c/open_manipulator_msgs/srv/detail/set_kinematics_pose__functions.c.o[0m
+[26.509s] [ 10%] [32mBuilding C object CMakeFiles/open_manipulator_msgs__rosidl_generator_c.dir/rosidl_generator_c/open_manipulator_msgs/srv/detail/set_drawing_trajectory__functions.c.o[0m
+[26.782s] [ 11%] [32mBuilding C object CMakeFiles/open_manipulator_msgs__rosidl_generator_c.dir/rosidl_generator_c/open_manipulator_msgs/srv/detail/set_actuator_state__functions.c.o[0m
+[26.972s] [ 12%] [32m[1mLinking C shared library libopen_manipulator_msgs__rosidl_generator_c.so[0m
+[27.149s] [ 12%] Built target open_manipulator_msgs__rosidl_generator_c
+[27.201s] [ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[29.466s] [ 14%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/open_manipulator_msgs/msg/detail/joint_position__type_support.cpp.o[0m
+[30.997s] [ 15%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/open_manipulator_msgs/msg/detail/kinematics_pose__type_support.cpp.o[0m
+[32.859s] [ 16%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/open_manipulator_msgs/msg/detail/open_manipulator_state__type_support.cpp.o[0m
+[34.379s] [ 17%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/open_manipulator_msgs/srv/detail/get_joint_position__type_support.cpp.o[0m
+[36.216s] [ 18%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/open_manipulator_msgs/srv/detail/get_kinematics_pose__type_support.cpp.o[0m
+[37.511s] [ 20%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/open_manipulator_msgs/srv/detail/set_joint_position__type_support.cpp.o[0m
+[38.484s] [ 21%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/open_manipulator_msgs/srv/detail/set_kinematics_pose__type_support.cpp.o[0m
+[39.548s] [ 22%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/open_manipulator_msgs/srv/detail/set_drawing_trajectory__type_support.cpp.o[0m
+[40.600s] [ 23%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/open_manipulator_msgs/srv/detail/set_actuator_state__type_support.cpp.o[0m
+[41.485s] [ 24%] [32m[1mLinking CXX shared library libopen_manipulator_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[41.697s] [ 24%] Built target open_manipulator_msgs__rosidl_typesupport_introspection_cpp
+[41.723s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[43.928s] [ 26%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/open_manipulator_msgs/msg/detail/joint_position__type_support_c.cpp.o[0m
+[44.789s] [ 27%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/open_manipulator_msgs/msg/detail/kinematics_pose__type_support_c.cpp.o[0m
+[45.866s] [ 28%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/open_manipulator_msgs/msg/detail/open_manipulator_state__type_support_c.cpp.o[0m
+[46.866s] [ 29%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/open_manipulator_msgs/srv/detail/get_joint_position__type_support_c.cpp.o[0m
+[48.415s] [ 30%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/open_manipulator_msgs/srv/detail/get_kinematics_pose__type_support_c.cpp.o[0m
+[49.943s] [ 31%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/open_manipulator_msgs/srv/detail/set_joint_position__type_support_c.cpp.o[0m
+[51.278s] [ 32%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/open_manipulator_msgs/srv/detail/set_kinematics_pose__type_support_c.cpp.o[0m
+[53.108s] [ 33%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/open_manipulator_msgs/srv/detail/set_drawing_trajectory__type_support_c.cpp.o[0m
+[54.766s] [ 34%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/open_manipulator_msgs/srv/detail/set_actuator_state__type_support_c.cpp.o[0m
+[55.780s] [ 35%] [32m[1mLinking CXX shared library libopen_manipulator_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[56.181s] [ 35%] Built target open_manipulator_msgs__rosidl_typesupport_fastrtps_c
+[56.219s] [ 36%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[58.789s] [ 37%] [32mBuilding C object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/open_manipulator_msgs/msg/detail/joint_position__type_support.c.o[0m
+[58.963s] [ 38%] [32mBuilding C object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/open_manipulator_msgs/msg/detail/kinematics_pose__type_support.c.o[0m
+[59.110s] [ 40%] [32mBuilding C object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/open_manipulator_msgs/msg/detail/open_manipulator_state__type_support.c.o[0m
+[59.299s] [ 41%] [32mBuilding C object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/open_manipulator_msgs/srv/detail/get_joint_position__type_support.c.o[0m
+[59.452s] [ 42%] [32mBuilding C object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/open_manipulator_msgs/srv/detail/get_kinematics_pose__type_support.c.o[0m
+[59.620s] [ 43%] [32mBuilding C object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/open_manipulator_msgs/srv/detail/set_joint_position__type_support.c.o[0m
+[59.795s] [ 44%] [32mBuilding C object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/open_manipulator_msgs/srv/detail/set_kinematics_pose__type_support.c.o[0m
+[59.921s] [ 45%] [32mBuilding C object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/open_manipulator_msgs/srv/detail/set_drawing_trajectory__type_support.c.o[0m
+[60.056s] [ 46%] [32mBuilding C object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/open_manipulator_msgs/srv/detail/set_actuator_state__type_support.c.o[0m
+[60.264s] [ 47%] [32m[1mLinking C shared library libopen_manipulator_msgs__rosidl_typesupport_introspection_c.so[0m
+[60.459s] [ 47%] Built target open_manipulator_msgs__rosidl_typesupport_introspection_c
+[60.511s] [ 48%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[62.006s] [ 49%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/open_manipulator_msgs/msg/joint_position__type_support.cpp.o[0m
+[62.068s] [ 50%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/open_manipulator_msgs/msg/kinematics_pose__type_support.cpp.o[0m
+[62.132s] [ 51%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/open_manipulator_msgs/msg/open_manipulator_state__type_support.cpp.o[0m
+[62.192s] [ 52%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/open_manipulator_msgs/srv/get_joint_position__type_support.cpp.o[0m
+[62.256s] [ 53%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/open_manipulator_msgs/srv/get_kinematics_pose__type_support.cpp.o[0m
+[62.326s] [ 54%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/open_manipulator_msgs/srv/set_joint_position__type_support.cpp.o[0m
+[62.396s] [ 55%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/open_manipulator_msgs/srv/set_kinematics_pose__type_support.cpp.o[0m
+[62.467s] [ 56%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/open_manipulator_msgs/srv/set_drawing_trajectory__type_support.cpp.o[0m
+[62.536s] [ 57%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/open_manipulator_msgs/srv/set_actuator_state__type_support.cpp.o[0m
+[62.602s] [ 58%] [32m[1mLinking CXX shared library libopen_manipulator_msgs__rosidl_typesupport_c.so[0m
+[62.696s] [ 58%] Built target open_manipulator_msgs__rosidl_typesupport_c
+[62.718s] [ 60%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[64.923s] [ 61%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/open_manipulator_msgs/msg/detail/dds_fastrtps/joint_position__type_support.cpp.o[0m
+[66.167s] [ 62%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/open_manipulator_msgs/msg/detail/dds_fastrtps/open_manipulator_state__type_support.cpp.o[0m
+[67.088s] [ 63%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/open_manipulator_msgs/srv/detail/dds_fastrtps/get_joint_position__type_support.cpp.o[0m
+[67.993s] [ 64%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/open_manipulator_msgs/srv/detail/dds_fastrtps/get_kinematics_pose__type_support.cpp.o[0m
+[69.055s] [ 65%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/open_manipulator_msgs/srv/detail/dds_fastrtps/set_joint_position__type_support.cpp.o[0m
+[70.118s] [ 66%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/open_manipulator_msgs/srv/detail/dds_fastrtps/set_kinematics_pose__type_support.cpp.o[0m
+[71.021s] [ 67%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/open_manipulator_msgs/srv/detail/dds_fastrtps/set_drawing_trajectory__type_support.cpp.o[0m
+[72.163s] [ 68%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/open_manipulator_msgs/srv/detail/dds_fastrtps/set_actuator_state__type_support.cpp.o[0m
+[73.159s] [ 69%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/open_manipulator_msgs/msg/detail/dds_fastrtps/kinematics_pose__type_support.cpp.o[0m
+[73.993s] [ 70%] [32m[1mLinking CXX shared library libopen_manipulator_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[74.252s] [ 70%] Built target open_manipulator_msgs__rosidl_typesupport_fastrtps_cpp
+[74.271s] [ 71%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[75.725s] [ 72%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/open_manipulator_msgs/msg/joint_position__type_support.cpp.o[0m
+[76.406s] [ 73%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/open_manipulator_msgs/srv/get_joint_position__type_support.cpp.o[0m
+[76.987s] [ 74%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/open_manipulator_msgs/srv/get_kinematics_pose__type_support.cpp.o[0m
+[77.594s] [ 75%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/open_manipulator_msgs/srv/set_joint_position__type_support.cpp.o[0m
+[78.208s] [ 76%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/open_manipulator_msgs/srv/set_kinematics_pose__type_support.cpp.o[0m
+[78.813s] [ 77%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/open_manipulator_msgs/srv/set_drawing_trajectory__type_support.cpp.o[0m
+[79.428s] [ 78%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/open_manipulator_msgs/srv/set_actuator_state__type_support.cpp.o[0m
+[80.076s] [ 80%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/open_manipulator_msgs/msg/open_manipulator_state__type_support.cpp.o[0m
+[80.746s] [ 81%] [32mBuilding CXX object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/open_manipulator_msgs/msg/kinematics_pose__type_support.cpp.o[0m
+[81.352s] [ 82%] [32m[1mLinking CXX shared library libopen_manipulator_msgs__rosidl_typesupport_cpp.so[0m
+[81.461s] [ 82%] Built target open_manipulator_msgs__rosidl_typesupport_cpp
+[81.509s] [ 82%] Built target open_manipulator_msgs
+[81.549s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[85.664s] [ 83%] Built target open_manipulator_msgs__py
+[85.712s] [ 84%] [32mBuilding C object CMakeFiles/open_manipulator_msgs__rosidl_generator_py.dir/rosidl_generator_py/open_manipulator_msgs/msg/_joint_position_s.c.o[0m
+[85.948s] [ 85%] [32mBuilding C object CMakeFiles/open_manipulator_msgs__rosidl_generator_py.dir/rosidl_generator_py/open_manipulator_msgs/srv/_get_joint_position_s.c.o[0m
+[86.189s] [ 86%] [32mBuilding C object CMakeFiles/open_manipulator_msgs__rosidl_generator_py.dir/rosidl_generator_py/open_manipulator_msgs/srv/_get_kinematics_pose_s.c.o[0m
+[86.497s] [ 87%] [32mBuilding C object CMakeFiles/open_manipulator_msgs__rosidl_generator_py.dir/rosidl_generator_py/open_manipulator_msgs/srv/_set_joint_position_s.c.o[0m
+[86.775s] [ 88%] [32mBuilding C object CMakeFiles/open_manipulator_msgs__rosidl_generator_py.dir/rosidl_generator_py/open_manipulator_msgs/srv/_set_kinematics_pose_s.c.o[0m
+[87.081s] [ 89%] [32mBuilding C object CMakeFiles/open_manipulator_msgs__rosidl_generator_py.dir/rosidl_generator_py/open_manipulator_msgs/srv/_set_drawing_trajectory_s.c.o[0m
+[87.482s] [ 90%] [32mBuilding C object CMakeFiles/open_manipulator_msgs__rosidl_generator_py.dir/rosidl_generator_py/open_manipulator_msgs/srv/_set_actuator_state_s.c.o[0m
+[87.792s] [ 91%] [32mBuilding C object CMakeFiles/open_manipulator_msgs__rosidl_generator_py.dir/rosidl_generator_py/open_manipulator_msgs/msg/_open_manipulator_state_s.c.o[0m
+[88.120s] [ 92%] [32mBuilding C object CMakeFiles/open_manipulator_msgs__rosidl_generator_py.dir/rosidl_generator_py/open_manipulator_msgs/msg/_kinematics_pose_s.c.o[0m
+[88.403s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/open_manipulator_msgs/libopen_manipulator_msgs__rosidl_generator_py.so[0m
+[88.523s] [ 93%] Built target open_manipulator_msgs__rosidl_generator_py
+[88.568s] [ 94%] [32mBuilding C object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/open_manipulator_msgs/_open_manipulator_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[88.927s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/open_manipulator_msgs/open_manipulator_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[89.084s] [ 95%] Built target open_manipulator_msgs__rosidl_typesupport_fastrtps_c__pyext
+[89.135s] [ 96%] [32mBuilding C object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/open_manipulator_msgs/_open_manipulator_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[89.454s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/open_manipulator_msgs/open_manipulator_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[89.557s] [ 97%] Built target open_manipulator_msgs__rosidl_typesupport_c__pyext
+[89.602s] [ 98%] [32mBuilding C object CMakeFiles/open_manipulator_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/open_manipulator_msgs/_open_manipulator_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[89.915s] [100%] [32m[1mLinking C shared library rosidl_generator_py/open_manipulator_msgs/open_manipulator_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[90.026s] [100%] Built target open_manipulator_msgs__rosidl_typesupport_introspection_c__pyext
+[90.051s] Invoked command in '/home/manav/robotis_ws/build/open_manipulator_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manav/robotis_ws/install/vel_kinematics:/home/manav/robotis_ws/install/rbe500_example_py:/home/manav/robotis_ws/install/pdctr:/home/manav/robotis_ws/install/inverse:/home/manav/robotis_ws/install/forward:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/manav/robotis_ws/build/open_manipulator_msgs -- -j4 -l4
+[90.059s] Invoking command in '/home/manav/robotis_ws/build/open_manipulator_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manav/robotis_ws/install/vel_kinematics:/home/manav/robotis_ws/install/rbe500_example_py:/home/manav/robotis_ws/install/pdctr:/home/manav/robotis_ws/install/inverse:/home/manav/robotis_ws/install/forward:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/manav/robotis_ws/build/open_manipulator_msgs
+[90.076s] -- Install configuration: ""
+[90.076s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/ament_index/resource_index/rosidl_interfaces/open_manipulator_msgs
+[90.077s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs
+[90.077s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv
+[90.077s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/get_joint_position.h
+[90.077s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/get_kinematics_pose.h
+[90.077s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/set_kinematics_pose.h
+[90.078s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/set_joint_position.h
+[90.078s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail
+[90.078s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_joint_position__functions.c
+[90.078s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_kinematics_pose__struct.h
+[90.078s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_kinematics_pose__functions.c
+[90.079s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_drawing_trajectory__struct.h
+[90.079s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_joint_position__struct.h
+[90.080s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_drawing_trajectory__functions.h
+[90.080s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_joint_position__type_support.h
+[90.080s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_kinematics_pose__functions.h
+[90.081s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_joint_position__functions.h
+[90.081s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_kinematics_pose__type_support.h
+[90.081s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_kinematics_pose__type_support.h
+[90.081s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_drawing_trajectory__functions.c
+[90.081s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_joint_position__struct.h
+[90.081s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_actuator_state__type_support.h
+[90.082s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_joint_position__functions.c
+[90.082s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_kinematics_pose__functions.h
+[90.082s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_joint_position__type_support.h
+[90.082s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_actuator_state__functions.c
+[90.082s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_actuator_state__functions.h
+[90.083s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_actuator_state__struct.h
+[90.083s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_kinematics_pose__struct.h
+[90.083s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_drawing_trajectory__type_support.h
+[90.084s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_kinematics_pose__functions.c
+[90.084s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_joint_position__functions.h
+[90.084s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/set_drawing_trajectory.h
+[90.085s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/set_actuator_state.h
+[90.085s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg
+[90.085s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/open_manipulator_state.h
+[90.085s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/kinematics_pose.h
+[90.086s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail
+[90.086s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/open_manipulator_state__functions.h
+[90.086s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/kinematics_pose__type_support.h
+[90.087s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/open_manipulator_state__struct.h
+[90.087s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/kinematics_pose__functions.c
+[90.088s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/joint_position__functions.h
+[90.088s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/joint_position__type_support.h
+[90.088s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/kinematics_pose__functions.h
+[90.088s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/kinematics_pose__struct.h
+[90.089s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/joint_position__struct.h
+[90.089s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/open_manipulator_state__type_support.h
+[90.089s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/joint_position__functions.c
+[90.089s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/open_manipulator_state__functions.c
+[90.090s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/joint_position.h
+[90.090s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/rosidl_generator_c__visibility_control.h
+[90.090s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/environment/library_path.sh
+[90.091s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/environment/library_path.dsv
+[90.092s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/lib/libopen_manipulator_msgs__rosidl_generator_c.so
+[90.093s] -- Set runtime path of "/home/manav/robotis_ws/install/open_manipulator_msgs/lib/libopen_manipulator_msgs__rosidl_generator_c.so" to ""
+[90.093s] -- Up-to-date: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs
+[90.093s] -- Up-to-date: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv
+[90.093s] -- Up-to-date: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail
+[90.094s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_actuator_state__rosidl_typesupport_fastrtps_c.h
+[90.094s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_drawing_trajectory__rosidl_typesupport_fastrtps_c.h
+[90.094s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_joint_position__rosidl_typesupport_fastrtps_c.h
+[90.094s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_joint_position__rosidl_typesupport_fastrtps_c.h
+[90.094s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_kinematics_pose__rosidl_typesupport_fastrtps_c.h
+[90.094s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_kinematics_pose__rosidl_typesupport_fastrtps_c.h
+[90.095s] -- Up-to-date: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg
+[90.095s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[90.095s] -- Up-to-date: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail
+[90.095s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/kinematics_pose__rosidl_typesupport_fastrtps_c.h
+[90.095s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/open_manipulator_state__rosidl_typesupport_fastrtps_c.h
+[90.095s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/joint_position__rosidl_typesupport_fastrtps_c.h
+[90.096s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/lib/libopen_manipulator_msgs__rosidl_typesupport_fastrtps_c.so
+[90.097s] -- Set runtime path of "/home/manav/robotis_ws/install/open_manipulator_msgs/lib/libopen_manipulator_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[90.097s] -- Up-to-date: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs
+[90.097s] -- Up-to-date: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv
+[90.097s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/set_actuator_state.hpp
+[90.097s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/set_kinematics_pose.hpp
+[90.098s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/get_kinematics_pose.hpp
+[90.098s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/set_drawing_trajectory.hpp
+[90.098s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/get_joint_position.hpp
+[90.098s] -- Up-to-date: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail
+[90.098s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_kinematics_pose__builder.hpp
+[90.098s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_drawing_trajectory__builder.hpp
+[90.099s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_joint_position__traits.hpp
+[90.099s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_joint_position__builder.hpp
+[90.099s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_kinematics_pose__traits.hpp
+[90.099s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_joint_position__traits.hpp
+[90.100s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_drawing_trajectory__traits.hpp
+[90.101s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_joint_position__builder.hpp
+[90.101s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_kinematics_pose__struct.hpp
+[90.101s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_kinematics_pose__traits.hpp
+[90.101s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_kinematics_pose__builder.hpp
+[90.101s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_actuator_state__builder.hpp
+[90.101s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_kinematics_pose__struct.hpp
+[90.102s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_actuator_state__traits.hpp
+[90.102s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_joint_position__struct.hpp
+[90.102s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_drawing_trajectory__struct.hpp
+[90.102s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_actuator_state__struct.hpp
+[90.102s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_joint_position__struct.hpp
+[90.103s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/set_joint_position.hpp
+[90.103s] -- Up-to-date: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg
+[90.103s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/joint_position.hpp
+[90.103s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/kinematics_pose.hpp
+[90.103s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/open_manipulator_state.hpp
+[90.104s] -- Up-to-date: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail
+[90.104s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/open_manipulator_state__builder.hpp
+[90.104s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/joint_position__builder.hpp
+[90.104s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/joint_position__traits.hpp
+[90.104s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/open_manipulator_state__struct.hpp
+[90.105s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/kinematics_pose__struct.hpp
+[90.105s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/open_manipulator_state__traits.hpp
+[90.105s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/joint_position__struct.hpp
+[90.105s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/kinematics_pose__builder.hpp
+[90.105s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/kinematics_pose__traits.hpp
+[90.106s] -- Up-to-date: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs
+[90.107s] -- Up-to-date: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv
+[90.108s] -- Up-to-date: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail
+[90.108s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_drawing_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[90.108s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_joint_position__rosidl_typesupport_fastrtps_cpp.hpp
+[90.108s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_kinematics_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[90.108s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_actuator_state__rosidl_typesupport_fastrtps_cpp.hpp
+[90.108s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_joint_position__rosidl_typesupport_fastrtps_cpp.hpp
+[90.109s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/dds_fastrtps
+[90.109s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_kinematics_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[90.109s] -- Up-to-date: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg
+[90.109s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[90.109s] -- Up-to-date: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail
+[90.109s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/open_manipulator_state__rosidl_typesupport_fastrtps_cpp.hpp
+[90.109s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/kinematics_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[90.109s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/dds_fastrtps
+[90.109s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/joint_position__rosidl_typesupport_fastrtps_cpp.hpp
+[90.110s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/lib/libopen_manipulator_msgs__rosidl_typesupport_fastrtps_cpp.so
+[90.110s] -- Set runtime path of "/home/manav/robotis_ws/install/open_manipulator_msgs/lib/libopen_manipulator_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[90.110s] -- Up-to-date: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs
+[90.111s] -- Up-to-date: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv
+[90.111s] -- Up-to-date: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail
+[90.111s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_joint_position__rosidl_typesupport_introspection_c.h
+[90.111s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_joint_position__rosidl_typesupport_introspection_c.h
+[90.111s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_drawing_trajectory__rosidl_typesupport_introspection_c.h
+[90.111s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_joint_position__type_support.c
+[90.111s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_kinematics_pose__type_support.c
+[90.112s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_kinematics_pose__type_support.c
+[90.112s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_actuator_state__rosidl_typesupport_introspection_c.h
+[90.113s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_drawing_trajectory__type_support.c
+[90.113s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_kinematics_pose__rosidl_typesupport_introspection_c.h
+[90.113s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_actuator_state__type_support.c
+[90.113s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_joint_position__type_support.c
+[90.114s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_kinematics_pose__rosidl_typesupport_introspection_c.h
+[90.114s] -- Up-to-date: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg
+[90.114s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[90.115s] -- Up-to-date: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail
+[90.115s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/open_manipulator_state__rosidl_typesupport_introspection_c.h
+[90.115s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/open_manipulator_state__type_support.c
+[90.115s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/kinematics_pose__rosidl_typesupport_introspection_c.h
+[90.115s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/joint_position__rosidl_typesupport_introspection_c.h
+[90.116s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/kinematics_pose__type_support.c
+[90.116s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/joint_position__type_support.c
+[90.119s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/lib/libopen_manipulator_msgs__rosidl_typesupport_introspection_c.so
+[90.119s] -- Set runtime path of "/home/manav/robotis_ws/install/open_manipulator_msgs/lib/libopen_manipulator_msgs__rosidl_typesupport_introspection_c.so" to ""
+[90.120s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/lib/libopen_manipulator_msgs__rosidl_typesupport_c.so
+[90.120s] -- Set runtime path of "/home/manav/robotis_ws/install/open_manipulator_msgs/lib/libopen_manipulator_msgs__rosidl_typesupport_c.so" to ""
+[90.120s] -- Up-to-date: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs
+[90.120s] -- Up-to-date: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv
+[90.120s] -- Up-to-date: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail
+[90.120s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_kinematics_pose__rosidl_typesupport_introspection_cpp.hpp
+[90.121s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_drawing_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[90.121s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_kinematics_pose__type_support.cpp
+[90.121s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_actuator_state__type_support.cpp
+[90.121s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_joint_position__rosidl_typesupport_introspection_cpp.hpp
+[90.121s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_kinematics_pose__type_support.cpp
+[90.121s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_joint_position__type_support.cpp
+[90.122s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_actuator_state__rosidl_typesupport_introspection_cpp.hpp
+[90.122s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_kinematics_pose__rosidl_typesupport_introspection_cpp.hpp
+[90.122s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_joint_position__type_support.cpp
+[90.122s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_joint_position__rosidl_typesupport_introspection_cpp.hpp
+[90.122s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_drawing_trajectory__type_support.cpp
+[90.123s] -- Up-to-date: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg
+[90.123s] -- Up-to-date: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail
+[90.123s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/kinematics_pose__type_support.cpp
+[90.123s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/open_manipulator_state__type_support.cpp
+[90.123s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/open_manipulator_state__rosidl_typesupport_introspection_cpp.hpp
+[90.124s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/joint_position__type_support.cpp
+[90.124s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/joint_position__rosidl_typesupport_introspection_cpp.hpp
+[90.124s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/kinematics_pose__rosidl_typesupport_introspection_cpp.hpp
+[90.124s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/lib/libopen_manipulator_msgs__rosidl_typesupport_introspection_cpp.so
+[90.125s] -- Set runtime path of "/home/manav/robotis_ws/install/open_manipulator_msgs/lib/libopen_manipulator_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[90.126s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/lib/libopen_manipulator_msgs__rosidl_typesupport_cpp.so
+[90.126s] -- Set runtime path of "/home/manav/robotis_ws/install/open_manipulator_msgs/lib/libopen_manipulator_msgs__rosidl_typesupport_cpp.so" to ""
+[90.127s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/environment/pythonpath.sh
+[90.130s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/environment/pythonpath.dsv
+[90.131s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs-2.2.0-py3.10.egg-info
+[90.131s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs-2.2.0-py3.10.egg-info/top_level.txt
+[90.131s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs-2.2.0-py3.10.egg-info/dependency_links.txt
+[90.131s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs-2.2.0-py3.10.egg-info/PKG-INFO
+[90.131s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs-2.2.0-py3.10.egg-info/SOURCES.txt
+[90.132s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs
+[90.132s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/open_manipulator_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[90.132s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/_open_manipulator_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[90.132s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/libopen_manipulator_msgs__rosidl_generator_py.so
+[90.133s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/_open_manipulator_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[90.133s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/open_manipulator_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[90.133s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/srv
+[90.134s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/srv/_set_drawing_trajectory_s.c
+[90.134s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/srv/_get_joint_position_s.c
+[90.134s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/srv/_set_actuator_state.py
+[90.134s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/srv/_get_kinematics_pose_s.c
+[90.135s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/srv/_set_actuator_state_s.c
+[90.135s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/srv/_set_joint_position_s.c
+[90.135s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/srv/_get_kinematics_pose.py
+[90.135s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/srv/_set_drawing_trajectory.py
+[90.135s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/srv/_get_joint_position.py
+[90.136s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/srv/_set_kinematics_pose.py
+[90.136s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/srv/_set_joint_position.py
+[90.136s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/srv/_set_kinematics_pose_s.c
+[90.136s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/srv/__init__.py
+[90.137s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/_open_manipulator_msgs_s.ep.rosidl_typesupport_c.c
+[90.137s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/msg
+[90.137s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/msg/_joint_position_s.c
+[90.137s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/msg/_open_manipulator_state_s.c
+[90.138s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/msg/_kinematics_pose.py
+[90.138s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/msg/_joint_position.py
+[90.139s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/msg/_open_manipulator_state.py
+[90.139s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/msg/__init__.py
+[90.140s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/msg/_kinematics_pose_s.c
+[90.140s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/open_manipulator_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[90.140s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/__init__.py
+[90.206s] Listing '/home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs'...
+[90.206s] Compiling '/home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/__init__.py'...
+[90.206s] Listing '/home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/msg'...
+[90.206s] Compiling '/home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/msg/__init__.py'...
+[90.206s] Compiling '/home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/msg/_joint_position.py'...
+[90.206s] Compiling '/home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/msg/_kinematics_pose.py'...
+[90.206s] Compiling '/home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/msg/_open_manipulator_state.py'...
+[90.206s] Listing '/home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/srv'...
+[90.207s] Compiling '/home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/srv/__init__.py'...
+[90.207s] Compiling '/home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/srv/_get_joint_position.py'...
+[90.207s] Compiling '/home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/srv/_get_kinematics_pose.py'...
+[90.207s] Compiling '/home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/srv/_set_actuator_state.py'...
+[90.207s] Compiling '/home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/srv/_set_drawing_trajectory.py'...
+[90.207s] Compiling '/home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/srv/_set_joint_position.py'...
+[90.207s] Compiling '/home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/srv/_set_kinematics_pose.py'...
+[90.212s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/open_manipulator_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[90.213s] -- Set runtime path of "/home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/open_manipulator_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[90.214s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/open_manipulator_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[90.215s] -- Set runtime path of "/home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/open_manipulator_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[90.216s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/open_manipulator_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[90.217s] -- Set runtime path of "/home/manav/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages/open_manipulator_msgs/open_manipulator_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[90.217s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/lib/libopen_manipulator_msgs__rosidl_generator_py.so
+[90.219s] -- Set runtime path of "/home/manav/robotis_ws/install/open_manipulator_msgs/lib/libopen_manipulator_msgs__rosidl_generator_py.so" to ""
+[90.219s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/msg/JointPosition.idl
+[90.220s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/msg/KinematicsPose.idl
+[90.220s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/msg/OpenManipulatorState.idl
+[90.221s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/srv/GetJointPosition.idl
+[90.221s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/srv/GetKinematicsPose.idl
+[90.221s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/srv/SetJointPosition.idl
+[90.222s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/srv/SetKinematicsPose.idl
+[90.222s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/srv/SetDrawingTrajectory.idl
+[90.222s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/srv/SetActuatorState.idl
+[90.222s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/msg/JointPosition.msg
+[90.223s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/msg/KinematicsPose.msg
+[90.223s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/msg/OpenManipulatorState.msg
+[90.223s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/srv/GetJointPosition.srv
+[90.224s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/srv/GetJointPosition_Request.msg
+[90.224s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/srv/GetJointPosition_Response.msg
+[90.224s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/srv/GetKinematicsPose.srv
+[90.225s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/srv/GetKinematicsPose_Request.msg
+[90.225s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/srv/GetKinematicsPose_Response.msg
+[90.226s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/srv/SetJointPosition.srv
+[90.226s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/srv/SetJointPosition_Request.msg
+[90.226s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/srv/SetJointPosition_Response.msg
+[90.227s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/srv/SetKinematicsPose.srv
+[90.227s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/srv/SetKinematicsPose_Request.msg
+[90.227s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/srv/SetKinematicsPose_Response.msg
+[90.228s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/srv/SetDrawingTrajectory.srv
+[90.228s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/srv/SetDrawingTrajectory_Request.msg
+[90.228s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/srv/SetDrawingTrajectory_Response.msg
+[90.228s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/srv/SetActuatorState.srv
+[90.229s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/srv/SetActuatorState_Request.msg
+[90.229s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/srv/SetActuatorState_Response.msg
+[90.230s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/ament_index/resource_index/package_run_dependencies/open_manipulator_msgs
+[90.230s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/ament_index/resource_index/parent_prefix_path/open_manipulator_msgs
+[90.230s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/environment/ament_prefix_path.sh
+[90.231s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/environment/ament_prefix_path.dsv
+[90.231s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/environment/path.sh
+[90.231s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/environment/path.dsv
+[90.231s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/local_setup.bash
+[90.232s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/local_setup.sh
+[90.232s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/local_setup.zsh
+[90.232s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/local_setup.dsv
+[90.233s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/package.dsv
+[90.233s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/ament_index/resource_index/packages/open_manipulator_msgs
+[90.233s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/export_open_manipulator_msgs__rosidl_generator_cExport.cmake
+[90.234s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/export_open_manipulator_msgs__rosidl_generator_cExport-noconfig.cmake
+[90.234s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/export_open_manipulator_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[90.234s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/export_open_manipulator_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[90.236s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/export_open_manipulator_msgs__rosidl_generator_cppExport.cmake
+[90.236s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/export_open_manipulator_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[90.237s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/export_open_manipulator_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[90.237s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/open_manipulator_msgs__rosidl_typesupport_introspection_cExport.cmake
+[90.239s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/open_manipulator_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[90.239s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/open_manipulator_msgs__rosidl_typesupport_cExport.cmake
+[90.240s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/open_manipulator_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[90.240s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/open_manipulator_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[90.240s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/open_manipulator_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[90.241s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/open_manipulator_msgs__rosidl_typesupport_cppExport.cmake
+[90.241s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/open_manipulator_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[90.241s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/export_open_manipulator_msgs__rosidl_generator_pyExport.cmake
+[90.241s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/export_open_manipulator_msgs__rosidl_generator_pyExport-noconfig.cmake
+[90.241s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/rosidl_cmake-extras.cmake
+[90.241s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[90.242s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[90.242s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[90.242s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[90.242s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[90.242s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[90.242s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/open_manipulator_msgsConfig.cmake
+[90.243s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/open_manipulator_msgsConfig-version.cmake
+[90.243s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/package.xml
+[90.248s] Invoked command in '/home/manav/robotis_ws/build/open_manipulator_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manav/robotis_ws/install/vel_kinematics:/home/manav/robotis_ws/install/rbe500_example_py:/home/manav/robotis_ws/install/pdctr:/home/manav/robotis_ws/install/inverse:/home/manav/robotis_ws/install/forward:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/manav/robotis_ws/build/open_manipulator_msgs

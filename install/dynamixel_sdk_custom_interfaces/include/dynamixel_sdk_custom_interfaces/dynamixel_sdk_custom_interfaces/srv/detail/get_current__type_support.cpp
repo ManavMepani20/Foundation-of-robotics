@@ -159,7 +159,7 @@ void GetCurrent_Response_fini_function(void * message_memory)
 static const ::rosidl_typesupport_introspection_cpp::MessageMember GetCurrent_Response_message_member_array[1] = {
   {
     "current",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT32,  // type
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT16,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is array

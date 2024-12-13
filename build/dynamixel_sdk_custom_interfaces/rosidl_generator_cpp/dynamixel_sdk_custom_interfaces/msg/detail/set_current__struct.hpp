@@ -39,7 +39,7 @@ struct SetCurrent_
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
       this->id = 0;
-      this->current = 0l;
+      this->current = 0;
     }
   }
 
@@ -50,7 +50,7 @@ struct SetCurrent_
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
       this->id = 0;
-      this->current = 0l;
+      this->current = 0;
     }
   }
 
@@ -59,7 +59,7 @@ struct SetCurrent_
     uint8_t;
   _id_type id;
   using _current_type =
-    int32_t;
+    int16_t;
   _current_type current;
 
   // setters for named parameter idiom
@@ -70,7 +70,7 @@ struct SetCurrent_
     return *this;
   }
   Type & set__current(
-    const int32_t & _arg)
+    const int16_t & _arg)
   {
     this->current = _arg;
     return *this;

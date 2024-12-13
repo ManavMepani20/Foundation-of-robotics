@@ -1,0 +1,16 @@
+[35m[1mConsolidate compiler generated dependencies of target combined_read_write[0m
+[35m[1mConsolidate compiler generated dependencies of target current_read_write_node[0m
+[35m[1mConsolidate compiler generated dependencies of target read_write_node[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/combined_read_write.dir/src/combined_read_write.cpp.o[0m
+[ 50%] Built target read_write_node
+[ 83%] Built target current_read_write_node
+[01m[K/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/DynamixelSDK/dynamixel_sdk_examples/src/combined_read_write.cpp:41:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass ReadWriteNode[m[K’
+   41 | class [01;31m[KReadWriteNode[m[K : public rclcpp::Node
+      |       [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/DynamixelSDK/dynamixel_sdk_examples/src/combined_read_write.cpp:12[m[K:
+[01m[K/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/DynamixelSDK/dynamixel_sdk_examples/include/combined_read_write.hpp:15:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass ReadWriteNode[m[K’
+   15 | class [01;36m[KReadWriteNode[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/combined_read_write.dir/build.make:76: CMakeFiles/combined_read_write.dir/src/combined_read_write.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/combined_read_write.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

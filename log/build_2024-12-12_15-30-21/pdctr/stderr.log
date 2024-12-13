@@ -1,0 +1,5 @@
+  File "/home/manav/robotis_ws/install/pdctr/lib/python3.10/site-packages/pdctr/current_calc_send.py", line 92
+    -effort = int(effort)
+    ^^^^^^^
+SyntaxError: cannot assign to expression here. Maybe you meant '==' instead of '='?
+

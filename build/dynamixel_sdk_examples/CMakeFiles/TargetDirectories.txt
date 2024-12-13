@@ -1,6 +1,8 @@
 /home/manav/robotis_ws/build/dynamixel_sdk_examples/CMakeFiles/uninstall.dir
 /home/manav/robotis_ws/build/dynamixel_sdk_examples/CMakeFiles/dynamixel_sdk_examples_uninstall.dir
 /home/manav/robotis_ws/build/dynamixel_sdk_examples/CMakeFiles/read_write_node.dir
+/home/manav/robotis_ws/build/dynamixel_sdk_examples/CMakeFiles/current_read_write_node.dir
+/home/manav/robotis_ws/build/dynamixel_sdk_examples/CMakeFiles/combined_read_write.dir
 /home/manav/robotis_ws/build/dynamixel_sdk_examples/CMakeFiles/test.dir
 /home/manav/robotis_ws/build/dynamixel_sdk_examples/CMakeFiles/edit_cache.dir
 /home/manav/robotis_ws/build/dynamixel_sdk_examples/CMakeFiles/rebuild_cache.dir

@@ -1,6 +1,0 @@
-[  1%] Built target open_manipulator_msgs__cpp
-[ 12%] Built target open_manipulator_msgs__rosidl_generator_c
-gmake[1]: *** [CMakeFiles/Makefile2:240: CMakeFiles/open_manipulator_msgs__rosidl_typesupport_fastrtps_c.dir/all] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:318: CMakeFiles/open_manipulator_msgs__rosidl_typesupport_introspection_c.dir/all] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:422: CMakeFiles/ament_cmake_python_copy_open_manipulator_msgs.dir/all] Interrupt
-gmake: *** [Makefile:146: all] Interrupt

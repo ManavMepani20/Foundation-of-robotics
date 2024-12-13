@@ -1,0 +1,47 @@
+[0.492s] Invoking command in '/home/manav/robotis_ws/build/dynamixel_sdk_examples': CMAKE_PREFIX_PATH=/home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces:/home/manav/robotis_ws/install/dynamixel_sdk:/home/manav/robotis_ws/install/open_manipulator:/home/manav/robotis_ws/install/open_manipulator_x_controller:/home/manav/robotis_ws/install/open_manipulator_x_libs:/home/manav/robotis_ws/install/robotis_manipulator:/home/manav/robotis_ws/install/rbe500-example:/home/manav/robotis_ws/install/open_manipulator_x_description:/home/manav/robotis_ws/install/open_manipulator_msgs:/home/manav/robotis_ws/install/my_service_package:/home/manav/robotis_ws/install/dynamixel_workbench:/home/manav/robotis_ws/install/dynamixel_workbench_toolbox:/home/manav/robotis_ws/install/dynamixel_sdk_examples:/home/manav/robotis_ws/install/cmake_modules:/home/manav/robotis_ws/install/vel_kinematics:/home/manav/robotis_ws/install/rbe500_example_py:/home/manav/robotis_ws/install/pdctr:/home/manav/robotis_ws/install/inverse:/home/manav/robotis_ws/install/forward:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/manav/robotis_ws/install/dynamixel_sdk/lib:/home/manav/robotis_ws/install/open_manipulator_x_libs/lib:/home/manav/robotis_ws/install/robotis_manipulator/lib:/home/manav/robotis_ws/install/open_manipulator_msgs/lib:/home/manav/robotis_ws/install/my_service_package/lib:/home/manav/robotis_ws/install/dynamixel_workbench_toolbox/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/manav/robotis_ws/build/dynamixel_sdk_examples -- -j4 -l4
+[0.551s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.878s] -- Found dynamixel_sdk: 3.7.60 (/home/manav/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[0.881s] -- Found dynamixel_sdk_custom_interfaces: 3.7.60 (/home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake)
+[0.941s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.946s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.957s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.984s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.011s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.072s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.146s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.150s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.397s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.547s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.705s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.709s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.710s] -- Configured cppcheck include dirs: /home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/DynamixelSDK/dynamixel_sdk_examples/include
+[1.710s] -- Configured cppcheck exclude dirs and/or files: 
+[1.711s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.711s] -- Configured cpplint exclude dirs and/or files: 
+[1.715s] -- Added test 'lint_cmake' to check CMake code style
+[1.717s] -- Added test 'uncrustify' to check C / C++ code style
+[1.717s] -- Configured uncrustify additional arguments: 
+[1.718s] -- Added test 'xmllint' to check XML markup files
+[1.723s] -- Configuring done
+[1.770s] -- Generating done
+[1.785s] -- Build files have been written to: /home/manav/robotis_ws/build/dynamixel_sdk_examples
+[1.871s] [35m[1mConsolidate compiler generated dependencies of target combined_read_write[0m
+[1.872s] [35m[1mConsolidate compiler generated dependencies of target read_write_node[0m
+[1.873s] [35m[1mConsolidate compiler generated dependencies of target current_read_write_node[0m
+[1.951s] [ 16%] [32mBuilding CXX object CMakeFiles/current_read_write_node.dir/src/current_read_write_node.cpp.o[0m
+[1.965s] [ 33%] [32mBuilding CXX object CMakeFiles/combined_read_write.dir/src/combined_read_write.cpp.o[0m
+[1.978s] [ 50%] [32mBuilding CXX object CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o[0m
+[2.681s] In file included from [01m[K/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/DynamixelSDK/dynamixel_sdk_examples/src/combined_read_write.cpp:42[m[K:
+[2.681s] [01m[K/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/DynamixelSDK/dynamixel_sdk_examples/include/combined_read_write.hpp:13:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/int32.hpp: No such file or directory
+[2.681s]    13 | #include [01;31m[K"std_msgs/msg/int32.hpp"[m[K  // Include for publishing position
+[2.681s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.681s] compilation terminated.
+[2.687s] gmake[2]: *** [CMakeFiles/combined_read_write.dir/build.make:76: CMakeFiles/combined_read_write.dir/src/combined_read_write.cpp.o] Error 1
+[2.687s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/combined_read_write.dir/all] Error 2
+[2.687s] gmake[1]: *** Waiting for unfinished jobs....
+[13.815s] [ 66%] [32m[1mLinking CXX executable current_read_write_node[0m
+[14.132s] [ 83%] [32m[1mLinking CXX executable read_write_node[0m
+[14.488s] [ 83%] Built target current_read_write_node
+[14.751s] [ 83%] Built target read_write_node
+[14.753s] gmake: *** [Makefile:146: all] Error 2
+[14.755s] Invoked command in '/home/manav/robotis_ws/build/dynamixel_sdk_examples' returned '2': CMAKE_PREFIX_PATH=/home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces:/home/manav/robotis_ws/install/dynamixel_sdk:/home/manav/robotis_ws/install/open_manipulator:/home/manav/robotis_ws/install/open_manipulator_x_controller:/home/manav/robotis_ws/install/open_manipulator_x_libs:/home/manav/robotis_ws/install/robotis_manipulator:/home/manav/robotis_ws/install/rbe500-example:/home/manav/robotis_ws/install/open_manipulator_x_description:/home/manav/robotis_ws/install/open_manipulator_msgs:/home/manav/robotis_ws/install/my_service_package:/home/manav/robotis_ws/install/dynamixel_workbench:/home/manav/robotis_ws/install/dynamixel_workbench_toolbox:/home/manav/robotis_ws/install/dynamixel_sdk_examples:/home/manav/robotis_ws/install/cmake_modules:/home/manav/robotis_ws/install/vel_kinematics:/home/manav/robotis_ws/install/rbe500_example_py:/home/manav/robotis_ws/install/pdctr:/home/manav/robotis_ws/install/inverse:/home/manav/robotis_ws/install/forward:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/manav/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/manav/robotis_ws/install/dynamixel_sdk/lib:/home/manav/robotis_ws/install/open_manipulator_x_libs/lib:/home/manav/robotis_ws/install/robotis_manipulator/lib:/home/manav/robotis_ws/install/open_manipulator_msgs/lib:/home/manav/robotis_ws/install/my_service_package/lib:/home/manav/robotis_ws/install/dynamixel_workbench_toolbox/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/manav/robotis_ws/build/dynamixel_sdk_examples -- -j4 -l4

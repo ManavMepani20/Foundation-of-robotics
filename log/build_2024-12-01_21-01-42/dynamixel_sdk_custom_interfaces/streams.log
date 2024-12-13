@@ -1,7 +1,0 @@
-[0.109s] Invoking command in '/home/manav/robotis_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manav/robotis_ws/install/vel_kinematics:/home/manav/robotis_ws/install/rbe500_example_py:/home/manav/robotis_ws/install/inverse:/home/manav/robotis_ws/install/forward:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/manav/robotis_ws/build/dynamixel_sdk_custom_interfaces -- -j4 -l4
-[0.281s] [  2%] Built target dynamixel_sdk_custom_interfaces__cpp
-[0.331s] [ 12%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_c
-[0.394s] gmake[1]: *** [CMakeFiles/Makefile2:422: CMakeFiles/ament_cmake_python_copy_dynamixel_sdk_custom_interfaces.dir/all] Interrupt
-[0.399s] gmake[2]: *** [CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:156: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/depend] Interrupt
-[0.399s] gmake[1]: *** [CMakeFiles/Makefile2:368: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/all] Interrupt
-[0.399s] gmake: *** [Makefile:146: all] Interrupt

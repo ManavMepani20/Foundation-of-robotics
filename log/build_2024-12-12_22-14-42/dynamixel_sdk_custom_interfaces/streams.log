@@ -1,0 +1,9 @@
+[0.085s] Invoking command in '/home/manav/robotis_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manav/robotis_ws/install/vel_kinematics:/home/manav/robotis_ws/install/rbe500_example_py:/home/manav/robotis_ws/install/pdctr:/home/manav/robotis_ws/install/inverse:/home/manav/robotis_ws/install/forward:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/manav/robotis_ws/build/dynamixel_sdk_custom_interfaces -- -j4 -l4
+[0.316s] gmake[2]: *** wait: No child processes.  Stop.
+[0.317s] gmake[2]: *** Waiting for unfinished jobs....
+[0.317s] gmake[2]: *** wait: No child processes.  Stop.
+[0.317s] gmake[1]: *** [CMakeFiles/Makefile2:420: CMakeFiles/ament_cmake_python_copy_dynamixel_sdk_custom_interfaces.dir/all] Error 2
+[0.317s] gmake[1]: *** [CMakeFiles/Makefile2:214: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/all] Interrupt
+[0.331s] gmake[2]: *** [CMakeFiles/dynamixel_sdk_custom_interfaces__cpp.dir/build.make:184: CMakeFiles/dynamixel_sdk_custom_interfaces__cpp.dir/depend] Interrupt
+[0.331s] gmake[1]: *** [CMakeFiles/Makefile2:264: CMakeFiles/dynamixel_sdk_custom_interfaces__cpp.dir/all] Interrupt
+[0.331s] gmake: *** [Makefile:146: all] Interrupt

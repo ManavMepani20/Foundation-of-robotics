@@ -184,11 +184,11 @@ class GetCurrent_Response(metaclass=Metaclass_GetCurrent_Response):
     ]
 
     _fields_and_field_types = {
-        'current': 'int32',
+        'current': 'int16',
     }
 
     SLOT_TYPES = (
-        rosidl_parser.definition.BasicType('int32'),  # noqa: E501
+        rosidl_parser.definition.BasicType('int16'),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
@@ -246,8 +246,8 @@ class GetCurrent_Response(metaclass=Metaclass_GetCurrent_Response):
             assert \
                 isinstance(value, int), \
                 "The 'current' field must be of type 'int'"
-            assert value >= -2147483648 and value < 2147483648, \
-                "The 'current' field must be an integer in [-2147483648, 2147483647]"
+            assert value >= -32768 and value < 32768, \
+                "The 'current' field must be an integer in [-32768, 32767]"
         self._current = value
 
 

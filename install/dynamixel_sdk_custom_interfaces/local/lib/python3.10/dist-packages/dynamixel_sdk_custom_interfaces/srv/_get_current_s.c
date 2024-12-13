@@ -151,7 +151,7 @@ bool dynamixel_sdk_custom_interfaces__srv__get_current__response__convert_from_p
       return false;
     }
     assert(PyLong_Check(field));
-    ros_message->current = (int32_t)PyLong_AsLong(field);
+    ros_message->current = (int16_t)PyLong_AsLong(field);
     Py_DECREF(field);
   }
 

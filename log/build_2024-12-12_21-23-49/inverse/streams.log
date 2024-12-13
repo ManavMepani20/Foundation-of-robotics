@@ -1,0 +1,41 @@
+[1.681s] Invoking command in '/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/inverse': PYTHONPATH=/home/manav/robotis_ws/build/inverse/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manav/robotis_ws/install/inverse/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/inverse build --build-base /home/manav/robotis_ws/build/inverse/build install --record /home/manav/robotis_ws/build/inverse/install.log --single-version-externally-managed install_data
+[1.946s] Traceback (most recent call last):
+[1.948s]   File "/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/inverse/setup.py", line 1, in <module>
+[1.948s]     from setuptools import find_packages, setup
+[1.954s]   File "/home/manav/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 16, in <module>
+[1.956s]     import setuptools.version
+[1.957s]   File "/home/manav/.local/lib/python3.10/site-packages/setuptools/version.py", line 1, in <module>
+[1.958s]     import pkg_resources
+[1.958s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 78, in <module>
+[1.958s]     __import__('pkg_resources.extern.packaging.requirements')
+[1.958s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/requirements.py", line 9, in <module>
+[1.962s]     from pkg_resources.extern.pyparsing import stringStart, stringEnd, originalTextFor, ParseException
+[1.963s]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[1.963s]   File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+[1.963s]   File "<frozen importlib._bootstrap>", line 674, in _load_unlocked
+[1.963s]   File "<frozen importlib._bootstrap>", line 571, in module_from_spec
+[1.963s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/extern/__init__.py", line 52, in create_module
+[1.963s]     return self.load_module(spec.name)
+[1.963s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/extern/__init__.py", line 37, in load_module
+[1.964s]     __import__(extant)
+[1.964s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 89, in <module>
+[1.964s]     import pprint
+[1.964s]   File "/usr/lib/python3.10/pprint.py", line 38, in <module>
+[1.964s]     import dataclasses as _dataclasses
+[1.964s]   File "/usr/lib/python3.10/dataclasses.py", line 223, in <module>
+[1.964s]     _MODULE_IDENTIFIER_RE = re.compile(r'^(?:\s*(\w+)\s*\.)?\s*(\w+)')
+[1.965s]   File "/usr/lib/python3.10/re.py", line 251, in compile
+[1.965s]     return _compile(pattern, flags)
+[1.965s]   File "/usr/lib/python3.10/re.py", line 303, in _compile
+[1.965s]     p = sre_compile.compile(pattern, flags)
+[1.965s]   File "/usr/lib/python3.10/sre_compile.py", line 788, in compile
+[1.965s]     p = sre_parse.parse(p, flags)
+[1.966s]   File "/usr/lib/python3.10/sre_parse.py", line 955, in parse
+[1.966s]     p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+[1.966s]   File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+[1.966s]     itemsappend(_parse(source, state, verbose, nested + 1,
+[1.966s]   File "/usr/lib/python3.10/sre_parse.py", line 687, in _parse
+[1.966s]     start = source.tell() - 1
+[1.966s]   File "/usr/lib/python3.10/sre_parse.py", line 287, in tell
+[1.966s]     def tell(self):
+[1.967s] KeyboardInterrupt

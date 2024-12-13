@@ -20,6 +20,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+        'current_call = pdctr.current_calc_send:main',
+        'motor_call = pdctr.motor_control:main',
+        'pos_call = pdctr.position_control:main',
         ],
     },
 )

@@ -39,7 +39,7 @@ typedef struct dynamixel_sdk_custom_interfaces__srv__GetCurrent_Request__Sequenc
 /// Struct defined in srv/GetCurrent in the package dynamixel_sdk_custom_interfaces.
 typedef struct dynamixel_sdk_custom_interfaces__srv__GetCurrent_Response
 {
-  int32_t current;
+  int16_t current;
 } dynamixel_sdk_custom_interfaces__srv__GetCurrent_Response;
 
 // Struct for a sequence of dynamixel_sdk_custom_interfaces__srv__GetCurrent_Response.

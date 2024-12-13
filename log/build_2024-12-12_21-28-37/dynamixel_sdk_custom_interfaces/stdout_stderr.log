@@ -1,0 +1,53 @@
+[  1%] Built target dynamixel_sdk_custom_interfaces__cpp
+[ 12%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_dynamixel_sdk_custom_interfaces
+[ 23%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 34%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp
+[ 45%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c
+[ 56%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c
+[ 67%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp
+[ 78%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c
+[ 78%] Built target dynamixel_sdk_custom_interfaces
+[ 80%] Built target dynamixel_sdk_custom_interfaces__py
+[ 89%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_py
+Traceback (most recent call last):
+  File "/home/manav/robotis_ws/build/dynamixel_sdk_custom_interfaces/ament_cmake_python/dynamixel_sdk_custom_interfaces/setup.py", line 1, in <module>
+    from setuptools import find_packages
+  File "/home/manav/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 16, in <module>
+    import setuptools.version
+  File "/home/manav/.local/lib/python3.10/site-packages/setuptools/version.py", line 1, in <module>
+    import pkg_resources
+  File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3243, in <module>
+gmake[2]: *** [CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/build.make:132: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/depend] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:504: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/build.make:132: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/depend] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:534: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext.dir/build.make:131: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext.dir/depend] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:563: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext.dir/all] Interrupt
+    def _initialize_master_working_set():
+  File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3226, in _call_aside
+    f(*args, **kwargs)
+  File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3255, in _initialize_master_working_set
+    working_set = WorkingSet._build_master()
+  File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 559, in _build_master
+    ws = cls()
+  File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 552, in __init__
+    self.add_entry(entry)
+  File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 608, in add_entry
+    for dist in find_distributions(entry, True):
+  File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2063, in find_on_path
+    for dist in factory(fullpath):
+  File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2128, in distributions_from_metadata
+    yield Distribution.from_location(
+  File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2588, in from_location
+    return cls(
+  File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2567, in __init__
+    self.project_name = safe_name(project_name or 'Unknown')
+  File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 1309, in safe_name
+    return re.sub('[^A-Za-z0-9.]+', '-', name)
+  File "/usr/lib/python3.10/re.py", line 209, in sub
+    return _compile(pattern, flags).sub(repl, string, count)
+KeyboardInterrupt
+gmake[2]: *** [CMakeFiles/ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

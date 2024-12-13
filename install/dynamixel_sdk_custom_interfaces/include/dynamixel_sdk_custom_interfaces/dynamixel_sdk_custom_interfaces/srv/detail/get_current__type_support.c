@@ -122,7 +122,7 @@ void dynamixel_sdk_custom_interfaces__srv__GetCurrent_Response__rosidl_typesuppo
 static rosidl_typesupport_introspection_c__MessageMember dynamixel_sdk_custom_interfaces__srv__GetCurrent_Response__rosidl_typesupport_introspection_c__GetCurrent_Response_message_member_array[1] = {
   {
     "current",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_INT32,  // type
+    rosidl_typesupport_introspection_c__ROS_TYPE_INT16,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array

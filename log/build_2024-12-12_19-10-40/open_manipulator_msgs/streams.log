@@ -1,0 +1,23 @@
+[0.091s] Invoking command in '/home/manav/robotis_ws/build/open_manipulator_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manav/robotis_ws/install/vel_kinematics:/home/manav/robotis_ws/install/rbe500_example_py:/home/manav/robotis_ws/install/pdctr:/home/manav/robotis_ws/install/inverse:/home/manav/robotis_ws/install/forward:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/manav/robotis_ws/build/open_manipulator_msgs -- -j4 -l4
+[0.408s] [  1%] Built target open_manipulator_msgs__cpp
+[0.585s] [ 12%] Built target open_manipulator_msgs__rosidl_generator_c
+[0.604s] [ 12%] Built target ament_cmake_python_copy_open_manipulator_msgs
+[0.695s] [ 24%] Built target open_manipulator_msgs__rosidl_typesupport_cpp
+[0.736s] [ 35%] Built target open_manipulator_msgs__rosidl_typesupport_introspection_cpp
+[0.886s] [ 47%] Built target open_manipulator_msgs__rosidl_typesupport_fastrtps_cpp
+[0.900s] [ 58%] Built target open_manipulator_msgs__rosidl_typesupport_introspection_c
+[0.957s] [ 70%] Built target open_manipulator_msgs__rosidl_typesupport_fastrtps_c
+[0.998s] [ 82%] Built target open_manipulator_msgs__rosidl_typesupport_c
+[1.142s] [ 82%] Built target open_manipulator_msgs
+[1.282s] [ 83%] Built target open_manipulator_msgs__py
+[1.412s] [ 93%] Built target open_manipulator_msgs__rosidl_generator_py
+[1.617s] [ 95%] Built target open_manipulator_msgs__rosidl_typesupport_c__pyext
+[1.632s] [ 97%] Built target open_manipulator_msgs__rosidl_typesupport_introspection_c__pyext
+[1.632s] [100%] Built target open_manipulator_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.315s] running egg_info
+[2.315s] writing open_manipulator_msgs.egg-info/PKG-INFO
+[2.316s] writing dependency_links to open_manipulator_msgs.egg-info/dependency_links.txt
+[2.316s] writing top-level names to open_manipulator_msgs.egg-info/top_level.txt
+[2.348s] reading manifest file 'open_manipulator_msgs.egg-info/SOURCES.txt'
+[2.348s] writing manifest file 'open_manipulator_msgs.egg-info/SOURCES.txt'
+[2.456s] [100%] Built target ament_cmake_python_build_open_manipulator_msgs_egg

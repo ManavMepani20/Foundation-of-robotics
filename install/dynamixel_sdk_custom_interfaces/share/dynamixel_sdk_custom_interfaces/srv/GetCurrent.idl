@@ -12,9 +12,9 @@ module dynamixel_sdk_custom_interfaces {
       uint8 id;
     };
     @verbatim (language="comment", text=
-      "Response")
+      "Response (might need int32 like position)")
     struct GetCurrent_Response {
-      int32 current;
+      int16 current;
     };
   };
 };

@@ -59,11 +59,18 @@ ros2 topic pub /ConstEndvel my_service_package/msg/VelPos "{twist: {linear: {x: 
 ***************************************************************************************
 For publishing and getting the current
 
-ros2 topic pub /set_current dynamixel_sdk_custom_interfaces/msg/SetCurrent "{id: 1, current: 50}" 
+ros2 topic pub /set_current dynamixel_sdk_custom_interfaces/msg/SetCurrent "{id: 14, current: 50}" 
 
 ros2 service call /get_current dynamixel_sdk_custom_interfaces/srv/GetCurrent "{id: 1}"
 
 ***************************************************************************************
+For publishing and getting the position
+
+ros2 service call /get_position dynamixel_sdk_custom_interfaces/srv/GetPosition "{id: 1}"
+
+ros2 topic pub /set_position dynamixel_sdk_custom_interfaces/msg/SetPosition "{id: 1, position: 2048}"
+
+***************************************************************************************
 For sending joint 4 pos values
 
-ros2 service call /currentcalc my_service_package/srv/FloatPos "{pos4: [1.0, 1.0, 1.0, 1.0]}"
+ros2 service call /currentcalc my_service_package/srv/FloatPos "{pos4: [1.0, -1.0, 1.0, -1.0]}"

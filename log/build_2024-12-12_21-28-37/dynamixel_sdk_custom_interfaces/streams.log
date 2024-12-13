@@ -1,0 +1,54 @@
+[0.056s] Invoking command in '/home/manav/robotis_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manav/robotis_ws/install/vel_kinematics:/home/manav/robotis_ws/install/rbe500_example_py:/home/manav/robotis_ws/install/pdctr:/home/manav/robotis_ws/install/inverse:/home/manav/robotis_ws/install/forward:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/manav/robotis_ws/build/dynamixel_sdk_custom_interfaces -- -j4 -l4
+[0.232s] [  1%] Built target dynamixel_sdk_custom_interfaces__cpp
+[0.357s] [ 12%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_c
+[0.389s] [ 12%] Built target ament_cmake_python_copy_dynamixel_sdk_custom_interfaces
+[0.416s] [ 23%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.448s] [ 34%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp
+[0.494s] [ 45%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c
+[0.560s] [ 56%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c
+[0.579s] [ 67%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp
+[0.618s] [ 78%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c
+[0.690s] [ 78%] Built target dynamixel_sdk_custom_interfaces
+[0.806s] [ 80%] Built target dynamixel_sdk_custom_interfaces__py
+[0.917s] [ 89%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_py
+[0.980s] Traceback (most recent call last):
+[0.980s]   File "/home/manav/robotis_ws/build/dynamixel_sdk_custom_interfaces/ament_cmake_python/dynamixel_sdk_custom_interfaces/setup.py", line 1, in <module>
+[0.980s]     from setuptools import find_packages
+[0.980s]   File "/home/manav/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 16, in <module>
+[0.982s]     import setuptools.version
+[0.982s]   File "/home/manav/.local/lib/python3.10/site-packages/setuptools/version.py", line 1, in <module>
+[0.983s]     import pkg_resources
+[0.985s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3243, in <module>
+[0.985s] gmake[2]: *** [CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/build.make:132: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/depend] Interrupt
+[0.985s] gmake[1]: *** [CMakeFiles/Makefile2:504: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/all] Interrupt
+[0.988s] gmake[2]: *** [CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/build.make:132: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/depend] Interrupt
+[0.988s] gmake[1]: *** [CMakeFiles/Makefile2:534: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/all] Interrupt
+[0.988s] gmake[2]: *** [CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext.dir/build.make:131: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext.dir/depend] Interrupt
+[0.990s] gmake[1]: *** [CMakeFiles/Makefile2:563: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext.dir/all] Interrupt
+[0.991s]     def _initialize_master_working_set():
+[0.991s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3226, in _call_aside
+[0.991s]     f(*args, **kwargs)
+[0.991s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3255, in _initialize_master_working_set
+[0.991s]     working_set = WorkingSet._build_master()
+[0.991s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 559, in _build_master
+[0.997s]     ws = cls()
+[0.997s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 552, in __init__
+[0.997s]     self.add_entry(entry)
+[0.998s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 608, in add_entry
+[0.998s]     for dist in find_distributions(entry, True):
+[1.001s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2063, in find_on_path
+[1.003s]     for dist in factory(fullpath):
+[1.003s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2128, in distributions_from_metadata
+[1.003s]     yield Distribution.from_location(
+[1.003s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2588, in from_location
+[1.003s]     return cls(
+[1.003s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2567, in __init__
+[1.003s]     self.project_name = safe_name(project_name or 'Unknown')
+[1.004s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 1309, in safe_name
+[1.005s]     return re.sub('[^A-Za-z0-9.]+', '-', name)
+[1.005s]   File "/usr/lib/python3.10/re.py", line 209, in sub
+[1.006s]     return _compile(pattern, flags).sub(repl, string, count)
+[1.006s] KeyboardInterrupt
+[1.018s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg] Interrupt
+[1.021s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg.dir/all] Interrupt
+[1.021s] gmake: *** [Makefile:146: all] Interrupt

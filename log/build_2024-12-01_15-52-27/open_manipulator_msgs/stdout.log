@@ -1,6 +1,0 @@
-[  0%] Built target ament_cmake_python_copy_open_manipulator_msgs
-[ 11%] Built target open_manipulator_msgs__rosidl_generator_c
-[ 12%] Built target open_manipulator_msgs__cpp
-[ 24%] Built target open_manipulator_msgs__rosidl_typesupport_introspection_c
-[ 35%] Built target open_manipulator_msgs__rosidl_typesupport_fastrtps_c
-[ 47%] Built target open_manipulator_msgs__rosidl_typesupport_c

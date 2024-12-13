@@ -152,7 +152,7 @@ struct GetCurrent_Response_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->current = 0l;
+      this->current = 0;
     }
   }
 
@@ -162,18 +162,18 @@ struct GetCurrent_Response_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->current = 0l;
+      this->current = 0;
     }
   }
 
   // field types and members
   using _current_type =
-    int32_t;
+    int16_t;
   _current_type current;
 
   // setters for named parameter idiom
   Type & set__current(
-    const int32_t & _arg)
+    const int16_t & _arg)
   {
     this->current = _arg;
     return *this;

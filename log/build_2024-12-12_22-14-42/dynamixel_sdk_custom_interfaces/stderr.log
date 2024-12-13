@@ -1,0 +1,8 @@
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:420: CMakeFiles/ament_cmake_python_copy_dynamixel_sdk_custom_interfaces.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:214: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/dynamixel_sdk_custom_interfaces__cpp.dir/build.make:184: CMakeFiles/dynamixel_sdk_custom_interfaces__cpp.dir/depend] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:264: CMakeFiles/dynamixel_sdk_custom_interfaces__cpp.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,3 @@
+[ 33%] Built target read_write_node
+[ 50%] [32mBuilding CXX object CMakeFiles/combined_read_write.dir/src/combined_read_write.cpp.o[0m
+[ 83%] Built target current_read_write_node

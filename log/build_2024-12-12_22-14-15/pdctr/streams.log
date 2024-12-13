@@ -1,0 +1,27 @@
+[4.170s] Invoking command in '/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/pdctr': PYTHONPATH=/home/manav/robotis_ws/build/pdctr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manav/robotis_ws/install/pdctr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/pdctr build --build-base /home/manav/robotis_ws/build/pdctr/build install --record /home/manav/robotis_ws/build/pdctr/install.log --single-version-externally-managed install_data
+[5.636s] running egg_info
+[5.636s] writing ../../../build/pdctr/pdctr.egg-info/PKG-INFO
+[5.636s] writing dependency_links to ../../../build/pdctr/pdctr.egg-info/dependency_links.txt
+[5.637s] writing entry points to ../../../build/pdctr/pdctr.egg-info/entry_points.txt
+[5.637s] writing requirements to ../../../build/pdctr/pdctr.egg-info/requires.txt
+[5.637s] writing top-level names to ../../../build/pdctr/pdctr.egg-info/top_level.txt
+[5.660s] reading manifest file '../../../build/pdctr/pdctr.egg-info/SOURCES.txt'
+[5.662s] adding license file 'LICENSE'
+[5.663s] writing manifest file '../../../build/pdctr/pdctr.egg-info/SOURCES.txt'
+[5.668s] running build
+[5.668s] running build_py
+[5.668s] copying pdctr/current_calc_send.py -> /home/manav/robotis_ws/build/pdctr/build/lib/pdctr
+[5.668s] running install
+[5.669s] running install_lib
+[5.677s] copying /home/manav/robotis_ws/build/pdctr/build/lib/pdctr/current_calc_send.py -> /home/manav/robotis_ws/install/pdctr/lib/python3.10/site-packages/pdctr
+[5.679s] byte-compiling /home/manav/robotis_ws/install/pdctr/lib/python3.10/site-packages/pdctr/current_calc_send.py to current_calc_send.cpython-310.pyc
+[5.685s] running install_data
+[5.685s] running install_egg_info
+[5.711s] removing '/home/manav/robotis_ws/install/pdctr/lib/python3.10/site-packages/pdctr-0.0.0-py3.10.egg-info' (and everything under it)
+[5.711s] Copying ../../../build/pdctr/pdctr.egg-info to /home/manav/robotis_ws/install/pdctr/lib/python3.10/site-packages/pdctr-0.0.0-py3.10.egg-info
+[5.716s] running install_scripts
+[5.811s] Installing current_call script to /home/manav/robotis_ws/install/pdctr/lib/pdctr
+[5.817s] Installing motor_call script to /home/manav/robotis_ws/install/pdctr/lib/pdctr
+[5.817s] Installing pos_call script to /home/manav/robotis_ws/install/pdctr/lib/pdctr
+[5.817s] writing list of installed files to '/home/manav/robotis_ws/build/pdctr/install.log'
+[5.944s] Invoked command in '/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/pdctr' returned '0': PYTHONPATH=/home/manav/robotis_ws/build/pdctr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manav/robotis_ws/install/pdctr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/pdctr build --build-base /home/manav/robotis_ws/build/pdctr/build install --record /home/manav/robotis_ws/build/pdctr/install.log --single-version-externally-managed install_data

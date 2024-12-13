@@ -10,7 +10,7 @@ module dynamixel_sdk_custom_interfaces {
     struct SetCurrent {
       uint8 id;
 
-      int32 current;
+      int16 current;
     };
   };
 };

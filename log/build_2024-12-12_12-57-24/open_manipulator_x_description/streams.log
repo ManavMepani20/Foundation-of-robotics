@@ -1,0 +1,58 @@
+[0.015s] Invoking command in '/home/manav/robotis_ws/build/open_manipulator_x_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manav/robotis_ws/install/vel_kinematics:/home/manav/robotis_ws/install/rbe500_example_py:/home/manav/robotis_ws/install/pdctr:/home/manav/robotis_ws/install/inverse:/home/manav/robotis_ws/install/forward:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/open_manipulator/open_manipulator_x_description -DCMAKE_INSTALL_PREFIX=/home/manav/robotis_ws/install/open_manipulator_x_description
+[0.254s] -- The C compiler identification is GNU 11.4.0
+[0.810s] -- The CXX compiler identification is GNU 11.4.0
+[0.866s] -- Detecting C compiler ABI info
+[1.329s] -- Detecting C compiler ABI info - done
+[1.349s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.353s] -- Detecting C compile features
+[1.354s] -- Detecting C compile features - done
+[1.373s] -- Detecting CXX compiler ABI info
+[2.216s] -- Detecting CXX compiler ABI info - done
+[2.314s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.320s] -- Detecting CXX compile features
+[2.325s] -- Detecting CXX compile features - done
+[2.371s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.967s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.077s] -- Configuring done
+[4.113s] -- Generating done
+[4.132s] -- Build files have been written to: /home/manav/robotis_ws/build/open_manipulator_x_description
+[4.219s] Invoked command in '/home/manav/robotis_ws/build/open_manipulator_x_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manav/robotis_ws/install/vel_kinematics:/home/manav/robotis_ws/install/rbe500_example_py:/home/manav/robotis_ws/install/pdctr:/home/manav/robotis_ws/install/inverse:/home/manav/robotis_ws/install/forward:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/open_manipulator/open_manipulator_x_description -DCMAKE_INSTALL_PREFIX=/home/manav/robotis_ws/install/open_manipulator_x_description
+[4.220s] Invoking command in '/home/manav/robotis_ws/build/open_manipulator_x_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manav/robotis_ws/install/vel_kinematics:/home/manav/robotis_ws/install/rbe500_example_py:/home/manav/robotis_ws/install/pdctr:/home/manav/robotis_ws/install/inverse:/home/manav/robotis_ws/install/forward:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/manav/robotis_ws/build/open_manipulator_x_description -- -j4 -l4
+[4.580s] Invoked command in '/home/manav/robotis_ws/build/open_manipulator_x_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manav/robotis_ws/install/vel_kinematics:/home/manav/robotis_ws/install/rbe500_example_py:/home/manav/robotis_ws/install/pdctr:/home/manav/robotis_ws/install/inverse:/home/manav/robotis_ws/install/forward:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/manav/robotis_ws/build/open_manipulator_x_description -- -j4 -l4
+[4.583s] Invoking command in '/home/manav/robotis_ws/build/open_manipulator_x_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manav/robotis_ws/install/vel_kinematics:/home/manav/robotis_ws/install/rbe500_example_py:/home/manav/robotis_ws/install/pdctr:/home/manav/robotis_ws/install/inverse:/home/manav/robotis_ws/install/forward:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/manav/robotis_ws/build/open_manipulator_x_description
+[4.655s] -- Install configuration: ""
+[4.656s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/launch
+[4.656s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/launch/.DS_Store
+[4.671s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/launch/open_manipulator_x_rviz.launch.py
+[4.671s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/meshes
+[4.671s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/meshes/chain_link_grip_l.stl
+[4.680s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/meshes/chain_link1.stl
+[4.690s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/meshes/chain_link_grip_r.stl
+[4.723s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/meshes/chain_link4.stl
+[4.729s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/meshes/chain_link5.stl
+[4.748s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/meshes/chain_link3.stl
+[4.750s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/meshes/chain_link2.stl
+[4.755s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/rviz
+[4.755s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/rviz/open_manipulator_x.rviz
+[4.756s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/urdf
+[4.756s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/urdf/open_manipulator_x.transmission.xacro
+[4.757s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/urdf/open_manipulator_x_robot.urdf.xacro
+[4.765s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/urdf/materials.xacro
+[4.770s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/urdf/open_manipulator_x.gazebo.xacro
+[4.770s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/urdf/open_manipulator_x.urdf.xacro
+[4.772s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_x_description/share/ament_index/resource_index/package_run_dependencies/open_manipulator_x_description
+[4.774s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_x_description/share/ament_index/resource_index/parent_prefix_path/open_manipulator_x_description
+[4.776s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/environment/ament_prefix_path.sh
+[4.780s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/environment/ament_prefix_path.dsv
+[4.782s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/environment/path.sh
+[4.788s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/environment/path.dsv
+[4.793s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/local_setup.bash
+[4.795s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/local_setup.sh
+[4.797s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/local_setup.zsh
+[4.798s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/local_setup.dsv
+[4.801s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/package.dsv
+[4.804s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_x_description/share/ament_index/resource_index/packages/open_manipulator_x_description
+[4.805s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/cmake/open_manipulator_x_descriptionConfig.cmake
+[4.808s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/cmake/open_manipulator_x_descriptionConfig-version.cmake
+[4.809s] -- Installing: /home/manav/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/package.xml
+[4.830s] Invoked command in '/home/manav/robotis_ws/build/open_manipulator_x_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manav/robotis_ws/install/vel_kinematics:/home/manav/robotis_ws/install/rbe500_example_py:/home/manav/robotis_ws/install/pdctr:/home/manav/robotis_ws/install/inverse:/home/manav/robotis_ws/install/forward:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/manav/robotis_ws/build/open_manipulator_x_description

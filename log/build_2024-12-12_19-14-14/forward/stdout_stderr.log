@@ -1,0 +1,34 @@
+Traceback (most recent call last):
+  File "/home/manav/robotis_ws/src/OpenManipulatorX_ROS2-main/forward/setup.py", line 1, in <module>
+    from setuptools import find_packages, setup
+  File "/home/manav/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 16, in <module>
+    import setuptools.version
+  File "/home/manav/.local/lib/python3.10/site-packages/setuptools/version.py", line 1, in <module>
+    import pkg_resources
+  File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3243, in <module>
+    def _initialize_master_working_set():
+  File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3226, in _call_aside
+    f(*args, **kwargs)
+  File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3255, in _initialize_master_working_set
+    working_set = WorkingSet._build_master()
+  File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 559, in _build_master
+    ws = cls()
+  File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 552, in __init__
+    self.add_entry(entry)
+  File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 608, in add_entry
+    for dist in find_distributions(entry, True):
+  File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2063, in find_on_path
+    for dist in factory(fullpath):
+  File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2128, in distributions_from_metadata
+    yield Distribution.from_location(
+  File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2591, in from_location
+    )._reload_version()
+  File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2989, in _reload_version
+    md_version = self._get_version()
+  File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2770, in _get_version
+    version = _version_from_file(lines)
+  File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2554, in _version_from_file
+    line = next(iter(version_lines), '')
+  File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2551, in is_version_line
+    def is_version_line(line):
+KeyboardInterrupt

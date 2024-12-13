@@ -1,0 +1,13 @@
+[  1%] Built target my_service_package__cpp
+[ 12%] Built target my_service_package__rosidl_generator_c
+[ 15%] Built target ament_cmake_python_copy_my_service_package
+[ 23%] Built target my_service_package__rosidl_typesupport_cpp
+[ 35%] Built target my_service_package__rosidl_typesupport_fastrtps_cpp
+[ 46%] Built target my_service_package__rosidl_typesupport_introspection_cpp
+gmake[2]: *** [CMakeFiles/my_service_package__rosidl_typesupport_c.dir/build.make:293: CMakeFiles/my_service_package__rosidl_typesupport_c.dir/depend] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:318: CMakeFiles/my_service_package__rosidl_typesupport_introspection_c.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:342: CMakeFiles/my_service_package__rosidl_typesupport_c.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:240: CMakeFiles/my_service_package__rosidl_typesupport_fastrtps_c.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/ament_cmake_python_build_my_service_package_egg.dir/build.make:85: CMakeFiles/ament_cmake_python_build_my_service_package_egg.dir/depend] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:446: CMakeFiles/ament_cmake_python_build_my_service_package_egg.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

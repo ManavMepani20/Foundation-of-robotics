@@ -1,0 +1,53 @@
+[0.044s] Invoking command in '/home/manav/robotis_ws/build/open_manipulator_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manav/robotis_ws/install/vel_kinematics:/home/manav/robotis_ws/install/rbe500_example_py:/home/manav/robotis_ws/install/pdctr:/home/manav/robotis_ws/install/inverse:/home/manav/robotis_ws/install/forward:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/manav/robotis_ws/build/open_manipulator_msgs -- -j4 -l4
+[0.283s] [ 11%] Built target open_manipulator_msgs__rosidl_generator_c
+[0.283s] [ 12%] Built target open_manipulator_msgs__cpp
+[0.321s] [ 12%] Built target ament_cmake_python_copy_open_manipulator_msgs
+[0.431s] [ 24%] Built target open_manipulator_msgs__rosidl_typesupport_introspection_cpp
+[0.454s] [ 35%] Built target open_manipulator_msgs__rosidl_typesupport_introspection_c
+[0.480s] [ 47%] Built target open_manipulator_msgs__rosidl_typesupport_c
+[0.541s] [ 58%] Built target open_manipulator_msgs__rosidl_typesupport_fastrtps_c
+[0.619s] [ 70%] Built target open_manipulator_msgs__rosidl_typesupport_cpp
+[0.641s] [ 82%] Built target open_manipulator_msgs__rosidl_typesupport_fastrtps_cpp
+[0.741s] [ 82%] Built target open_manipulator_msgs
+[0.828s] [ 83%] Built target open_manipulator_msgs__py
+[0.914s] [ 93%] Built target open_manipulator_msgs__rosidl_generator_py
+[1.029s] [ 95%] Built target open_manipulator_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.040s] [ 97%] Built target open_manipulator_msgs__rosidl_typesupport_introspection_c__pyext
+[1.076s] [100%] Built target open_manipulator_msgs__rosidl_typesupport_c__pyext
+[1.101s] Traceback (most recent call last):
+[1.102s]   File "/home/manav/robotis_ws/build/open_manipulator_msgs/ament_cmake_python/open_manipulator_msgs/setup.py", line 1, in <module>
+[1.102s]     from setuptools import find_packages
+[1.102s]   File "/home/manav/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 16, in <module>
+[1.102s]     import setuptools.version
+[1.102s]   File "/home/manav/.local/lib/python3.10/site-packages/setuptools/version.py", line 1, in <module>
+[1.103s]     import pkg_resources
+[1.106s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3243, in <module>
+[1.107s]     def _initialize_master_working_set():
+[1.107s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3226, in _call_aside
+[1.113s]     f(*args, **kwargs)
+[1.113s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3255, in _initialize_master_working_set
+[1.113s]     working_set = WorkingSet._build_master()
+[1.114s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 559, in _build_master
+[1.114s]     ws = cls()
+[1.114s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 552, in __init__
+[1.114s]     self.add_entry(entry)
+[1.114s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 608, in add_entry
+[1.114s]     for dist in find_distributions(entry, True):
+[1.114s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2063, in find_on_path
+[1.119s]     for dist in factory(fullpath):
+[1.119s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2128, in distributions_from_metadata
+[1.119s]     yield Distribution.from_location(
+[1.120s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2588, in from_location
+[1.120s]     return cls(
+[1.120s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2569, in __init__
+[1.120s]     self._version = safe_version(version)
+[1.120s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 1318, in safe_version
+[1.120s]     return str(packaging.version.Version(version))
+[1.120s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/version.py", line 314, in __str__
+[1.120s]     parts.append(".".join(str(x) for x in self.release))
+[1.121s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/version.py", line 314, in <genexpr>
+[1.124s]     parts.append(".".join(str(x) for x in self.release))
+[1.124s] KeyboardInterrupt
+[1.154s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_open_manipulator_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_open_manipulator_msgs_egg] Interrupt
+[1.155s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_open_manipulator_msgs_egg.dir/all] Interrupt
+[1.156s] gmake: *** [Makefile:146: all] Interrupt

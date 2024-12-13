@@ -1,0 +1,50 @@
+[0.102s] Invoking command in '/home/manav/robotis_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manav/robotis_ws/install/vel_kinematics:/home/manav/robotis_ws/install/rbe500_example_py:/home/manav/robotis_ws/install/pdctr:/home/manav/robotis_ws/install/inverse:/home/manav/robotis_ws/install/forward:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/manav/robotis_ws/build/dynamixel_sdk_custom_interfaces -- -j4 -l4
+[0.509s] [ 10%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_c
+[0.560s] [ 12%] Built target dynamixel_sdk_custom_interfaces__cpp
+[0.651s] [ 23%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c
+[0.687s] [ 23%] Built target ament_cmake_python_copy_dynamixel_sdk_custom_interfaces
+[0.772s] [ 34%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c
+[0.824s] [ 45%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp
+[0.917s] [ 56%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp
+[1.024s] [ 67%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.125s] [ 78%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c
+[1.288s] [ 78%] Built target dynamixel_sdk_custom_interfaces
+[1.325s] [ 80%] Built target dynamixel_sdk_custom_interfaces__py
+[1.366s] [ 89%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_py
+[1.416s] [ 92%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.554s] [ 96%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext
+[1.599s] Traceback (most recent call last):
+[1.603s]   File "/home/manav/robotis_ws/build/dynamixel_sdk_custom_interfaces/ament_cmake_python/dynamixel_sdk_custom_interfaces/setup.py", line 1, in <module>
+[1.603s]     from setuptools import find_packages
+[1.604s]   File "/home/manav/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 16, in <module>
+[1.604s]     import setuptools.version
+[1.605s]   File "/home/manav/.local/lib/python3.10/site-packages/setuptools/version.py", line 1, in <module>
+[1.605s]     import pkg_resources
+[1.606s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 77, in <module>
+[1.612s]     __import__('pkg_resources.extern.packaging.specifiers')
+[1.613s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/specifiers.py", line 333, in <module>
+[1.613s]     class Specifier(_IndividualSpecifier):
+[1.613s]   File "/home/manav/.local/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/specifiers.py", line 428, in Specifier
+[1.613s]     _regex = re.compile(r"^\s*" + _regex_str + r"\s*$", re.VERBOSE | re.IGNORECASE)
+[1.613s]   File "/usr/lib/python3.10/re.py", line 251, in compile
+[1.613s]     return _compile(pattern, flags)
+[1.613s]   File "/usr/lib/python3.10/re.py", line 303, in _compile
+[1.616s]     p = sre_compile.compile(pattern, flags)
+[1.616s]   File "/usr/lib/python3.10/sre_compile.py", line 792, in compile
+[1.616s]     code = _code(p, flags)
+[1.616s]   File "/usr/lib/python3.10/sre_compile.py", line 631, in _code
+[1.616s]     _compile(code, p.data, flags)
+[1.616s]   File "/usr/lib/python3.10/sre_compile.py", line 184, in _compile
+[1.617s] gmake[2]: *** [CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/build.make:132: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/depend] Interrupt
+[1.617s]     _compile(code, p, _combine_flags(flags, add_flags, del_flags))
+[1.617s]   File "/usr/lib/python3.10/sre_compile.py", line 184, in _compile
+[1.617s]     _compile(code, p, _combine_flags(flags, add_flags, del_flags))
+[1.617s]   File "/usr/lib/python3.10/sre_compile.py", line 106, in _compile
+[1.617s] gmake[1]: *** [CMakeFiles/Makefile2:534: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/all] Interrupt
+[1.617s]     for op, av in pattern:
+[1.622s]   File "/usr/lib/python3.10/sre_parse.py", line 165, in __getitem__
+[1.622s]     def __getitem__(self, index):
+[1.622s] KeyboardInterrupt
+[1.661s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg] Interrupt
+[1.663s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg.dir/all] Interrupt
+[1.663s] gmake: *** [Makefile:146: all] Interrupt

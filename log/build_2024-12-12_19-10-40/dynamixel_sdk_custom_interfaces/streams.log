@@ -1,0 +1,23 @@
+[0.084s] Invoking command in '/home/manav/robotis_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manav/robotis_ws/install/vel_kinematics:/home/manav/robotis_ws/install/rbe500_example_py:/home/manav/robotis_ws/install/pdctr:/home/manav/robotis_ws/install/inverse:/home/manav/robotis_ws/install/forward:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/manav/robotis_ws/build/dynamixel_sdk_custom_interfaces -- -j4 -l4
+[0.529s] [ 10%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_c
+[0.578s] [ 12%] Built target dynamixel_sdk_custom_interfaces__cpp
+[0.578s] [ 12%] Built target ament_cmake_python_copy_dynamixel_sdk_custom_interfaces
+[0.823s] [ 23%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp
+[0.865s] [ 34%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.874s] [ 45%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c
+[0.932s] [ 56%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp
+[0.963s] [ 67%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c
+[1.086s] [ 78%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c
+[1.225s] [ 78%] Built target dynamixel_sdk_custom_interfaces
+[1.403s] [ 80%] Built target dynamixel_sdk_custom_interfaces__py
+[1.626s] [ 89%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_py
+[1.840s] [ 92%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext
+[1.890s] [ 96%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.908s] [100%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.679s] running egg_info
+[2.679s] writing dynamixel_sdk_custom_interfaces.egg-info/PKG-INFO
+[2.681s] writing dependency_links to dynamixel_sdk_custom_interfaces.egg-info/dependency_links.txt
+[2.682s] writing top-level names to dynamixel_sdk_custom_interfaces.egg-info/top_level.txt
+[2.688s] reading manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'
+[2.690s] writing manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'
+[2.765s] [100%] Built target ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg

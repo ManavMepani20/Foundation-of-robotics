@@ -1,5 +1,0 @@
-gmake[1]: *** [CMakeFiles/Makefile2:446: CMakeFiles/ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg.dir/all] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:344: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c.dir/all] Interrupt
-gmake: *** wait: No child processes.  Stop.
-gmake: *** Waiting for unfinished jobs....
-gmake: *** wait: No child processes.  Stop.

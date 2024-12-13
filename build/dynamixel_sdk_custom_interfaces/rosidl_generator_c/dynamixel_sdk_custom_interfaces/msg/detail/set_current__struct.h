@@ -24,7 +24,7 @@ extern "C"
 typedef struct dynamixel_sdk_custom_interfaces__msg__SetCurrent
 {
   uint8_t id;
-  int32_t current;
+  int16_t current;
 } dynamixel_sdk_custom_interfaces__msg__SetCurrent;
 
 // Struct for a sequence of dynamixel_sdk_custom_interfaces__msg__SetCurrent.

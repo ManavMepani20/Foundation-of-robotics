@@ -1,0 +1,32 @@
+Traceback (most recent call last):
+  File "/home/manav/robotis_ws/build/open_manipulator_msgs/ament_cmake_python/open_manipulator_msgs/setup.py", line 1, in <module>
+    from setuptools import find_packages
+  File "/home/manav/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 10, in <module>
+    import distutils.core
+  File "/usr/lib/python3.10/distutils/core.py", line 16, in <module>
+    from distutils.dist import Distribution
+  File "/usr/lib/python3.10/distutils/dist.py", line 19, in <module>
+gmake[1]: *** [CMakeFiles/Makefile2:292: CMakeFiles/open_manipulator_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt
+    from distutils.util import check_environ, strtobool, rfc822_escape
+  File "/usr/lib/python3.10/distutils/util.py", line 15, in <module>
+    from distutils.spawn import spawn
+  File "/usr/lib/python3.10/distutils/spawn.py", line 11, in <module>
+    import subprocess
+  File "/usr/lib/python3.10/subprocess.py", line 48, in <module>
+    import signal
+  File "/usr/lib/python3.10/signal.py", line 19, in <module>
+    _IntEnum._convert_(
+  File "/usr/lib/python3.10/enum.py", line 563, in _convert_
+    cls = cls(name, members, module=module)
+  File "/usr/lib/python3.10/enum.py", line 387, in __call__
+    return cls._create_(
+  File "/usr/lib/python3.10/enum.py", line 497, in _create_
+    _, first_enum = cls._get_mixins_(cls, bases)
+  File "/usr/lib/python3.10/enum.py", line 621, in _get_mixins_
+    member_type = _find_data_type(bases) or object
+  File "/usr/lib/python3.10/enum.py", line 599, in _find_data_type
+    data_types.add(base._member_type_)
+KeyboardInterrupt
+gmake[2]: *** [CMakeFiles/ament_cmake_python_build_open_manipulator_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_open_manipulator_msgs_egg] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_open_manipulator_msgs_egg.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

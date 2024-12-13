@@ -1,0 +1,26 @@
+[0.064s] Invoking command in '/home/manav/robotis_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manav/robotis_ws/install/vel_kinematics:/home/manav/robotis_ws/install/rbe500_example_py:/home/manav/robotis_ws/install/pdctr:/home/manav/robotis_ws/install/inverse:/home/manav/robotis_ws/install/forward:/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/manav/robotis_ws/build/dynamixel_sdk_custom_interfaces -- -j4 -l4
+[0.242s] [  0%] Built target ament_cmake_python_copy_dynamixel_sdk_custom_interfaces
+[0.266s] [ 10%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_c
+[0.285s] [ 12%] Built target dynamixel_sdk_custom_interfaces__cpp
+[0.540s] [ 23%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c
+[0.550s] Traceback (most recent call last):
+[0.550s]   File "/home/manav/robotis_ws/build/dynamixel_sdk_custom_interfaces/ament_cmake_python/dynamixel_sdk_custom_interfaces/setup.py", line 1, in <module>
+[0.551s]     from setuptools import find_packages
+[0.551s]   File "/home/manav/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 3, in <module>
+[0.560s]     from fnmatch import fnmatchcase
+[0.560s]   File "/usr/lib/python3.10/fnmatch.py", line 14, in <module>
+[0.560s]     import re
+[0.561s]   File "/usr/lib/python3.10/re.py", line 124, in <module>
+[0.561s]     import enum
+[0.562s]   File "/usr/lib/python3.10/enum.py", line 932, in <module>
+[0.567s]     class IntFlag(int, Flag):
+[0.569s]   File "/usr/lib/python3.10/enum.py", line 223, in __new__
+[0.569s]     k for c in enum_class.mro()
+[0.569s] gmake[1]: *** [CMakeFiles/Makefile2:318: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.dir/all] Interrupt
+[0.569s] KeyboardInterrupt
+[0.569s] gmake[1]: *** [CMakeFiles/Makefile2:240: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/all] Interrupt
+[0.574s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg] Interrupt
+[0.574s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg.dir/all] Interrupt
+[0.590s] gmake[2]: *** [CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:206: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/depend] Interrupt
+[0.590s] gmake[1]: *** [CMakeFiles/Makefile2:368: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/all] Interrupt
+[0.590s] gmake: *** [Makefile:146: all] Interrupt

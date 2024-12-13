@@ -1,4 +1,0 @@
-Invoking command in '/home/manav/robotis_ws/build/cmake_modules': CMAKE_PREFIX_PATH=/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/manav/robotis_ws/build/cmake_modules -- -j4 -l4
-Invoked command in '/home/manav/robotis_ws/build/cmake_modules' returned '0': CMAKE_PREFIX_PATH=/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/manav/robotis_ws/build/cmake_modules -- -j4 -l4
-Invoking command in '/home/manav/robotis_ws/build/cmake_modules': CMAKE_PREFIX_PATH=/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/manav/robotis_ws/build/cmake_modules
-Invoked command in '/home/manav/robotis_ws/build/cmake_modules' returned '0': CMAKE_PREFIX_PATH=/home/manav/ros2_test/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/manav/robotis_ws/build/cmake_modules

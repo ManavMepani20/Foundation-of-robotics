@@ -1,0 +1,6 @@
+[  1%] Built target my_service_package__cpp
+[ 12%] Built target my_service_package__rosidl_generator_c
+[ 15%] Built target ament_cmake_python_copy_my_service_package
+[ 23%] Built target my_service_package__rosidl_typesupport_cpp
+[ 35%] Built target my_service_package__rosidl_typesupport_fastrtps_cpp
+[ 46%] Built target my_service_package__rosidl_typesupport_introspection_cpp

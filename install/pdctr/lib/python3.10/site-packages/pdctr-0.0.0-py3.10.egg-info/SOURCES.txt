@@ -12,6 +12,7 @@ setup.py
 pdctr/__init__.py
 pdctr/current_calc_send.py
 pdctr/motor_control.py
+pdctr/position_control.py
 resource/pdctr
 test/test_copyright.py
 test/test_flake8.py
